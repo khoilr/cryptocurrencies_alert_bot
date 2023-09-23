@@ -1,3 +1,4 @@
+import asyncio
 import os
 
 import telegram
@@ -14,11 +15,19 @@ from telegram.ext import (
     Updater,
 )
 
-from commands.create_v2 import command as create_command
+from commands.create import command as create_command
 from commands.start import command as start_command
 from commands.examples.nested_conversation import command as nested_conversation_command
 
 load_dotenv()
+
+
+async def send_words(bot: Application.bot) -> None:
+    print("Khoicute")
+
+
+async def setup(context: CallbackContext) -> None:
+    await send_words(context.bot)
 
 
 def main():

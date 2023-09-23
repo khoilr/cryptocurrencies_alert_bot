@@ -2,7 +2,8 @@ from telegram import Update
 from telegram.ext import CallbackContext
 
 
-async def command(update: Update, context: CallbackContext) -> None:
+async def command(update: Update, context: CallbackContext) -> None:  # pylint: disable=unused-argument
+    # pprint user
     await update.message.reply_text(
         """
 👋 Welcome to Cryptocurrencies Alert Bot!

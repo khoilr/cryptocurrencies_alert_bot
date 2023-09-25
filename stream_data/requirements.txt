@@ -1,0 +1,5 @@
+pandas
+redis
+python-dotenv
+requests
+websocket-client

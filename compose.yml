@@ -1,0 +1,31 @@
+version: '3'
+services:
+    redis:
+        image: redis:alpine
+        ports:
+            - 30001:6379
+        networks:
+            - redis-network
+        volumes:
+            - ./redis.conf:/usr/local/etc/redis/redis.conf
+            - ./data:/data
+        command: redis-server /usr/local/etc/redis/redis.conf
+
+    # stream_data copy requirements.stream.txt to install and run stream_data.py file
+    stream_data:
+        build:
+            context: stream_data
+        depends_on:
+            - redis
+        networks:
+            - redis-network
+        environment:
+            BITGET_API_KEY: bg_7cc05d50bce7a6030cffae088e6782e6
+            BITGET_SECRET_KEY: b4cfeee2ed12bb997e7d1b4f4bcb3e8ea4bd66bcb1b9606e5710f48bfe6dc825
+            BITGET_PASSPHRASE: khoikhoi
+            REDIS_HOST: redis
+            REDIS_PORT: 6379
+            REDIS_DB: 0
+
+networks:
+    redis-network:

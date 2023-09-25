@@ -49,17 +49,17 @@ from telegram.ext import (
 )
 
 # States
-CRYPTO, INDICATORS, CONDITION, VALUE = range(4)
+CRYPTO, INDICATORS, CONDITION, VALUE = [str(x) for x in range(4)]
 
 # Constants
-PRICE, VOLUME, EMA, SMA = range(11, 15)  # Indicator IDs
+PRICE, VOLUME, EMA, SMA = [str(x) for x in range(5, 9)]  # Indicator IDs
+INCREASE_BY, INCREASE_TO, DECREASE_BY, DECREASE_TO = [str(x) for x in range(9, 13)]  # Condition IDs
 indicators = [
     {"id": PRICE, "name": "price", "display_name": "💲 Price"},
     {"id": VOLUME, "name": "price", "display_name": "💰 Volume"},
     {"id": EMA, "name": "ema", "display_name": "EMA (Exponential Moving Average)"},
     {"id": SMA, "name": "sma", "display_name": "SMA (Simple Moving Average)"},
 ]
-INCREASE_BY, INCREASE_TO, DECREASE_BY, DECREASE_TO = range(15, 19)  # Condition IDs
 conditions = [
     {"id": INCREASE_TO, "name": "increase_to", "display_name": "📈 Increase to"},
     {"id": INCREASE_BY, "name": "increase_by", "display_name": "➕ Increase by"},
@@ -152,15 +152,15 @@ async def input_indicator(update: Update, context: ContextTypes.DEFAULT_TYPE):
         [
             InlineKeyboardButton(
                 indicators[0]["display_name"],
-                callback_data=str(indicators[0]["id"]),
+                callback_data=indicators[0]["id"],
             ),
             InlineKeyboardButton(
                 indicators[1]["display_name"],
-                callback_data=str(indicators[1]["id"]),
+                callback_data=indicators[1]["id"],
             ),
         ],
         *[
-            [InlineKeyboardButton(indicator["display_name"], callback_data=str(indicator["id"]))]
+            [InlineKeyboardButton(indicator["display_name"], callback_data=indicator["id"])]
             for indicator in indicators[2:]
         ],
     ]
@@ -210,7 +210,7 @@ async def input_condition(update: Update, context=ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
 
     # Extract the indicator ID from the callback data.
-    indicator_id = int(query.data)
+    indicator_id = query.data
 
     # Find the selected indicator based on its ID.
     indicator = next(indicator for indicator in indicators if indicator["id"] == indicator_id)
@@ -221,7 +221,7 @@ async def input_condition(update: Update, context=ContextTypes.DEFAULT_TYPE):
     # Create a list of condition options as inline keyboard buttons.
     keyboards = [
         [
-            InlineKeyboardButton(condition["display_name"], callback_data=str(condition["id"]))
+            InlineKeyboardButton(condition["display_name"], callback_data=condition["id"])
             for condition in conditions[i : i + 2]
         ]
         for i in range(0, len(conditions), 2)
@@ -281,7 +281,7 @@ async def input_value(update: Update, context=ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
 
     # Extract the condition ID from the callback data.
-    condition_id = int(query.data)
+    condition_id = query.data
 
     # Find the selected condition based on its ID.
     condition = next(condition for condition in conditions if condition["id"] == condition_id)
@@ -293,22 +293,34 @@ async def input_value(update: Update, context=ContextTypes.DEFAULT_TYPE):
     global reply_string
     reply_string = f"{reply_string}.\n↕️ Condition: {condition['display_name']}"
 
-    # Create a reply message with Markdown formatting to prompt the user to
-    # enter the value or percentage.
-    reply_message = f"""
+    # pylint: disable=line-too-long
+    # Create a reply message with Markdown formatting to prompt the user to enter the value or percentage.
+    reply_message = (
+        f"""
 ```
 {reply_string}
-```""" + escape_markdown(
-        """
+```"""
+        + escape_markdown(
+            """
 📝 Finally, please enter the specific value or percentage for your chosen condition. \
-For example, if you selected "Increase to" and "Value," you can input the target value \
-(e.g., 100,000 for $100,000). \
-If you selected "Increase by" and "Percentage," you can input the percentage increase \
-(e.g., 10 for 10%).
+For example:
+    - If you want to be alerted when the price increases by $10,000, you would enter """,
+            version=2,
+        )
+        + r"*10000*\."
+        + escape_markdown(
+            """
+    - If you want to be alerted when the price increases by 10%, you would enter """,
+            version=2,
+        )
+        + "*10%*"
+        + escape_markdown(
+            """ (with the percentage sign).
 
 Please enter the value or percentage for your alert condition:
 """,
-        version=2,
+            version=2,
+        )
     )
 
     # Send an answer to the user's callback query and edit the message to prompt for value input.
@@ -390,8 +402,18 @@ def command():
         entry_points=[CommandHandler("create", input_crypto)],
         states={
             CRYPTO: [MessageHandler(filters.TEXT & ~filters.COMMAND, input_indicator)],
-            INDICATORS: [CallbackQueryHandler(input_condition, pattern=r"^(1[1-4])$")],
-            CONDITION: [CallbackQueryHandler(input_value, pattern=r"^(1[5-8])$")],
+            INDICATORS: [
+                CallbackQueryHandler(
+                    input_condition,
+                    pattern=f"^({PRICE}|{VOLUME}|{EMA}|{SMA})$",
+                )
+            ],
+            CONDITION: [
+                CallbackQueryHandler(
+                    input_value,
+                    pattern=f"^({INCREASE_BY}|{INCREASE_TO}|{DECREASE_BY}|{DECREASE_TO})$",
+                )
+            ],
             VALUE: [MessageHandler(filters.TEXT & ~filters.COMMAND, final_state)],
         },
         fallbacks=[],

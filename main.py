@@ -1,38 +1,28 @@
-import asyncio
+from email.headerregistry import ContentTypeHeader
 import os
 
-import telegram
 from dotenv import load_dotenv
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import (
-    Application,
     ApplicationBuilder,
-    CallbackContext,
-    CallbackQueryHandler,
     CommandHandler,
-    ContextTypes,
-    ConversationHandler,
-    Updater,
 )
 
 from commands.create import command as create_command
 from commands.start import command as start_command
-from commands.examples.nested_conversation import command as nested_conversation_command
 
 load_dotenv()
 
 
-async def send_words(bot: Application.bot) -> None:
+async def callback_minute(context: ContentTypeHeader.DEFAULT_TYPE):
     print("Khoicute")
-
-
-async def setup(context: CallbackContext) -> None:
-    await send_words(context.bot)
 
 
 def main():
     # Init the application
     app = ApplicationBuilder().token(os.environ.get("TELEGRAM_BOT_TOKEN")).build()
+
+    job_queue = app.job_queue
+    job_minute = job_queue.run_repeating(callback_minute, interval=60, first=10)
 
     # Add commands handlers
     app.add_handler(CommandHandler("start", start_command))

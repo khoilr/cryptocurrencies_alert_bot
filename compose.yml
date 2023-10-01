@@ -5,27 +5,46 @@ services:
         ports:
             - 30001:6379
         networks:
-            - redis-network
+            - crypto-network
         volumes:
             - ./redis.conf:/usr/local/etc/redis/redis.conf
-            - ./data:/data
+            - ./redis_data:/data
         command: redis-server /usr/local/etc/redis/redis.conf
 
-    # stream_data copy requirements.stream.txt to install and run stream_data.py file
+    postgres:
+        image: postgres:latest
+        ports:
+            - 30002:5432
+        networks:
+            - crypto-network
+        volumes:
+            - ./postgres_data:/var/lib/postgresql/data
+        environment:
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: postgres
+            POSTGRES_DB: postgres
+
     stream_data:
         build:
             context: stream_data
         depends_on:
             - redis
+            - postgres
+        cpus: 0.1
         networks:
-            - redis-network
+            - crypto-network
         environment:
-            BITGET_API_KEY: bg_7cc05d50bce7a6030cffae088e6782e6
-            BITGET_SECRET_KEY: b4cfeee2ed12bb997e7d1b4f4bcb3e8ea4bd66bcb1b9606e5710f48bfe6dc825
-            BITGET_PASSPHRASE: khoikhoi
             REDIS_HOST: redis
             REDIS_PORT: 6379
             REDIS_DB: 0
+            POSTGRES_HOST: postgres
+            POSTGRES_PORT: 5432
+            POSTGRES_DB: postgres
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: postgres
+        volumes:
+            - ./logs:/app/logs
 
 networks:
-    redis-network:
+    crypto-network:
+        driver: bridge

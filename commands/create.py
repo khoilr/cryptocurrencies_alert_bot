@@ -1,3 +1,4 @@
+# type: ignore
 """
 This file handles the creation of cryptocurrency alerts through a Telegram bot.
 
@@ -36,9 +37,12 @@ Functions:
 Usage:
 The `command` function returns a `ConversationHandler` object that can be added to a Telegram bot's dispatcher to handle the /create command.
 """
+import os
+
+import redis
+from dotenv import load_dotenv
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, Update
 from telegram.constants import ParseMode
-from telegram.helpers import escape_markdown
 from telegram.ext import (
     CallbackQueryHandler,
     CommandHandler,
@@ -46,6 +50,21 @@ from telegram.ext import (
     ConversationHandler,
     MessageHandler,
     filters,
+)
+from telegram.helpers import escape_markdown
+
+load_dotenv()
+
+# Environment variables
+REDIS_HOST = os.environ.get("REDIS_HOST", "localhost")
+REDIS_PORT = int(os.environ.get("REDIS_PORT", 6379))
+REDIS_DB = int(os.environ.get("REDIS_DB", 0))
+
+# Initialize a Redis connection
+redis_client = redis.StrictRedis(
+    host=REDIS_HOST,
+    port=REDIS_PORT,
+    db=REDIS_DB,
 )
 
 # States
@@ -55,16 +74,16 @@ CRYPTO, INDICATORS, CONDITION, VALUE = [str(x) for x in range(4)]
 PRICE, VOLUME, EMA, SMA = [str(x) for x in range(5, 9)]  # Indicator IDs
 INCREASE_BY, INCREASE_TO, DECREASE_BY, DECREASE_TO = [str(x) for x in range(9, 13)]  # Condition IDs
 indicators = [
-    {"id": PRICE, "name": "price", "display_name": "💲 Price"},
-    {"id": VOLUME, "name": "price", "display_name": "💰 Volume"},
+    {"id": PRICE, "name": "price", "display_name": "Price"},
+    {"id": VOLUME, "name": "price", "display_name": "Volume"},
     {"id": EMA, "name": "ema", "display_name": "EMA (Exponential Moving Average)"},
     {"id": SMA, "name": "sma", "display_name": "SMA (Simple Moving Average)"},
 ]
 conditions = [
-    {"id": INCREASE_TO, "name": "increase_to", "display_name": "📈 Increase to"},
-    {"id": INCREASE_BY, "name": "increase_by", "display_name": "➕ Increase by"},
-    {"id": DECREASE_TO, "name": "decrease_to", "display_name": "📉 Decrease to"},
-    {"id": DECREASE_BY, "name": "decrease_by", "display_name": "➖ Decrease by"},
+    {"id": INCREASE_TO, "name": "increase_to", "display_name": "Increase to"},
+    {"id": INCREASE_BY, "name": "increase_by", "display_name": "Increase by"},
+    {"id": DECREASE_TO, "name": "decrease_to", "display_name": "Decrease to"},
+    {"id": DECREASE_BY, "name": "decrease_by", "display_name": "Decrease by"},
 ]
 
 
@@ -92,8 +111,8 @@ async def input_crypto(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     # Define a list of cryptocurrency options for the user to choose from.
     keyboards = [
-        ["BTC", "ETH", "BNB"],
-        ["ADA", "SOL", "XRP"],
+        ["BTCUSDT", "ETHUSDT", "BNBUSDT"],
+        ["ADAUSDT", "SOLUSDT", "XRPUSDT"],
     ]
 
     # Create a reply keyboard markup with the cryptocurrency options
@@ -375,12 +394,23 @@ async def final_state(update: Update, context=ContextTypes.DEFAULT_TYPE):
 """
         + escape_markdown(
             f"""You'll be alerted when the {indicator_display_name} of {crypto} \
-{condition_display_name} {value}. Happy trading! 📈💰💹
+{condition_display_name.lower()} {value}. Happy trading! 📈💰💹
 """,
             version=2,
         )
     )
 
+    # Run a background job client = (
+    #     BitgetWsClient(CONTRACT_WS_URL, need_login=False)  # Use Public API so no need to login
+    #     .api_key(API_KEY)
+    #     .api_secret_key(SECRET_KEY)
+    #     .passphrase(PASSPHRASE)
+    #     .error_listener(handel_error)
+    #     .build()
+    # )
+
+    # top_100 = get_top_cryptos()
+    # channels = [SubscribeReq("SP", "candle1H", symbol) for symbol in top_100]
     # Send the summary message to the user.
     await update.message.reply_markdown_v2(reply_message)
 

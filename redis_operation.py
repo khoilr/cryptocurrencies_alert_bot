@@ -1,13 +1,21 @@
 import os
 
-import redis
 from dotenv import load_dotenv
+import redis
 
 load_dotenv()
-# FLUSHDB
+
 redis_client = redis.StrictRedis(
-    host=os.environ.get("REDIS_HOST", "localhost"),
-    port=int(os.environ.get("REDIS_PORT", 6379)),
-    db=int(os.environ.get("REDIS_DB", 0)),
+    host="103.157.218.126",
+    port=30001,
+    db=0,
 )
+
+# redis_client = redis.StrictRedis(
+#     host=os.environ.get("REDIS_HOST", "localhost"),
+#     port=int(os.environ.get("REDIS_PORT", 6379)),
+#     db=int(os.environ.get("REDIS_DB", 0)),
+# )
+
+# FLUSHDB
 redis_client.flushdb()

@@ -4,3 +4,6 @@ python-telegram-bot[job-queue]
 requests
 redis
 pandas
+sqlalchemy 
+alembic
+psycopg2

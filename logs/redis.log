@@ -1,0 +1,202 @@
+2023-09-30 21:28:15.338 | INFO     | __main__:<module>:31 - Redis client created: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-09-30 21:28:15.397 | INFO     | __main__:get_top_cryptos:42 - PostgreSQL client created: <connection object at 0x106f30970; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 21:28:15.420 | INFO     | __main__:main:115 - Got top 200 cryptos from database
+2023-09-30 21:28:15.421 | INFO     | __main__:main:140 - Started thread
+2023-09-30 21:28:15.422 | INFO     | __main__:main:140 - Started thread
+2023-09-30 21:30:42.588 | INFO     | __main__:<module>:37 - Redis client created: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-09-30 21:30:42.609 | INFO     | __main__:get_top_cryptos:48 - PostgreSQL client created: <connection object at 0x104380970; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 21:30:42.614 | INFO     | __main__:main:120 - Got top 200 cryptos from database
+2023-09-30 21:30:42.615 | INFO     | __main__:main:145 - Started thread
+2023-09-30 21:30:42.615 | INFO     | __main__:main:145 - Started thread
+2023-09-30 21:31:59.828 | INFO     | __main__:<module>:38 - Redis client created: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-09-30 21:31:59.852 | INFO     | __main__:get_top_cryptos:49 - PostgreSQL client created: <connection object at 0x10621c970; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 21:31:59.858 | INFO     | __main__:main:121 - Got top 200 cryptos from database
+2023-09-30 21:31:59.859 | INFO     | __main__:main:146 - Started thread
+2023-09-30 21:31:59.859 | INFO     | __main__:main:146 - Started thread
+2023-09-30 21:33:34.269 | INFO     | __main__:<module>:38 - Redis client created: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-09-30 21:33:34.294 | INFO     | __main__:get_top_cryptos:49 - PostgreSQL client created: <connection object at 0x102e38820; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 21:33:34.301 | INFO     | __main__:main:121 - Got top 200 cryptos from database
+2023-09-30 21:33:34.302 | INFO     | __main__:main:146 - Started thread
+2023-09-30 21:33:34.302 | INFO     | __main__:main:146 - Started thread
+2023-09-30 21:34:44.552 | INFO     | __main__:<module>:38 - Redis client created: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-09-30 21:34:44.573 | INFO     | __main__:get_top_cryptos:49 - PostgreSQL client created: <connection object at 0x1024d0820; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 21:34:44.578 | INFO     | __main__:main:121 - Got top 200 cryptos from database
+2023-09-30 21:34:44.578 | INFO     | __main__:main:146 - Started thread
+2023-09-30 21:34:44.578 | INFO     | __main__:main:146 - Started thread
+2023-09-30 21:44:52.349 | INFO     | __main__:<module>:41 - Redis client created: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-09-30 21:44:52.371 | INFO     | __main__:get_top_cryptos:52 - PostgreSQL client created: <connection object at 0x102440820; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 21:44:52.377 | INFO     | __main__:main:129 - Got top 200 cryptos from database
+2023-09-30 21:44:52.377 | INFO     | __main__:main:154 - Started thread
+2023-09-30 21:44:52.378 | INFO     | __main__:main:154 - Started thread
+2023-09-30 21:45:03.125 | ERROR    | __main__:subscribe_to_stream:143 - WebSocket connection error: can't start new thread
+2023-09-30 21:45:03.362 | ERROR    | __main__:subscribe_to_stream:143 - WebSocket connection error: can't start new thread
+2023-09-30 21:45:04.758 | ERROR    | __main__:subscribe_to_stream:143 - WebSocket connection error: can't start new thread
+2023-09-30 21:45:05.144 | ERROR    | __main__:subscribe_to_stream:143 - WebSocket connection error: can't start new thread
+2023-09-30 21:45:06.446 | ERROR    | __main__:subscribe_to_stream:143 - WebSocket connection error: can't start new thread
+2023-09-30 21:45:07.643 | ERROR    | __main__:subscribe_to_stream:143 - WebSocket connection error: can't start new thread
+2023-09-30 21:45:09.380 | ERROR    | __main__:subscribe_to_stream:143 - WebSocket connection error: can't start new thread
+2023-09-30 21:45:09.682 | ERROR    | __main__:subscribe_to_stream:143 - WebSocket connection error: can't start new thread
+2023-09-30 21:45:11.709 | ERROR    | __main__:subscribe_to_stream:143 - WebSocket connection error: can't start new thread
+2023-09-30 21:45:13.340 | ERROR    | __main__:subscribe_to_stream:143 - WebSocket connection error: can't start new thread
+2023-09-30 21:45:14.178 | ERROR    | __main__:subscribe_to_stream:143 - WebSocket connection error: can't start new thread
+2023-09-30 21:45:15.740 | ERROR    | __main__:subscribe_to_stream:143 - WebSocket connection error: can't start new thread
+2023-09-30 21:45:16.657 | ERROR    | __main__:subscribe_to_stream:143 - WebSocket connection error: can't start new thread
+2023-09-30 21:46:23.571 | INFO     | __main__:<module>:40 - Redis client created: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-09-30 21:46:23.593 | INFO     | __main__:get_top_cryptos:51 - PostgreSQL client created: <connection object at 0x10702bca0; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 21:46:23.597 | INFO     | __main__:main:130 - Got top 200 cryptos from database
+2023-09-30 21:46:23.598 | INFO     | __main__:main:155 - Started thread
+2023-09-30 21:46:23.598 | INFO     | __main__:main:155 - Started thread
+2023-09-30 21:46:38.186 | INFO     | __main__:<module>:40 - Redis client created: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-09-30 21:46:38.208 | INFO     | __main__:get_top_cryptos:51 - PostgreSQL client created: <connection object at 0x104defca0; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 21:46:38.216 | INFO     | __main__:main:130 - Got top 200 cryptos from database
+2023-09-30 21:46:38.217 | INFO     | __main__:main:155 - Started thread
+2023-09-30 21:46:38.217 | INFO     | __main__:main:155 - Started thread
+2023-09-30 21:47:31.374 | INFO     | __main__:<module>:40 - Redis client created: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-09-30 21:47:31.403 | INFO     | __main__:get_top_cryptos:51 - PostgreSQL client created: <connection object at 0x106b33ca0; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 21:47:31.409 | INFO     | __main__:main:130 - Got top 200 cryptos from database
+2023-09-30 21:47:31.410 | INFO     | __main__:main:155 - Started thread
+2023-09-30 21:47:31.410 | INFO     | __main__:main:155 - Started thread
+2023-09-30 21:50:01.597 | INFO     | __main__:<module>:39 - Redis client created: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-09-30 21:50:01.630 | INFO     | __main__:get_top_cryptos:50 - PostgreSQL client created: <connection object at 0x102268820; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 21:50:01.638 | INFO     | __main__:main:125 - Got top 200 cryptos from database
+2023-09-30 21:50:01.639 | INFO     | __main__:main:150 - Started thread
+2023-09-30 21:50:01.639 | INFO     | __main__:main:150 - Started thread
+2023-09-30 21:50:06.028 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:06.034 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:07.032 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:07.033 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:07.034 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:07.035 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:07.035 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:07.045 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:08.033 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:08.033 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:08.040 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:08.042 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:08.043 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:08.046 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:08.050 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:08.050 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:09.041 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:09.042 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:09.043 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:09.044 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:09.051 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:09.055 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:09.055 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:09.057 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:09.058 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:09.058 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:09.064 | ERROR    | __main__:message_handler:113 - Too many connections
+2023-09-30 21:50:18.310 | INFO     | __main__:<module>:39 - Redis client created: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-09-30 21:50:18.332 | INFO     | __main__:get_top_cryptos:50 - PostgreSQL client created: <connection object at 0x10518c820; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 21:50:18.338 | INFO     | __main__:main:124 - Got top 200 cryptos from database
+2023-09-30 21:50:18.339 | INFO     | __main__:main:149 - Started thread
+2023-09-30 21:50:18.339 | INFO     | __main__:main:149 - Started thread
+2023-09-30 21:54:28.738 | INFO     | __main__:<module>:39 - Redis client created: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-09-30 21:54:28.767 | INFO     | __main__:get_top_cryptos:50 - PostgreSQL client created: <connection object at 0x1024cc820; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 21:54:28.772 | INFO     | __main__:main:123 - Got top 200 cryptos from database
+2023-09-30 21:54:28.772 | INFO     | __main__:main:148 - Started thread
+2023-09-30 21:54:28.772 | INFO     | __main__:main:148 - Started thread
+2023-09-30 21:56:27.586 | INFO     | __main__:<module>:40 - Redis client created: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+2023-09-30 21:56:27.615 | INFO     | __main__:get_top_cryptos:51 - PostgreSQL client created: <connection object at 0x1034b8040; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 21:56:27.625 | INFO     | __main__:main:126 - Got top 200 cryptos from database
+2023-09-30 22:18:22.772 | INFO     | __main__:get_top_cryptos:51 - PostgreSQL client created: <connection object at 0x10526c190; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 22:18:22.783 | INFO     | __main__:main:137 - Got top 200 cryptos from database
+2023-09-30 22:19:24.453 | INFO     | __main__:get_top_cryptos:51 - PostgreSQL client created: <connection object at 0x107b90190; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 22:19:24.458 | INFO     | __main__:main:137 - Got top 200 cryptos from database
+2023-09-30 22:20:50.156 | INFO     | __main__:get_top_cryptos:51 - PostgreSQL client created: <connection object at 0x107124190; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 22:20:50.164 | INFO     | __main__:main:137 - Got top 200 cryptos from database
+2023-09-30 22:21:12.688 | INFO     | __main__:get_top_cryptos:51 - PostgreSQL client created: <connection object at 0x1066a4190; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 22:21:12.694 | INFO     | __main__:main:137 - Got top 200 cryptos from database
+2023-09-30 22:21:38.443 | INFO     | __main__:get_top_cryptos:51 - PostgreSQL client created: <connection object at 0x1066c8190; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 22:21:38.450 | INFO     | __main__:main:139 - Got top 200 cryptos from database
+2023-09-30 22:21:46.477 | INFO     | __main__:get_top_cryptos:51 - PostgreSQL client created: <connection object at 0x106630190; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 22:21:46.485 | INFO     | __main__:main:140 - Got top 200 cryptos from database
+2023-09-30 22:24:31.306 | INFO     | __main__:get_top_cryptos:51 - PostgreSQL client created: <connection object at 0x106924190; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 22:24:31.311 | INFO     | __main__:main:139 - Got top 200 cryptos from database
+2023-09-30 22:25:18.312 | INFO     | __main__:get_top_cryptos:51 - PostgreSQL client created: <connection object at 0x10756c190; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 22:25:18.321 | INFO     | __main__:main:137 - Got top 200 cryptos from database
+2023-09-30 22:39:48.004 | INFO     | __main__:get_top_cryptos:36 - PostgreSQL client created: <connection object at 0x1055d8430; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-09-30 22:39:48.012 | INFO     | __main__:main:140 - Got top 200 cryptos from database
+2023-09-30 22:39:48.628 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-09-30 22:39:48.722 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 09:15:32.810 | INFO     | __main__:get_top_cryptos:36 - PostgreSQL client created: <connection object at 0x106afc430; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-10-01 09:15:32.842 | INFO     | __main__:main:148 - Got top 200 cryptos from database
+2023-10-01 09:15:33.642 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 09:15:33.644 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 09:15:46.289 | INFO     | __main__:get_top_cryptos:36 - PostgreSQL client created: <connection object at 0x1022f0430; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-10-01 09:15:46.299 | INFO     | __main__:main:148 - Got top 200 cryptos from database
+2023-10-01 09:15:47.057 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 09:15:47.058 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 09:16:01.378 | INFO     | __main__:get_top_cryptos:36 - PostgreSQL client created: <connection object at 0x104ee0430; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-10-01 09:16:01.387 | INFO     | __main__:main:149 - Got top 200 cryptos from database
+2023-10-01 09:16:02.033 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 09:16:02.064 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 09:17:44.607 | INFO     | __main__:get_top_cryptos:36 - PostgreSQL client created: <connection object at 0x106020430; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-10-01 09:17:44.617 | INFO     | __main__:main:152 - Got top 1 cryptos from database
+2023-10-01 09:17:45.234 | INFO     | __main__:subscribe_to_stream:112 - Subscribed to 1 symbols
+2023-10-01 09:22:34.456 | INFO     | __main__:get_top_cryptos:36 - PostgreSQL client created: <connection object at 0x104c14430; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-10-01 09:22:34.466 | INFO     | __main__:main:154 - Got top 1 cryptos from database
+2023-10-01 09:22:35.165 | INFO     | __main__:subscribe_to_stream:112 - Subscribed to 1 symbols
+2023-10-01 09:22:57.124 | INFO     | __main__:get_top_cryptos:36 - PostgreSQL client created: <connection object at 0x103424430; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-10-01 09:22:57.134 | INFO     | __main__:main:152 - Got top 1 cryptos from database
+2023-10-01 09:22:57.848 | INFO     | __main__:subscribe_to_stream:112 - Subscribed to 1 symbols
+2023-10-01 09:25:57.845 | INFO     | __main__:send_ping:122 - Sent ping frame
+2023-10-01 09:28:57.845 | INFO     | __main__:send_ping:122 - Sent ping frame
+2023-10-01 09:31:57.843 | INFO     | __main__:send_ping:122 - Sent ping frame
+2023-10-01 09:34:57.841 | INFO     | __main__:send_ping:122 - Sent ping frame
+2023-10-01 09:37:57.840 | INFO     | __main__:send_ping:122 - Sent ping frame
+2023-10-01 09:53:14.403 | INFO     | __main__:get_top_cryptos:36 - PostgreSQL client created: <connection object at 0x10438c430; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-10-01 09:53:14.414 | INFO     | __main__:main:142 - Got top 10 cryptos from database
+2023-10-01 09:53:15.236 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 10 symbols
+2023-10-01 09:53:41.505 | INFO     | __main__:get_top_cryptos:36 - PostgreSQL client created: <connection object at 0x106cd8430; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-10-01 09:53:41.512 | INFO     | __main__:main:140 - Got top 10 cryptos from database
+2023-10-01 09:53:41.523 | ERROR    | __main__:main:156 - An error occurred: BaseEventLoop.create_connection() got an unexpected keyword argument 'pong_interval'
+2023-10-01 09:53:52.149 | INFO     | __main__:get_top_cryptos:36 - PostgreSQL client created: <connection object at 0x104f70430; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-10-01 09:53:52.156 | INFO     | __main__:main:142 - Got top 10 cryptos from database
+2023-10-01 09:53:52.776 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 10 symbols
+2023-10-01 10:50:49.316 | INFO     | __main__:get_top_cryptos:36 - PostgreSQL client created: <connection object at 0x1052e8430; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-10-01 10:50:49.326 | INFO     | __main__:main:142 - Got top 209 cryptos from database
+2023-10-01 10:50:49.957 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 10:50:50.047 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 9 symbols
+2023-10-01 10:50:50.048 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 10:50:56.464 | ERROR    | __main__:main:158 - An error occurred: 'WebSocketClientProtocol' object has no attribute 'recv_data_frame'
+2023-10-01 10:51:15.858 | INFO     | __main__:get_top_cryptos:36 - PostgreSQL client created: <connection object at 0x106d18430; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-10-01 10:51:15.868 | INFO     | __main__:main:142 - Got top 209 cryptos from database
+2023-10-01 10:51:16.584 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 10:51:16.584 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 9 symbols
+2023-10-01 10:51:16.591 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 10:51:25.302 | ERROR    | __main__:main:158 - An error occurred: 'WebSocketClientProtocol' object has no attribute 'recv_data_frame'
+2023-10-01 10:51:31.447 | INFO     | __main__:get_top_cryptos:36 - PostgreSQL client created: <connection object at 0x1034c4430; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-10-01 10:51:31.454 | INFO     | __main__:main:142 - Got top 209 cryptos from database
+2023-10-01 10:51:32.050 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 9 symbols
+2023-10-01 10:51:32.062 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 10:51:32.117 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 10:51:37.359 | ERROR    | __main__:main:158 - An error occurred: WebSocketCommonProtocol.recv() takes 1 positional argument but 2 were given
+2023-10-01 10:51:43.882 | INFO     | __main__:get_top_cryptos:36 - PostgreSQL client created: <connection object at 0x1024e8430; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-10-01 10:51:43.888 | INFO     | __main__:main:142 - Got top 209 cryptos from database
+2023-10-01 10:51:44.493 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 10:51:44.501 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 10:51:44.547 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 9 symbols
+2023-10-01 10:53:13.176 | INFO     | __main__:get_top_cryptos:36 - PostgreSQL client created: <connection object at 0x102224430; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-10-01 10:53:13.186 | INFO     | __main__:main:141 - Got top 209 cryptos from database
+2023-10-01 10:53:13.909 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 9 symbols
+2023-10-01 10:53:13.909 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 10:53:13.922 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 10:53:31.609 | INFO     | __main__:get_top_cryptos:36 - PostgreSQL client created: <connection object at 0x102f84430; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-10-01 10:53:31.616 | INFO     | __main__:main:141 - Got top 209 cryptos from database
+2023-10-01 10:53:32.206 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 9 symbols
+2023-10-01 10:53:32.224 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 10:53:32.231 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 10:54:37.888 | ERROR    | __main__:subscribe_to_stream:127 - WebSocket connection closed: received 1008 (policy violation) Invalid request; then sent 1008 (policy violation) Invalid request
+2023-10-01 10:54:38.281 | ERROR    | __main__:subscribe_to_stream:127 - WebSocket connection closed: received 1008 (policy violation) Invalid request; then sent 1008 (policy violation) Invalid request
+2023-10-01 10:54:39.428 | ERROR    | __main__:subscribe_to_stream:127 - WebSocket connection closed: received 1008 (policy violation) Invalid request; then sent 1008 (policy violation) Invalid request
+2023-10-01 10:54:39.496 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 9 symbols
+2023-10-01 10:54:39.869 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 10:54:41.071 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 10:55:25.919 | INFO     | __main__:get_top_cryptos:36 - PostgreSQL client created: <connection object at 0x10486c430; dsn: 'user=postgres password=xxx dbname=postgres host=localhost port=5432', closed: 0>
+2023-10-01 10:55:25.928 | INFO     | __main__:main:141 - Got top 209 cryptos from database
+2023-10-01 10:55:26.516 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 9 symbols
+2023-10-01 10:55:26.585 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols
+2023-10-01 10:55:26.586 | INFO     | __main__:subscribe_to_stream:110 - Subscribed to 100 symbols

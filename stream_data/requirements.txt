@@ -1,5 +1,8 @@
-pandas
 redis
 python-dotenv
 requests
 websocket-client
+binance-connector
+psycopg2
+loguru
+websockets

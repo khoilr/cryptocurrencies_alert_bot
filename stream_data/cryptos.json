@@ -1,0 +1,7121 @@
+[
+    {
+        "symbol": "ETHBTC",
+        "base_asset": "ETH",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 184094
+    },
+    {
+        "symbol": "LTCBTC",
+        "base_asset": "LTC",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 66595
+    },
+    {
+        "symbol": "BNBBTC",
+        "base_asset": "BNB",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 139015
+    },
+    {
+        "symbol": "NEOBTC",
+        "base_asset": "NEO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 10376
+    },
+    {
+        "symbol": "QTUMETH",
+        "base_asset": "QTUM",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 308
+    },
+    {
+        "symbol": "EOSETH",
+        "base_asset": "EOS",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 907
+    },
+    {
+        "symbol": "SNTETH",
+        "base_asset": "SNT",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 5544
+    },
+    {
+        "symbol": "BNTETH",
+        "base_asset": "BNT",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 410
+    },
+    {
+        "symbol": "GASBTC",
+        "base_asset": "GAS",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 7105
+    },
+    {
+        "symbol": "BNBETH",
+        "base_asset": "BNB",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 40557
+    },
+    {
+        "symbol": "BTCUSDT",
+        "base_asset": "BTC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052544808,
+        "count": 5512271
+    },
+    {
+        "symbol": "ETHUSDT",
+        "base_asset": "ETH",
+        "quote_asset": "USDT",
+        "updated_at": 1696052544808,
+        "count": 2793474
+    },
+    {
+        "symbol": "WTCBTC",
+        "base_asset": "WTC",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 26717
+    },
+    {
+        "symbol": "LRCBTC",
+        "base_asset": "LRC",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 8800
+    },
+    {
+        "symbol": "LRCETH",
+        "base_asset": "LRC",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 426
+    },
+    {
+        "symbol": "QTUMBTC",
+        "base_asset": "QTUM",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 1707
+    },
+    {
+        "symbol": "ZRXBTC",
+        "base_asset": "ZRX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 3550
+    },
+    {
+        "symbol": "KNCBTC",
+        "base_asset": "KNC",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 23113
+    },
+    {
+        "symbol": "FUNETH",
+        "base_asset": "FUN",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 1233
+    },
+    {
+        "symbol": "NEOETH",
+        "base_asset": "NEO",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 2647
+    },
+    {
+        "symbol": "IOTABTC",
+        "base_asset": "IOTA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 6904
+    },
+    {
+        "symbol": "IOTAETH",
+        "base_asset": "IOTA",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 295
+    },
+    {
+        "symbol": "LINKBTC",
+        "base_asset": "LINK",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 100968
+    },
+    {
+        "symbol": "LINKETH",
+        "base_asset": "LINK",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 38707
+    },
+    {
+        "symbol": "XVGETH",
+        "base_asset": "XVG",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 1001
+    },
+    {
+        "symbol": "MTLBTC",
+        "base_asset": "MTL",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 9386
+    },
+    {
+        "symbol": "EOSBTC",
+        "base_asset": "EOS",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 14405
+    },
+    {
+        "symbol": "SNTBTC",
+        "base_asset": "SNT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 7595
+    },
+    {
+        "symbol": "ETCETH",
+        "base_asset": "ETC",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 1991
+    },
+    {
+        "symbol": "ETCBTC",
+        "base_asset": "ETC",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 11503
+    },
+    {
+        "symbol": "ZECBTC",
+        "base_asset": "ZEC",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 7827
+    },
+    {
+        "symbol": "ZECETH",
+        "base_asset": "ZEC",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 579
+    },
+    {
+        "symbol": "BNTBTC",
+        "base_asset": "BNT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 1996
+    },
+    {
+        "symbol": "ASTBTC",
+        "base_asset": "AST",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 8638
+    },
+    {
+        "symbol": "DASHBTC",
+        "base_asset": "DASH",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 8590
+    },
+    {
+        "symbol": "DASHETH",
+        "base_asset": "DASH",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 661
+    },
+    {
+        "symbol": "OAXBTC",
+        "base_asset": "OAX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 30891
+    },
+    {
+        "symbol": "REQBTC",
+        "base_asset": "REQ",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 3638
+    },
+    {
+        "symbol": "VIBBTC",
+        "base_asset": "VIB",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 11443
+    },
+    {
+        "symbol": "TRXBTC",
+        "base_asset": "TRX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 35944
+    },
+    {
+        "symbol": "TRXETH",
+        "base_asset": "TRX",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 26495
+    },
+    {
+        "symbol": "POWRBTC",
+        "base_asset": "POWR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 4533
+    },
+    {
+        "symbol": "POWRETH",
+        "base_asset": "POWR",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 416
+    },
+    {
+        "symbol": "XRPBTC",
+        "base_asset": "XRP",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 113398
+    },
+    {
+        "symbol": "XRPETH",
+        "base_asset": "XRP",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 23772
+    },
+    {
+        "symbol": "ENJBTC",
+        "base_asset": "ENJ",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 16889
+    },
+    {
+        "symbol": "ENJETH",
+        "base_asset": "ENJ",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 1497
+    },
+    {
+        "symbol": "STORJBTC",
+        "base_asset": "STORJ",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 12686
+    },
+    {
+        "symbol": "BNBUSDT",
+        "base_asset": "BNB",
+        "quote_asset": "USDT",
+        "updated_at": 1696052544808,
+        "count": 692654
+    },
+    {
+        "symbol": "KMDBTC",
+        "base_asset": "KMD",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 12718
+    },
+    {
+        "symbol": "NULSBTC",
+        "base_asset": "NULS",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 9285
+    },
+    {
+        "symbol": "XMRBTC",
+        "base_asset": "XMR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 59855
+    },
+    {
+        "symbol": "XMRETH",
+        "base_asset": "XMR",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 5347
+    },
+    {
+        "symbol": "AMBBTC",
+        "base_asset": "AMB",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 18264
+    },
+    {
+        "symbol": "BATBTC",
+        "base_asset": "BAT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 1471
+    },
+    {
+        "symbol": "NEOUSDT",
+        "base_asset": "NEO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052544808,
+        "count": 49433
+    },
+    {
+        "symbol": "NEOBNB",
+        "base_asset": "NEO",
+        "quote_asset": "BNB",
+        "updated_at": 1696052544808,
+        "count": 184
+    },
+    {
+        "symbol": "LSKBTC",
+        "base_asset": "LSK",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 5736
+    },
+    {
+        "symbol": "LSKETH",
+        "base_asset": "LSK",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 489
+    },
+    {
+        "symbol": "MANABTC",
+        "base_asset": "MANA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 25559
+    },
+    {
+        "symbol": "MANAETH",
+        "base_asset": "MANA",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 1022
+    },
+    {
+        "symbol": "ADXBTC",
+        "base_asset": "ADX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 4100
+    },
+    {
+        "symbol": "ADXETH",
+        "base_asset": "ADX",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 1701
+    },
+    {
+        "symbol": "ADABTC",
+        "base_asset": "ADA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 23610
+    },
+    {
+        "symbol": "ADAETH",
+        "base_asset": "ADA",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 7609
+    },
+    {
+        "symbol": "XLMBTC",
+        "base_asset": "XLM",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 14978
+    },
+    {
+        "symbol": "XLMETH",
+        "base_asset": "XLM",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 3962
+    },
+    {
+        "symbol": "XLMBNB",
+        "base_asset": "XLM",
+        "quote_asset": "BNB",
+        "updated_at": 1696052544808,
+        "count": 3846
+    },
+    {
+        "symbol": "LTCETH",
+        "base_asset": "LTC",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 8367
+    },
+    {
+        "symbol": "LTCUSDT",
+        "base_asset": "LTC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052544808,
+        "count": 379094
+    },
+    {
+        "symbol": "LTCBNB",
+        "base_asset": "LTC",
+        "quote_asset": "BNB",
+        "updated_at": 1696052544808,
+        "count": 6920
+    },
+    {
+        "symbol": "WAVESBTC",
+        "base_asset": "WAVES",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 6760
+    },
+    {
+        "symbol": "WAVESETH",
+        "base_asset": "WAVES",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 271
+    },
+    {
+        "symbol": "ICXBTC",
+        "base_asset": "ICX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 6680
+    },
+    {
+        "symbol": "ELFBTC",
+        "base_asset": "ELF",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 8877
+    },
+    {
+        "symbol": "ELFETH",
+        "base_asset": "ELF",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 5908
+    },
+    {
+        "symbol": "RLCBTC",
+        "base_asset": "RLC",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 4216
+    },
+    {
+        "symbol": "RLCETH",
+        "base_asset": "RLC",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 976
+    },
+    {
+        "symbol": "PIVXBTC",
+        "base_asset": "PIVX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 69530
+    },
+    {
+        "symbol": "IOSTBTC",
+        "base_asset": "IOST",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 5275
+    },
+    {
+        "symbol": "IOSTETH",
+        "base_asset": "IOST",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 4293
+    },
+    {
+        "symbol": "STEEMBTC",
+        "base_asset": "STEEM",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 2635
+    },
+    {
+        "symbol": "STEEMETH",
+        "base_asset": "STEEM",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 1893
+    },
+    {
+        "symbol": "BLZBTC",
+        "base_asset": "BLZ",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 36311
+    },
+    {
+        "symbol": "ZILBTC",
+        "base_asset": "ZIL",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 5614
+    },
+    {
+        "symbol": "ZILETH",
+        "base_asset": "ZIL",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 469
+    },
+    {
+        "symbol": "ZILBNB",
+        "base_asset": "ZIL",
+        "quote_asset": "BNB",
+        "updated_at": 1696052544808,
+        "count": 499
+    },
+    {
+        "symbol": "ONTBTC",
+        "base_asset": "ONT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 2852
+    },
+    {
+        "symbol": "QTUMUSDT",
+        "base_asset": "QTUM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052544808,
+        "count": 32268
+    },
+    {
+        "symbol": "WANBTC",
+        "base_asset": "WAN",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 13097
+    },
+    {
+        "symbol": "WANETH",
+        "base_asset": "WAN",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 2509
+    },
+    {
+        "symbol": "SYSBTC",
+        "base_asset": "SYS",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 6903
+    },
+    {
+        "symbol": "ADAUSDT",
+        "base_asset": "ADA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052544808,
+        "count": 224206
+    },
+    {
+        "symbol": "ADABNB",
+        "base_asset": "ADA",
+        "quote_asset": "BNB",
+        "updated_at": 1696052544808,
+        "count": 5087
+    },
+    {
+        "symbol": "LOOMBTC",
+        "base_asset": "LOOM",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 119750
+    },
+    {
+        "symbol": "XRPUSDT",
+        "base_asset": "XRP",
+        "quote_asset": "USDT",
+        "updated_at": 1696052544808,
+        "count": 886753
+    },
+    {
+        "symbol": "ZENBTC",
+        "base_asset": "ZEN",
+        "quote_asset": "BTC",
+        "updated_at": 1696052544808,
+        "count": 6921
+    },
+    {
+        "symbol": "ZENETH",
+        "base_asset": "ZEN",
+        "quote_asset": "ETH",
+        "updated_at": 1696052544808,
+        "count": 2129
+    },
+    {
+        "symbol": "EOSUSDT",
+        "base_asset": "EOS",
+        "quote_asset": "USDT",
+        "updated_at": 1696052544808,
+        "count": 50392
+    },
+    {
+        "symbol": "EOSBNB",
+        "base_asset": "EOS",
+        "quote_asset": "BNB",
+        "updated_at": 1696052544808,
+        "count": 342
+    },
+    {
+        "symbol": "THETABTC",
+        "base_asset": "THETA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 14383
+    },
+    {
+        "symbol": "THETAETH",
+        "base_asset": "THETA",
+        "quote_asset": "ETH",
+        "updated_at": 1696052545600,
+        "count": 928
+    },
+    {
+        "symbol": "THETABNB",
+        "base_asset": "THETA",
+        "quote_asset": "BNB",
+        "updated_at": 1696052545600,
+        "count": 427
+    },
+    {
+        "symbol": "XRPBNB",
+        "base_asset": "XRP",
+        "quote_asset": "BNB",
+        "updated_at": 1696052545600,
+        "count": 19025
+    },
+    {
+        "symbol": "IOTAUSDT",
+        "base_asset": "IOTA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 37626
+    },
+    {
+        "symbol": "XLMUSDT",
+        "base_asset": "XLM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 116795
+    },
+    {
+        "symbol": "IOTXBTC",
+        "base_asset": "IOTX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 4595
+    },
+    {
+        "symbol": "IOTXETH",
+        "base_asset": "IOTX",
+        "quote_asset": "ETH",
+        "updated_at": 1696052545600,
+        "count": 379
+    },
+    {
+        "symbol": "QKCBTC",
+        "base_asset": "QKC",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 5210
+    },
+    {
+        "symbol": "QKCETH",
+        "base_asset": "QKC",
+        "quote_asset": "ETH",
+        "updated_at": 1696052545600,
+        "count": 2112
+    },
+    {
+        "symbol": "DATABTC",
+        "base_asset": "DATA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 16694
+    },
+    {
+        "symbol": "ONTUSDT",
+        "base_asset": "ONT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 44167
+    },
+    {
+        "symbol": "TRXBNB",
+        "base_asset": "TRX",
+        "quote_asset": "BNB",
+        "updated_at": 1696052545600,
+        "count": 13772
+    },
+    {
+        "symbol": "TRXUSDT",
+        "base_asset": "TRX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 428374
+    },
+    {
+        "symbol": "ETCUSDT",
+        "base_asset": "ETC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 91319
+    },
+    {
+        "symbol": "ETCBNB",
+        "base_asset": "ETC",
+        "quote_asset": "BNB",
+        "updated_at": 1696052545600,
+        "count": 1286
+    },
+    {
+        "symbol": "ICXUSDT",
+        "base_asset": "ICX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 32515
+    },
+    {
+        "symbol": "SCETH",
+        "base_asset": "SC",
+        "quote_asset": "ETH",
+        "updated_at": 1696052545600,
+        "count": 1712
+    },
+    {
+        "symbol": "DENTETH",
+        "base_asset": "DENT",
+        "quote_asset": "ETH",
+        "updated_at": 1696052545600,
+        "count": 693
+    },
+    {
+        "symbol": "ARDRBTC",
+        "base_asset": "ARDR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 5575
+    },
+    {
+        "symbol": "NULSUSDT",
+        "base_asset": "NULS",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 14026
+    },
+    {
+        "symbol": "HOTETH",
+        "base_asset": "HOT",
+        "quote_asset": "ETH",
+        "updated_at": 1696052545600,
+        "count": 1488
+    },
+    {
+        "symbol": "VETBTC",
+        "base_asset": "VET",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 7177
+    },
+    {
+        "symbol": "VETETH",
+        "base_asset": "VET",
+        "quote_asset": "ETH",
+        "updated_at": 1696052545600,
+        "count": 4744
+    },
+    {
+        "symbol": "VETUSDT",
+        "base_asset": "VET",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 120952
+    },
+    {
+        "symbol": "VETBNB",
+        "base_asset": "VET",
+        "quote_asset": "BNB",
+        "updated_at": 1696052545600,
+        "count": 1616
+    },
+    {
+        "symbol": "DOCKBTC",
+        "base_asset": "DOCK",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 9332
+    },
+    {
+        "symbol": "RVNBTC",
+        "base_asset": "RVN",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 4506
+    },
+    {
+        "symbol": "DCRBTC",
+        "base_asset": "DCR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 20455
+    },
+    {
+        "symbol": "RENBTC",
+        "base_asset": "REN",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 6313
+    },
+    {
+        "symbol": "TRXXRP",
+        "base_asset": "TRX",
+        "quote_asset": "XRP",
+        "updated_at": 1696052545600,
+        "count": 23324
+    },
+    {
+        "symbol": "LINKUSDT",
+        "base_asset": "LINK",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 801619
+    },
+    {
+        "symbol": "WAVESUSDT",
+        "base_asset": "WAVES",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 75301
+    },
+    {
+        "symbol": "ONGBTC",
+        "base_asset": "ONG",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 5281
+    },
+    {
+        "symbol": "ONGUSDT",
+        "base_asset": "ONG",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 15250
+    },
+    {
+        "symbol": "HOTUSDT",
+        "base_asset": "HOT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 32488
+    },
+    {
+        "symbol": "ZILUSDT",
+        "base_asset": "ZIL",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 101808
+    },
+    {
+        "symbol": "ZRXUSDT",
+        "base_asset": "ZRX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 34483
+    },
+    {
+        "symbol": "FETBNB",
+        "base_asset": "FET",
+        "quote_asset": "BNB",
+        "updated_at": 1696052545600,
+        "count": 1831
+    },
+    {
+        "symbol": "FETBTC",
+        "base_asset": "FET",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 6468
+    },
+    {
+        "symbol": "FETUSDT",
+        "base_asset": "FET",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 129824
+    },
+    {
+        "symbol": "BATUSDT",
+        "base_asset": "BAT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 33184
+    },
+    {
+        "symbol": "XMRBNB",
+        "base_asset": "XMR",
+        "quote_asset": "BNB",
+        "updated_at": 1696052545600,
+        "count": 1945
+    },
+    {
+        "symbol": "XMRUSDT",
+        "base_asset": "XMR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 107706
+    },
+    {
+        "symbol": "ZECUSDT",
+        "base_asset": "ZEC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 32127
+    },
+    {
+        "symbol": "IOSTUSDT",
+        "base_asset": "IOST",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 101113
+    },
+    {
+        "symbol": "CELRBTC",
+        "base_asset": "CELR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 5687
+    },
+    {
+        "symbol": "CELRUSDT",
+        "base_asset": "CELR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 61654
+    },
+    {
+        "symbol": "DASHUSDT",
+        "base_asset": "DASH",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 56694
+    },
+    {
+        "symbol": "OMGUSDT",
+        "base_asset": "OMG",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 96803
+    },
+    {
+        "symbol": "THETAUSDT",
+        "base_asset": "THETA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 87154
+    },
+    {
+        "symbol": "ENJUSDT",
+        "base_asset": "ENJ",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 106159
+    },
+    {
+        "symbol": "MATICBNB",
+        "base_asset": "MATIC",
+        "quote_asset": "BNB",
+        "updated_at": 1696052545600,
+        "count": 9261
+    },
+    {
+        "symbol": "MATICBTC",
+        "base_asset": "MATIC",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 34406
+    },
+    {
+        "symbol": "MATICUSDT",
+        "base_asset": "MATIC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 283449
+    },
+    {
+        "symbol": "ATOMBNB",
+        "base_asset": "ATOM",
+        "quote_asset": "BNB",
+        "updated_at": 1696052545600,
+        "count": 2099
+    },
+    {
+        "symbol": "ATOMBTC",
+        "base_asset": "ATOM",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 28391
+    },
+    {
+        "symbol": "ATOMUSDT",
+        "base_asset": "ATOM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 192890
+    },
+    {
+        "symbol": "PHBBTC",
+        "base_asset": "PHB",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 6847
+    },
+    {
+        "symbol": "TFUELBTC",
+        "base_asset": "TFUEL",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 5910
+    },
+    {
+        "symbol": "TFUELUSDT",
+        "base_asset": "TFUEL",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 37701
+    },
+    {
+        "symbol": "ONEBNB",
+        "base_asset": "ONE",
+        "quote_asset": "BNB",
+        "updated_at": 1696052545600,
+        "count": 897
+    },
+    {
+        "symbol": "ONEBTC",
+        "base_asset": "ONE",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 5016
+    },
+    {
+        "symbol": "ONEUSDT",
+        "base_asset": "ONE",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 67510
+    },
+    {
+        "symbol": "FTMBNB",
+        "base_asset": "FTM",
+        "quote_asset": "BNB",
+        "updated_at": 1696052545600,
+        "count": 1509
+    },
+    {
+        "symbol": "FTMBTC",
+        "base_asset": "FTM",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 10616
+    },
+    {
+        "symbol": "FTMUSDT",
+        "base_asset": "FTM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 117837
+    },
+    {
+        "symbol": "ALGOBNB",
+        "base_asset": "ALGO",
+        "quote_asset": "BNB",
+        "updated_at": 1696052545600,
+        "count": 1085
+    },
+    {
+        "symbol": "ALGOBTC",
+        "base_asset": "ALGO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 17118
+    },
+    {
+        "symbol": "ALGOUSDT",
+        "base_asset": "ALGO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 116514
+    },
+    {
+        "symbol": "DOGEBTC",
+        "base_asset": "DOGE",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 14361
+    },
+    {
+        "symbol": "DOGEUSDT",
+        "base_asset": "DOGE",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 262482
+    },
+    {
+        "symbol": "DUSKBTC",
+        "base_asset": "DUSK",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 5604
+    },
+    {
+        "symbol": "DUSKUSDT",
+        "base_asset": "DUSK",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 51613
+    },
+    {
+        "symbol": "ANKRBTC",
+        "base_asset": "ANKR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 4880
+    },
+    {
+        "symbol": "ANKRUSDT",
+        "base_asset": "ANKR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 105920
+    },
+    {
+        "symbol": "WINBNB",
+        "base_asset": "WIN",
+        "quote_asset": "BNB",
+        "updated_at": 1696052545600,
+        "count": 992
+    },
+    {
+        "symbol": "WINUSDT",
+        "base_asset": "WIN",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 26815
+    },
+    {
+        "symbol": "COSBNB",
+        "base_asset": "COS",
+        "quote_asset": "BNB",
+        "updated_at": 1696052545600,
+        "count": 662
+    },
+    {
+        "symbol": "COSBTC",
+        "base_asset": "COS",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 1994
+    },
+    {
+        "symbol": "COSUSDT",
+        "base_asset": "COS",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 14935
+    },
+    {
+        "symbol": "MTLUSDT",
+        "base_asset": "MTL",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 164079
+    },
+    {
+        "symbol": "TOMOBTC",
+        "base_asset": "TOMO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 9768
+    },
+    {
+        "symbol": "TOMOUSDT",
+        "base_asset": "TOMO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 117409
+    },
+    {
+        "symbol": "PERLUSDT",
+        "base_asset": "PERL",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 106930
+    },
+    {
+        "symbol": "DENTUSDT",
+        "base_asset": "DENT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 20011
+    },
+    {
+        "symbol": "KEYUSDT",
+        "base_asset": "KEY",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 51804
+    },
+    {
+        "symbol": "DOCKUSDT",
+        "base_asset": "DOCK",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 47946
+    },
+    {
+        "symbol": "WANUSDT",
+        "base_asset": "WAN",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 28625
+    },
+    {
+        "symbol": "FUNUSDT",
+        "base_asset": "FUN",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 42867
+    },
+    {
+        "symbol": "CVCUSDT",
+        "base_asset": "CVC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 18914
+    },
+    {
+        "symbol": "WINTRX",
+        "base_asset": "WIN",
+        "quote_asset": "TRX",
+        "updated_at": 1696052545600,
+        "count": 3467
+    },
+    {
+        "symbol": "CHZBNB",
+        "base_asset": "CHZ",
+        "quote_asset": "BNB",
+        "updated_at": 1696052545600,
+        "count": 986
+    },
+    {
+        "symbol": "CHZBTC",
+        "base_asset": "CHZ",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 4076
+    },
+    {
+        "symbol": "CHZUSDT",
+        "base_asset": "CHZ",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 38456
+    },
+    {
+        "symbol": "BANDBTC",
+        "base_asset": "BAND",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 13560
+    },
+    {
+        "symbol": "BANDUSDT",
+        "base_asset": "BAND",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 58845
+    },
+    {
+        "symbol": "XTZBTC",
+        "base_asset": "XTZ",
+        "quote_asset": "BTC",
+        "updated_at": 1696052545600,
+        "count": 10742
+    },
+    {
+        "symbol": "XTZUSDT",
+        "base_asset": "XTZ",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 43431
+    },
+    {
+        "symbol": "RENUSDT",
+        "base_asset": "REN",
+        "quote_asset": "USDT",
+        "updated_at": 1696052545600,
+        "count": 25553
+    },
+    {
+        "symbol": "RVNUSDT",
+        "base_asset": "RVN",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 41305
+    },
+    {
+        "symbol": "HBARBNB",
+        "base_asset": "HBAR",
+        "quote_asset": "BNB",
+        "updated_at": 1696052546441,
+        "count": 1683
+    },
+    {
+        "symbol": "HBARBTC",
+        "base_asset": "HBAR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 9363
+    },
+    {
+        "symbol": "HBARUSDT",
+        "base_asset": "HBAR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 64274
+    },
+    {
+        "symbol": "NKNBTC",
+        "base_asset": "NKN",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 8422
+    },
+    {
+        "symbol": "NKNUSDT",
+        "base_asset": "NKN",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 29178
+    },
+    {
+        "symbol": "STXBNB",
+        "base_asset": "STX",
+        "quote_asset": "BNB",
+        "updated_at": 1696052546441,
+        "count": 815
+    },
+    {
+        "symbol": "STXBTC",
+        "base_asset": "STX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 12747
+    },
+    {
+        "symbol": "STXUSDT",
+        "base_asset": "STX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 142083
+    },
+    {
+        "symbol": "KAVABNB",
+        "base_asset": "KAVA",
+        "quote_asset": "BNB",
+        "updated_at": 1696052546441,
+        "count": 250
+    },
+    {
+        "symbol": "KAVABTC",
+        "base_asset": "KAVA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 6160
+    },
+    {
+        "symbol": "KAVAUSDT",
+        "base_asset": "KAVA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 69122
+    },
+    {
+        "symbol": "BTCNGN",
+        "base_asset": "BTC",
+        "quote_asset": "NGN",
+        "updated_at": 1696052546441,
+        "count": 21585
+    },
+    {
+        "symbol": "ARPABNB",
+        "base_asset": "ARPA",
+        "quote_asset": "BNB",
+        "updated_at": 1696052546441,
+        "count": 1443
+    },
+    {
+        "symbol": "ARPABTC",
+        "base_asset": "ARPA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 3521
+    },
+    {
+        "symbol": "ARPAUSDT",
+        "base_asset": "ARPA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 74802
+    },
+    {
+        "symbol": "IOTXUSDT",
+        "base_asset": "IOTX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 26553
+    },
+    {
+        "symbol": "RLCUSDT",
+        "base_asset": "RLC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 29101
+    },
+    {
+        "symbol": "CTXCBTC",
+        "base_asset": "CTXC",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 10358
+    },
+    {
+        "symbol": "CTXCUSDT",
+        "base_asset": "CTXC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 20682
+    },
+    {
+        "symbol": "BCHBNB",
+        "base_asset": "BCH",
+        "quote_asset": "BNB",
+        "updated_at": 1696052546441,
+        "count": 8799
+    },
+    {
+        "symbol": "BCHBTC",
+        "base_asset": "BCH",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 49464
+    },
+    {
+        "symbol": "BCHUSDT",
+        "base_asset": "BCH",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 280522
+    },
+    {
+        "symbol": "BTCRUB",
+        "base_asset": "BTC",
+        "quote_asset": "RUB",
+        "updated_at": 1696052546441,
+        "count": 16533
+    },
+    {
+        "symbol": "ETHRUB",
+        "base_asset": "ETH",
+        "quote_asset": "RUB",
+        "updated_at": 1696052546441,
+        "count": 9001
+    },
+    {
+        "symbol": "XRPRUB",
+        "base_asset": "XRP",
+        "quote_asset": "RUB",
+        "updated_at": 1696052546441,
+        "count": 3540
+    },
+    {
+        "symbol": "BNBRUB",
+        "base_asset": "BNB",
+        "quote_asset": "RUB",
+        "updated_at": 1696052546441,
+        "count": 3501
+    },
+    {
+        "symbol": "TROYUSDT",
+        "base_asset": "TROY",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 22797
+    },
+    {
+        "symbol": "VITEBTC",
+        "base_asset": "VITE",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 7720
+    },
+    {
+        "symbol": "VITEUSDT",
+        "base_asset": "VITE",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 91792
+    },
+    {
+        "symbol": "FTTUSDT",
+        "base_asset": "FTT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 377226
+    },
+    {
+        "symbol": "BTCTRY",
+        "base_asset": "BTC",
+        "quote_asset": "TRY",
+        "updated_at": 1696052546441,
+        "count": 168463
+    },
+    {
+        "symbol": "BNBTRY",
+        "base_asset": "BNB",
+        "quote_asset": "TRY",
+        "updated_at": 1696052546441,
+        "count": 76969
+    },
+    {
+        "symbol": "ETHTRY",
+        "base_asset": "ETH",
+        "quote_asset": "TRY",
+        "updated_at": 1696052546441,
+        "count": 76812
+    },
+    {
+        "symbol": "XRPTRY",
+        "base_asset": "XRP",
+        "quote_asset": "TRY",
+        "updated_at": 1696052546441,
+        "count": 51702
+    },
+    {
+        "symbol": "BTCEUR",
+        "base_asset": "BTC",
+        "quote_asset": "EUR",
+        "updated_at": 1696052546441,
+        "count": 172088
+    },
+    {
+        "symbol": "ETHEUR",
+        "base_asset": "ETH",
+        "quote_asset": "EUR",
+        "updated_at": 1696052546441,
+        "count": 110576
+    },
+    {
+        "symbol": "BNBEUR",
+        "base_asset": "BNB",
+        "quote_asset": "EUR",
+        "updated_at": 1696052546441,
+        "count": 43281
+    },
+    {
+        "symbol": "XRPEUR",
+        "base_asset": "XRP",
+        "quote_asset": "EUR",
+        "updated_at": 1696052546441,
+        "count": 24348
+    },
+    {
+        "symbol": "EURUSDT",
+        "base_asset": "EUR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 327068
+    },
+    {
+        "symbol": "OGNBTC",
+        "base_asset": "OGN",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 9705
+    },
+    {
+        "symbol": "OGNUSDT",
+        "base_asset": "OGN",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 142974
+    },
+    {
+        "symbol": "DREPBTC",
+        "base_asset": "DREP",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 26533
+    },
+    {
+        "symbol": "DREPUSDT",
+        "base_asset": "DREP",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 70053
+    },
+    {
+        "symbol": "WRXUSDT",
+        "base_asset": "WRX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 47724
+    },
+    {
+        "symbol": "BTSUSDT",
+        "base_asset": "BTS",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 44233
+    },
+    {
+        "symbol": "LSKUSDT",
+        "base_asset": "LSK",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 22078
+    },
+    {
+        "symbol": "BNTUSDT",
+        "base_asset": "BNT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 29478
+    },
+    {
+        "symbol": "LTOBTC",
+        "base_asset": "LTO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 3728
+    },
+    {
+        "symbol": "LTOUSDT",
+        "base_asset": "LTO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 12003
+    },
+    {
+        "symbol": "MBLUSDT",
+        "base_asset": "MBL",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 37270
+    },
+    {
+        "symbol": "COTIBNB",
+        "base_asset": "COTI",
+        "quote_asset": "BNB",
+        "updated_at": 1696052546441,
+        "count": 541
+    },
+    {
+        "symbol": "COTIBTC",
+        "base_asset": "COTI",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 7434
+    },
+    {
+        "symbol": "COTIUSDT",
+        "base_asset": "COTI",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 46801
+    },
+    {
+        "symbol": "STPTBTC",
+        "base_asset": "STPT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 29545
+    },
+    {
+        "symbol": "STPTUSDT",
+        "base_asset": "STPT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 490278
+    },
+    {
+        "symbol": "BTCZAR",
+        "base_asset": "BTC",
+        "quote_asset": "ZAR",
+        "updated_at": 1696052546441,
+        "count": 5400
+    },
+    {
+        "symbol": "ETHZAR",
+        "base_asset": "ETH",
+        "quote_asset": "ZAR",
+        "updated_at": 1696052546441,
+        "count": 2851
+    },
+    {
+        "symbol": "WTCUSDT",
+        "base_asset": "WTC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 171908
+    },
+    {
+        "symbol": "DATAUSDT",
+        "base_asset": "DATA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 130294
+    },
+    {
+        "symbol": "SOLBNB",
+        "base_asset": "SOL",
+        "quote_asset": "BNB",
+        "updated_at": 1696052546441,
+        "count": 8973
+    },
+    {
+        "symbol": "SOLBTC",
+        "base_asset": "SOL",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 91699
+    },
+    {
+        "symbol": "SOLUSDT",
+        "base_asset": "SOL",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 397294
+    },
+    {
+        "symbol": "CTSIBTC",
+        "base_asset": "CTSI",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 1600
+    },
+    {
+        "symbol": "CTSIUSDT",
+        "base_asset": "CTSI",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 17023
+    },
+    {
+        "symbol": "CTSIBNB",
+        "base_asset": "CTSI",
+        "quote_asset": "BNB",
+        "updated_at": 1696052546441,
+        "count": 184
+    },
+    {
+        "symbol": "HIVEBTC",
+        "base_asset": "HIVE",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 10128
+    },
+    {
+        "symbol": "HIVEUSDT",
+        "base_asset": "HIVE",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 23129
+    },
+    {
+        "symbol": "CHRBNB",
+        "base_asset": "CHR",
+        "quote_asset": "BNB",
+        "updated_at": 1696052546441,
+        "count": 1571
+    },
+    {
+        "symbol": "CHRBTC",
+        "base_asset": "CHR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 4099
+    },
+    {
+        "symbol": "CHRUSDT",
+        "base_asset": "CHR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 52475
+    },
+    {
+        "symbol": "ARDRUSDT",
+        "base_asset": "ARDR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 14503
+    },
+    {
+        "symbol": "MDTBTC",
+        "base_asset": "MDT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 10683
+    },
+    {
+        "symbol": "MDTUSDT",
+        "base_asset": "MDT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 80170
+    },
+    {
+        "symbol": "STMXUSDT",
+        "base_asset": "STMX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 326101
+    },
+    {
+        "symbol": "KNCUSDT",
+        "base_asset": "KNC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 225522
+    },
+    {
+        "symbol": "LRCUSDT",
+        "base_asset": "LRC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 45096
+    },
+    {
+        "symbol": "PNTUSDT",
+        "base_asset": "PNT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 311034
+    },
+    {
+        "symbol": "BTCGBP",
+        "base_asset": "BTC",
+        "quote_asset": "GBP",
+        "updated_at": 1696052546441,
+        "count": 19983
+    },
+    {
+        "symbol": "ETHGBP",
+        "base_asset": "ETH",
+        "quote_asset": "GBP",
+        "updated_at": 1696052546441,
+        "count": 6051
+    },
+    {
+        "symbol": "XRPGBP",
+        "base_asset": "XRP",
+        "quote_asset": "GBP",
+        "updated_at": 1696052546441,
+        "count": 3954
+    },
+    {
+        "symbol": "BNBGBP",
+        "base_asset": "BNB",
+        "quote_asset": "GBP",
+        "updated_at": 1696052546441,
+        "count": 1056
+    },
+    {
+        "symbol": "DGBBTC",
+        "base_asset": "DGB",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 2026
+    },
+    {
+        "symbol": "BTCUAH",
+        "base_asset": "BTC",
+        "quote_asset": "UAH",
+        "updated_at": 1696052546441,
+        "count": 1843
+    },
+    {
+        "symbol": "COMPBTC",
+        "base_asset": "COMP",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 39442
+    },
+    {
+        "symbol": "COMPUSDT",
+        "base_asset": "COMP",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 391366
+    },
+    {
+        "symbol": "SCUSDT",
+        "base_asset": "SC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 28171
+    },
+    {
+        "symbol": "ZENUSDT",
+        "base_asset": "ZEN",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 38293
+    },
+    {
+        "symbol": "SXPBTC",
+        "base_asset": "SXP",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 15393
+    },
+    {
+        "symbol": "SXPBNB",
+        "base_asset": "SXP",
+        "quote_asset": "BNB",
+        "updated_at": 1696052546441,
+        "count": 1826
+    },
+    {
+        "symbol": "SNXBTC",
+        "base_asset": "SNX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 6712
+    },
+    {
+        "symbol": "SNXBNB",
+        "base_asset": "SNX",
+        "quote_asset": "BNB",
+        "updated_at": 1696052546441,
+        "count": 682
+    },
+    {
+        "symbol": "SNXUSDT",
+        "base_asset": "SNX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 146685
+    },
+    {
+        "symbol": "VTHOUSDT",
+        "base_asset": "VTHO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 121927
+    },
+    {
+        "symbol": "DGBUSDT",
+        "base_asset": "DGB",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 23531
+    },
+    {
+        "symbol": "GBPUSDT",
+        "base_asset": "GBP",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 21282
+    },
+    {
+        "symbol": "SXPUSDT",
+        "base_asset": "SXP",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 169989
+    },
+    {
+        "symbol": "IRISBTC",
+        "base_asset": "IRIS",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 1325
+    },
+    {
+        "symbol": "MKRBTC",
+        "base_asset": "MKR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052546441,
+        "count": 22818
+    },
+    {
+        "symbol": "MKRUSDT",
+        "base_asset": "MKR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052546441,
+        "count": 183641
+    },
+    {
+        "symbol": "RUNEBNB",
+        "base_asset": "RUNE",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 1791
+    },
+    {
+        "symbol": "RUNEBTC",
+        "base_asset": "RUNE",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 13916
+    },
+    {
+        "symbol": "DCRUSDT",
+        "base_asset": "DCR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 47775
+    },
+    {
+        "symbol": "STORJUSDT",
+        "base_asset": "STORJ",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 549983
+    },
+    {
+        "symbol": "FIOBTC",
+        "base_asset": "FIO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 6660
+    },
+    {
+        "symbol": "AVABTC",
+        "base_asset": "AVA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 26021
+    },
+    {
+        "symbol": "MANAUSDT",
+        "base_asset": "MANA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 143922
+    },
+    {
+        "symbol": "BALBTC",
+        "base_asset": "BAL",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 454
+    },
+    {
+        "symbol": "YFIBTC",
+        "base_asset": "YFI",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 5361
+    },
+    {
+        "symbol": "YFIUSDT",
+        "base_asset": "YFI",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 33966
+    },
+    {
+        "symbol": "BALUSDT",
+        "base_asset": "BAL",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 22509
+    },
+    {
+        "symbol": "BLZUSDT",
+        "base_asset": "BLZ",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 674853
+    },
+    {
+        "symbol": "IRISUSDT",
+        "base_asset": "IRIS",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 23060
+    },
+    {
+        "symbol": "KMDUSDT",
+        "base_asset": "KMD",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 50503
+    },
+    {
+        "symbol": "ANTBNB",
+        "base_asset": "ANT",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 2481
+    },
+    {
+        "symbol": "ANTBTC",
+        "base_asset": "ANT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 7595
+    },
+    {
+        "symbol": "ANTUSDT",
+        "base_asset": "ANT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 147941
+    },
+    {
+        "symbol": "CRVBTC",
+        "base_asset": "CRV",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 38913
+    },
+    {
+        "symbol": "CRVUSDT",
+        "base_asset": "CRV",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 545091
+    },
+    {
+        "symbol": "SANDBNB",
+        "base_asset": "SAND",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 2294
+    },
+    {
+        "symbol": "SANDBTC",
+        "base_asset": "SAND",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 21397
+    },
+    {
+        "symbol": "SANDUSDT",
+        "base_asset": "SAND",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 124164
+    },
+    {
+        "symbol": "OCEANBNB",
+        "base_asset": "OCEAN",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 908
+    },
+    {
+        "symbol": "OCEANBTC",
+        "base_asset": "OCEAN",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 4880
+    },
+    {
+        "symbol": "OCEANUSDT",
+        "base_asset": "OCEAN",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 41636
+    },
+    {
+        "symbol": "NMRBTC",
+        "base_asset": "NMR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 2676
+    },
+    {
+        "symbol": "NMRUSDT",
+        "base_asset": "NMR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 34839
+    },
+    {
+        "symbol": "DOTBNB",
+        "base_asset": "DOT",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 3580
+    },
+    {
+        "symbol": "DOTBTC",
+        "base_asset": "DOT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 13789
+    },
+    {
+        "symbol": "DOTUSDT",
+        "base_asset": "DOT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 168540
+    },
+    {
+        "symbol": "LUNAUSDT",
+        "base_asset": "LUNA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 775095
+    },
+    {
+        "symbol": "IDEXBTC",
+        "base_asset": "IDEX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 6885
+    },
+    {
+        "symbol": "RSRBNB",
+        "base_asset": "RSR",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 253
+    },
+    {
+        "symbol": "RSRUSDT",
+        "base_asset": "RSR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 93073
+    },
+    {
+        "symbol": "PAXGBNB",
+        "base_asset": "PAXG",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 809
+    },
+    {
+        "symbol": "PAXGBTC",
+        "base_asset": "PAXG",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 3751
+    },
+    {
+        "symbol": "PAXGUSDT",
+        "base_asset": "PAXG",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 17973
+    },
+    {
+        "symbol": "WNXMUSDT",
+        "base_asset": "WNXM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 9611
+    },
+    {
+        "symbol": "TRBBTC",
+        "base_asset": "TRB",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 72882
+    },
+    {
+        "symbol": "TRBUSDT",
+        "base_asset": "TRB",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 1710468
+    },
+    {
+        "symbol": "WBTCBTC",
+        "base_asset": "WBTC",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 7054
+    },
+    {
+        "symbol": "WBTCETH",
+        "base_asset": "WBTC",
+        "quote_asset": "ETH",
+        "updated_at": 1696052547238,
+        "count": 2237
+    },
+    {
+        "symbol": "SUSHIBNB",
+        "base_asset": "SUSHI",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 417
+    },
+    {
+        "symbol": "SUSHIBTC",
+        "base_asset": "SUSHI",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 2320
+    },
+    {
+        "symbol": "SUSHIUSDT",
+        "base_asset": "SUSHI",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 50670
+    },
+    {
+        "symbol": "KSMBTC",
+        "base_asset": "KSM",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 8268
+    },
+    {
+        "symbol": "KSMUSDT",
+        "base_asset": "KSM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 45176
+    },
+    {
+        "symbol": "EGLDBNB",
+        "base_asset": "EGLD",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 476
+    },
+    {
+        "symbol": "EGLDBTC",
+        "base_asset": "EGLD",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 9738
+    },
+    {
+        "symbol": "EGLDUSDT",
+        "base_asset": "EGLD",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 81584
+    },
+    {
+        "symbol": "DIABTC",
+        "base_asset": "DIA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 2095
+    },
+    {
+        "symbol": "DIAUSDT",
+        "base_asset": "DIA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 22847
+    },
+    {
+        "symbol": "RUNEUSDT",
+        "base_asset": "RUNE",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 221079
+    },
+    {
+        "symbol": "FIOUSDT",
+        "base_asset": "FIO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 29032
+    },
+    {
+        "symbol": "UMABTC",
+        "base_asset": "UMA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 3071
+    },
+    {
+        "symbol": "UMAUSDT",
+        "base_asset": "UMA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 48502
+    },
+    {
+        "symbol": "LINKTRY",
+        "base_asset": "LINK",
+        "quote_asset": "TRY",
+        "updated_at": 1696052547238,
+        "count": 19931
+    },
+    {
+        "symbol": "BELBNB",
+        "base_asset": "BEL",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 826
+    },
+    {
+        "symbol": "BELBTC",
+        "base_asset": "BEL",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 6400
+    },
+    {
+        "symbol": "BELUSDT",
+        "base_asset": "BEL",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 165102
+    },
+    {
+        "symbol": "WINGBTC",
+        "base_asset": "WING",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 14274
+    },
+    {
+        "symbol": "WINGUSDT",
+        "base_asset": "WING",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 88174
+    },
+    {
+        "symbol": "UNIBNB",
+        "base_asset": "UNI",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 4644
+    },
+    {
+        "symbol": "UNIBTC",
+        "base_asset": "UNI",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 11827
+    },
+    {
+        "symbol": "UNIUSDT",
+        "base_asset": "UNI",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 119930
+    },
+    {
+        "symbol": "OXTBTC",
+        "base_asset": "OXT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 4208
+    },
+    {
+        "symbol": "OXTUSDT",
+        "base_asset": "OXT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 46156
+    },
+    {
+        "symbol": "SUNUSDT",
+        "base_asset": "SUN",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 17144
+    },
+    {
+        "symbol": "AVAXBNB",
+        "base_asset": "AVAX",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 3220
+    },
+    {
+        "symbol": "AVAXBTC",
+        "base_asset": "AVAX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 23671
+    },
+    {
+        "symbol": "AVAXUSDT",
+        "base_asset": "AVAX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 154354
+    },
+    {
+        "symbol": "BAKEBNB",
+        "base_asset": "BAKE",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 434
+    },
+    {
+        "symbol": "FLMBTC",
+        "base_asset": "FLM",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 19186
+    },
+    {
+        "symbol": "FLMUSDT",
+        "base_asset": "FLM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 390025
+    },
+    {
+        "symbol": "SCRTBTC",
+        "base_asset": "SCRT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 16264
+    },
+    {
+        "symbol": "SCRTETH",
+        "base_asset": "SCRT",
+        "quote_asset": "ETH",
+        "updated_at": 1696052547238,
+        "count": 7455
+    },
+    {
+        "symbol": "CAKEBNB",
+        "base_asset": "CAKE",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 1851
+    },
+    {
+        "symbol": "ORNBTC",
+        "base_asset": "ORN",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 11374
+    },
+    {
+        "symbol": "ORNUSDT",
+        "base_asset": "ORN",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 18389
+    },
+    {
+        "symbol": "SXPTRY",
+        "base_asset": "SXP",
+        "quote_asset": "TRY",
+        "updated_at": 1696052547238,
+        "count": 49817
+    },
+    {
+        "symbol": "UTKBTC",
+        "base_asset": "UTK",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 10272
+    },
+    {
+        "symbol": "UTKUSDT",
+        "base_asset": "UTK",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 33284
+    },
+    {
+        "symbol": "XVSBNB",
+        "base_asset": "XVS",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 2451
+    },
+    {
+        "symbol": "XVSBTC",
+        "base_asset": "XVS",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 8998
+    },
+    {
+        "symbol": "XVSUSDT",
+        "base_asset": "XVS",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 153676
+    },
+    {
+        "symbol": "ALPHABTC",
+        "base_asset": "ALPHA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 8007
+    },
+    {
+        "symbol": "ALPHAUSDT",
+        "base_asset": "ALPHA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 28061
+    },
+    {
+        "symbol": "VIDTBTC",
+        "base_asset": "VIDT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 5335
+    },
+    {
+        "symbol": "AAVEBNB",
+        "base_asset": "AAVE",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 7173
+    },
+    {
+        "symbol": "BTCBRL",
+        "base_asset": "BTC",
+        "quote_asset": "BRL",
+        "updated_at": 1696052547238,
+        "count": 94693
+    },
+    {
+        "symbol": "AAVEBTC",
+        "base_asset": "AAVE",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 23267
+    },
+    {
+        "symbol": "AAVEETH",
+        "base_asset": "AAVE",
+        "quote_asset": "ETH",
+        "updated_at": 1696052547238,
+        "count": 7335
+    },
+    {
+        "symbol": "AAVEUSDT",
+        "base_asset": "AAVE",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 275649
+    },
+    {
+        "symbol": "NEARBNB",
+        "base_asset": "NEAR",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 1895
+    },
+    {
+        "symbol": "NEARBTC",
+        "base_asset": "NEAR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 15716
+    },
+    {
+        "symbol": "NEARUSDT",
+        "base_asset": "NEAR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 102510
+    },
+    {
+        "symbol": "FILBNB",
+        "base_asset": "FIL",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 2087
+    },
+    {
+        "symbol": "FILBTC",
+        "base_asset": "FIL",
+        "quote_asset": "BTC",
+        "updated_at": 1696052547238,
+        "count": 14914
+    },
+    {
+        "symbol": "FILUSDT",
+        "base_asset": "FIL",
+        "quote_asset": "USDT",
+        "updated_at": 1696052547238,
+        "count": 175051
+    },
+    {
+        "symbol": "INJBNB",
+        "base_asset": "INJ",
+        "quote_asset": "BNB",
+        "updated_at": 1696052547238,
+        "count": 4653
+    },
+    {
+        "symbol": "INJBTC",
+        "base_asset": "INJ",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 7758
+    },
+    {
+        "symbol": "INJUSDT",
+        "base_asset": "INJ",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 128512
+    },
+    {
+        "symbol": "AERGOBTC",
+        "base_asset": "AERGO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 1357
+    },
+    {
+        "symbol": "LINKEUR",
+        "base_asset": "LINK",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548064,
+        "count": 9779
+    },
+    {
+        "symbol": "AUDIOBTC",
+        "base_asset": "AUDIO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 5280
+    },
+    {
+        "symbol": "AUDIOUSDT",
+        "base_asset": "AUDIO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 33882
+    },
+    {
+        "symbol": "CTKBNB",
+        "base_asset": "CTK",
+        "quote_asset": "BNB",
+        "updated_at": 1696052548064,
+        "count": 26323
+    },
+    {
+        "symbol": "CTKBTC",
+        "base_asset": "CTK",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 28286
+    },
+    {
+        "symbol": "CTKUSDT",
+        "base_asset": "CTK",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 32517
+    },
+    {
+        "symbol": "ETHBRL",
+        "base_asset": "ETH",
+        "quote_asset": "BRL",
+        "updated_at": 1696052548064,
+        "count": 29410
+    },
+    {
+        "symbol": "DOTEUR",
+        "base_asset": "DOT",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548064,
+        "count": 6008
+    },
+    {
+        "symbol": "AKROUSDT",
+        "base_asset": "AKRO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 246313
+    },
+    {
+        "symbol": "AXSBNB",
+        "base_asset": "AXS",
+        "quote_asset": "BNB",
+        "updated_at": 1696052548064,
+        "count": 2256
+    },
+    {
+        "symbol": "AXSBTC",
+        "base_asset": "AXS",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 23787
+    },
+    {
+        "symbol": "AXSUSDT",
+        "base_asset": "AXS",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 85114
+    },
+    {
+        "symbol": "HARDBNB",
+        "base_asset": "HARD",
+        "quote_asset": "BNB",
+        "updated_at": 1696052548064,
+        "count": 771
+    },
+    {
+        "symbol": "HARDBTC",
+        "base_asset": "HARD",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 6659
+    },
+    {
+        "symbol": "HARDUSDT",
+        "base_asset": "HARD",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 51727
+    },
+    {
+        "symbol": "BNBBRL",
+        "base_asset": "BNB",
+        "quote_asset": "BRL",
+        "updated_at": 1696052548064,
+        "count": 18467
+    },
+    {
+        "symbol": "LTCEUR",
+        "base_asset": "LTC",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548064,
+        "count": 29446
+    },
+    {
+        "symbol": "SLPETH",
+        "base_asset": "SLP",
+        "quote_asset": "ETH",
+        "updated_at": 1696052548064,
+        "count": 3309
+    },
+    {
+        "symbol": "ADAEUR",
+        "base_asset": "ADA",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548064,
+        "count": 10420
+    },
+    {
+        "symbol": "STRAXBTC",
+        "base_asset": "STRAX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 20288
+    },
+    {
+        "symbol": "STRAXUSDT",
+        "base_asset": "STRAX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 64416
+    },
+    {
+        "symbol": "FORBTC",
+        "base_asset": "FOR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 3600
+    },
+    {
+        "symbol": "UNFIBTC",
+        "base_asset": "UNFI",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 5008
+    },
+    {
+        "symbol": "UNFIUSDT",
+        "base_asset": "UNFI",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 193205
+    },
+    {
+        "symbol": "ROSEBTC",
+        "base_asset": "ROSE",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 4591
+    },
+    {
+        "symbol": "ROSEUSDT",
+        "base_asset": "ROSE",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 127009
+    },
+    {
+        "symbol": "AVAXTRY",
+        "base_asset": "AVAX",
+        "quote_asset": "TRY",
+        "updated_at": 1696052548064,
+        "count": 31803
+    },
+    {
+        "symbol": "AVAUSDT",
+        "base_asset": "AVA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 30221
+    },
+    {
+        "symbol": "XEMUSDT",
+        "base_asset": "XEM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 57092
+    },
+    {
+        "symbol": "XRPBRL",
+        "base_asset": "XRP",
+        "quote_asset": "BRL",
+        "updated_at": 1696052548064,
+        "count": 10188
+    },
+    {
+        "symbol": "SKLBTC",
+        "base_asset": "SKL",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 4074
+    },
+    {
+        "symbol": "SKLUSDT",
+        "base_asset": "SKL",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 22306
+    },
+    {
+        "symbol": "BCHEUR",
+        "base_asset": "BCH",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548064,
+        "count": 6856
+    },
+    {
+        "symbol": "YFIEUR",
+        "base_asset": "YFI",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548064,
+        "count": 68
+    },
+    {
+        "symbol": "GLMBTC",
+        "base_asset": "GLM",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 2770
+    },
+    {
+        "symbol": "LINKBRL",
+        "base_asset": "LINK",
+        "quote_asset": "BRL",
+        "updated_at": 1696052548064,
+        "count": 6721
+    },
+    {
+        "symbol": "LTCRUB",
+        "base_asset": "LTC",
+        "quote_asset": "RUB",
+        "updated_at": 1696052548064,
+        "count": 4833
+    },
+    {
+        "symbol": "TRXTRY",
+        "base_asset": "TRX",
+        "quote_asset": "TRY",
+        "updated_at": 1696052548064,
+        "count": 76757
+    },
+    {
+        "symbol": "XLMEUR",
+        "base_asset": "XLM",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548064,
+        "count": 2949
+    },
+    {
+        "symbol": "GRTBTC",
+        "base_asset": "GRT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 8710
+    },
+    {
+        "symbol": "GRTETH",
+        "base_asset": "GRT",
+        "quote_asset": "ETH",
+        "updated_at": 1696052548064,
+        "count": 557
+    },
+    {
+        "symbol": "GRTUSDT",
+        "base_asset": "GRT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 68425
+    },
+    {
+        "symbol": "JUVUSDT",
+        "base_asset": "JUV",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 15254
+    },
+    {
+        "symbol": "PSGBTC",
+        "base_asset": "PSG",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 2647
+    },
+    {
+        "symbol": "PSGUSDT",
+        "base_asset": "PSG",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 18835
+    },
+    {
+        "symbol": "1INCHBTC",
+        "base_asset": "1INCH",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 5681
+    },
+    {
+        "symbol": "1INCHUSDT",
+        "base_asset": "1INCH",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 73873
+    },
+    {
+        "symbol": "REEFUSDT",
+        "base_asset": "REEF",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 65493
+    },
+    {
+        "symbol": "OGBTC",
+        "base_asset": "OG",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 10305
+    },
+    {
+        "symbol": "OGUSDT",
+        "base_asset": "OG",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 70960
+    },
+    {
+        "symbol": "ATMUSDT",
+        "base_asset": "ATM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 14200
+    },
+    {
+        "symbol": "ASRUSDT",
+        "base_asset": "ASR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 14953
+    },
+    {
+        "symbol": "CELOBTC",
+        "base_asset": "CELO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 5686
+    },
+    {
+        "symbol": "CELOUSDT",
+        "base_asset": "CELO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 93557
+    },
+    {
+        "symbol": "RIFBTC",
+        "base_asset": "RIF",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 5053
+    },
+    {
+        "symbol": "RIFUSDT",
+        "base_asset": "RIF",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 14933
+    },
+    {
+        "symbol": "CHZTRY",
+        "base_asset": "CHZ",
+        "quote_asset": "TRY",
+        "updated_at": 1696052548064,
+        "count": 21548
+    },
+    {
+        "symbol": "XLMTRY",
+        "base_asset": "XLM",
+        "quote_asset": "TRY",
+        "updated_at": 1696052548064,
+        "count": 13499
+    },
+    {
+        "symbol": "LINKGBP",
+        "base_asset": "LINK",
+        "quote_asset": "GBP",
+        "updated_at": 1696052548064,
+        "count": 341
+    },
+    {
+        "symbol": "GRTEUR",
+        "base_asset": "GRT",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548064,
+        "count": 628
+    },
+    {
+        "symbol": "TRUBTC",
+        "base_asset": "TRU",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 4936
+    },
+    {
+        "symbol": "TRUUSDT",
+        "base_asset": "TRU",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 55729
+    },
+    {
+        "symbol": "DEXEETH",
+        "base_asset": "DEXE",
+        "quote_asset": "ETH",
+        "updated_at": 1696052548064,
+        "count": 945
+    },
+    {
+        "symbol": "EOSEUR",
+        "base_asset": "EOS",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548064,
+        "count": 698
+    },
+    {
+        "symbol": "LTCBRL",
+        "base_asset": "LTC",
+        "quote_asset": "BRL",
+        "updated_at": 1696052548064,
+        "count": 6241
+    },
+    {
+        "symbol": "CKBUSDT",
+        "base_asset": "CKB",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 41120
+    },
+    {
+        "symbol": "TWTBTC",
+        "base_asset": "TWT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 3991
+    },
+    {
+        "symbol": "TWTUSDT",
+        "base_asset": "TWT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 66560
+    },
+    {
+        "symbol": "FIROBTC",
+        "base_asset": "FIRO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 6683
+    },
+    {
+        "symbol": "FIROUSDT",
+        "base_asset": "FIRO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 15130
+    },
+    {
+        "symbol": "BETHETH",
+        "base_asset": "BETH",
+        "quote_asset": "ETH",
+        "updated_at": 1696052548064,
+        "count": 20537
+    },
+    {
+        "symbol": "DOGEEUR",
+        "base_asset": "DOGE",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548064,
+        "count": 8411
+    },
+    {
+        "symbol": "DOGETRY",
+        "base_asset": "DOGE",
+        "quote_asset": "TRY",
+        "updated_at": 1696052548064,
+        "count": 24711
+    },
+    {
+        "symbol": "DOGEBRL",
+        "base_asset": "DOGE",
+        "quote_asset": "BRL",
+        "updated_at": 1696052548064,
+        "count": 3448
+    },
+    {
+        "symbol": "LITBTC",
+        "base_asset": "LIT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 13073
+    },
+    {
+        "symbol": "LITUSDT",
+        "base_asset": "LIT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 46576
+    },
+    {
+        "symbol": "SFPBTC",
+        "base_asset": "SFP",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 1393
+    },
+    {
+        "symbol": "SFPUSDT",
+        "base_asset": "SFP",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 33717
+    },
+    {
+        "symbol": "DOGEGBP",
+        "base_asset": "DOGE",
+        "quote_asset": "GBP",
+        "updated_at": 1696052548064,
+        "count": 2063
+    },
+    {
+        "symbol": "DOTTRY",
+        "base_asset": "DOT",
+        "quote_asset": "TRY",
+        "updated_at": 1696052548064,
+        "count": 6239
+    },
+    {
+        "symbol": "FXSBTC",
+        "base_asset": "FXS",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 2214
+    },
+    {
+        "symbol": "DODOBTC",
+        "base_asset": "DODO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 2538
+    },
+    {
+        "symbol": "DODOUSDT",
+        "base_asset": "DODO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 53129
+    },
+    {
+        "symbol": "FRONTBTC",
+        "base_asset": "FRONT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 100203
+    },
+    {
+        "symbol": "CAKEBTC",
+        "base_asset": "CAKE",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 5876
+    },
+    {
+        "symbol": "CAKEUSDT",
+        "base_asset": "CAKE",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 80753
+    },
+    {
+        "symbol": "UFTETH",
+        "base_asset": "UFT",
+        "quote_asset": "ETH",
+        "updated_at": 1696052548064,
+        "count": 1446
+    },
+    {
+        "symbol": "ACMUSDT",
+        "base_asset": "ACM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 15323
+    },
+    {
+        "symbol": "AUCTIONBTC",
+        "base_asset": "AUCTION",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 13389
+    },
+    {
+        "symbol": "PHABTC",
+        "base_asset": "PHA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 12960
+    },
+    {
+        "symbol": "DOTGBP",
+        "base_asset": "DOT",
+        "quote_asset": "GBP",
+        "updated_at": 1696052548064,
+        "count": 119
+    },
+    {
+        "symbol": "ADATRY",
+        "base_asset": "ADA",
+        "quote_asset": "TRY",
+        "updated_at": 1696052548064,
+        "count": 10548
+    },
+    {
+        "symbol": "ADABRL",
+        "base_asset": "ADA",
+        "quote_asset": "BRL",
+        "updated_at": 1696052548064,
+        "count": 3459
+    },
+    {
+        "symbol": "ADAGBP",
+        "base_asset": "ADA",
+        "quote_asset": "GBP",
+        "updated_at": 1696052548064,
+        "count": 296
+    },
+    {
+        "symbol": "TVKBTC",
+        "base_asset": "TVK",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 10518
+    },
+    {
+        "symbol": "BADGERBTC",
+        "base_asset": "BADGER",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548064,
+        "count": 9505
+    },
+    {
+        "symbol": "BADGERUSDT",
+        "base_asset": "BADGER",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548064,
+        "count": 59036
+    },
+    {
+        "symbol": "FISBTC",
+        "base_asset": "FIS",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 18228
+    },
+    {
+        "symbol": "FISUSDT",
+        "base_asset": "FIS",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 195002
+    },
+    {
+        "symbol": "DOTBRL",
+        "base_asset": "DOT",
+        "quote_asset": "BRL",
+        "updated_at": 1696052548966,
+        "count": 1598
+    },
+    {
+        "symbol": "HOTTRY",
+        "base_asset": "HOT",
+        "quote_asset": "TRY",
+        "updated_at": 1696052548966,
+        "count": 12935
+    },
+    {
+        "symbol": "EGLDEUR",
+        "base_asset": "EGLD",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548966,
+        "count": 2425
+    },
+    {
+        "symbol": "OMBTC",
+        "base_asset": "OM",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 7696
+    },
+    {
+        "symbol": "OMUSDT",
+        "base_asset": "OM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 39407
+    },
+    {
+        "symbol": "PONDBTC",
+        "base_asset": "POND",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 850
+    },
+    {
+        "symbol": "PONDUSDT",
+        "base_asset": "POND",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 34366
+    },
+    {
+        "symbol": "DEGOBTC",
+        "base_asset": "DEGO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 13396
+    },
+    {
+        "symbol": "DEGOUSDT",
+        "base_asset": "DEGO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 28827
+    },
+    {
+        "symbol": "AVAXEUR",
+        "base_asset": "AVAX",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548966,
+        "count": 2926
+    },
+    {
+        "symbol": "CHZBRL",
+        "base_asset": "CHZ",
+        "quote_asset": "BRL",
+        "updated_at": 1696052548966,
+        "count": 597
+    },
+    {
+        "symbol": "ALICEBTC",
+        "base_asset": "ALICE",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 9929
+    },
+    {
+        "symbol": "ALICEUSDT",
+        "base_asset": "ALICE",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 76391
+    },
+    {
+        "symbol": "CHZEUR",
+        "base_asset": "CHZ",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548966,
+        "count": 491
+    },
+    {
+        "symbol": "LINABTC",
+        "base_asset": "LINA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 4533
+    },
+    {
+        "symbol": "LINAUSDT",
+        "base_asset": "LINA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 102929
+    },
+    {
+        "symbol": "ADARUB",
+        "base_asset": "ADA",
+        "quote_asset": "RUB",
+        "updated_at": 1696052548966,
+        "count": 582
+    },
+    {
+        "symbol": "ENJEUR",
+        "base_asset": "ENJ",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548966,
+        "count": 1013
+    },
+    {
+        "symbol": "MATICEUR",
+        "base_asset": "MATIC",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548966,
+        "count": 10259
+    },
+    {
+        "symbol": "NEOTRY",
+        "base_asset": "NEO",
+        "quote_asset": "TRY",
+        "updated_at": 1696052548966,
+        "count": 1968
+    },
+    {
+        "symbol": "PERPBTC",
+        "base_asset": "PERP",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 4045
+    },
+    {
+        "symbol": "PERPUSDT",
+        "base_asset": "PERP",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 144025
+    },
+    {
+        "symbol": "SUPERBTC",
+        "base_asset": "SUPER",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 4662
+    },
+    {
+        "symbol": "SUPERUSDT",
+        "base_asset": "SUPER",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 26171
+    },
+    {
+        "symbol": "CFXBTC",
+        "base_asset": "CFX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 14253
+    },
+    {
+        "symbol": "CFXUSDT",
+        "base_asset": "CFX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 104874
+    },
+    {
+        "symbol": "EOSTRY",
+        "base_asset": "EOS",
+        "quote_asset": "TRY",
+        "updated_at": 1696052548966,
+        "count": 2569
+    },
+    {
+        "symbol": "LTCGBP",
+        "base_asset": "LTC",
+        "quote_asset": "GBP",
+        "updated_at": 1696052548966,
+        "count": 1253
+    },
+    {
+        "symbol": "RVNTRY",
+        "base_asset": "RVN",
+        "quote_asset": "TRY",
+        "updated_at": 1696052548966,
+        "count": 3873
+    },
+    {
+        "symbol": "THETAEUR",
+        "base_asset": "THETA",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548966,
+        "count": 669
+    },
+    {
+        "symbol": "TKOBTC",
+        "base_asset": "TKO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 7243
+    },
+    {
+        "symbol": "TKOUSDT",
+        "base_asset": "TKO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 22881
+    },
+    {
+        "symbol": "PUNDIXETH",
+        "base_asset": "PUNDIX",
+        "quote_asset": "ETH",
+        "updated_at": 1696052548966,
+        "count": 671
+    },
+    {
+        "symbol": "PUNDIXUSDT",
+        "base_asset": "PUNDIX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 29050
+    },
+    {
+        "symbol": "WINEUR",
+        "base_asset": "WIN",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548966,
+        "count": 2257
+    },
+    {
+        "symbol": "TLMBTC",
+        "base_asset": "TLM",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 1773
+    },
+    {
+        "symbol": "TLMUSDT",
+        "base_asset": "TLM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 34556
+    },
+    {
+        "symbol": "BNBUAH",
+        "base_asset": "BNB",
+        "quote_asset": "UAH",
+        "updated_at": 1696052548966,
+        "count": 1011
+    },
+    {
+        "symbol": "ONTTRY",
+        "base_asset": "ONT",
+        "quote_asset": "TRY",
+        "updated_at": 1696052548966,
+        "count": 5388
+    },
+    {
+        "symbol": "VETEUR",
+        "base_asset": "VET",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548966,
+        "count": 3214
+    },
+    {
+        "symbol": "WINBRL",
+        "base_asset": "WIN",
+        "quote_asset": "BRL",
+        "updated_at": 1696052548966,
+        "count": 3355
+    },
+    {
+        "symbol": "BARUSDT",
+        "base_asset": "BAR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 14501
+    },
+    {
+        "symbol": "FORTHBTC",
+        "base_asset": "FORTH",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 8093
+    },
+    {
+        "symbol": "FORTHUSDT",
+        "base_asset": "FORTH",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 39452
+    },
+    {
+        "symbol": "BAKEUSDT",
+        "base_asset": "BAKE",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 139515
+    },
+    {
+        "symbol": "BURGERUSDT",
+        "base_asset": "BURGER",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 99452
+    },
+    {
+        "symbol": "SLPUSDT",
+        "base_asset": "SLP",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 56882
+    },
+    {
+        "symbol": "TRXEUR",
+        "base_asset": "TRX",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548966,
+        "count": 28344
+    },
+    {
+        "symbol": "VETTRY",
+        "base_asset": "VET",
+        "quote_asset": "TRY",
+        "updated_at": 1696052548966,
+        "count": 3872
+    },
+    {
+        "symbol": "SHIBUSDT",
+        "base_asset": "SHIB",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 211303
+    },
+    {
+        "symbol": "ICPBTC",
+        "base_asset": "ICP",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 7893
+    },
+    {
+        "symbol": "ICPBNB",
+        "base_asset": "ICP",
+        "quote_asset": "BNB",
+        "updated_at": 1696052548966,
+        "count": 816
+    },
+    {
+        "symbol": "ICPUSDT",
+        "base_asset": "ICP",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 129903
+    },
+    {
+        "symbol": "SHIBEUR",
+        "base_asset": "SHIB",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548966,
+        "count": 5981
+    },
+    {
+        "symbol": "ETCEUR",
+        "base_asset": "ETC",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548966,
+        "count": 512
+    },
+    {
+        "symbol": "ARBTC",
+        "base_asset": "AR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 4602
+    },
+    {
+        "symbol": "ARUSDT",
+        "base_asset": "AR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 38772
+    },
+    {
+        "symbol": "POLSBTC",
+        "base_asset": "POLS",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 18166
+    },
+    {
+        "symbol": "POLSBNB",
+        "base_asset": "POLS",
+        "quote_asset": "BNB",
+        "updated_at": 1696052548966,
+        "count": 4801
+    },
+    {
+        "symbol": "POLSUSDT",
+        "base_asset": "POLS",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 88952
+    },
+    {
+        "symbol": "MDXBTC",
+        "base_asset": "MDX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 996
+    },
+    {
+        "symbol": "MDXUSDT",
+        "base_asset": "MDX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 78607
+    },
+    {
+        "symbol": "MASKBNB",
+        "base_asset": "MASK",
+        "quote_asset": "BNB",
+        "updated_at": 1696052548966,
+        "count": 651
+    },
+    {
+        "symbol": "MASKUSDT",
+        "base_asset": "MASK",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 95511
+    },
+    {
+        "symbol": "LPTBTC",
+        "base_asset": "LPT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 1677
+    },
+    {
+        "symbol": "LPTBNB",
+        "base_asset": "LPT",
+        "quote_asset": "BNB",
+        "updated_at": 1696052548966,
+        "count": 184
+    },
+    {
+        "symbol": "LPTUSDT",
+        "base_asset": "LPT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 34206
+    },
+    {
+        "symbol": "ETHUAH",
+        "base_asset": "ETH",
+        "quote_asset": "UAH",
+        "updated_at": 1696052548966,
+        "count": 940
+    },
+    {
+        "symbol": "MATICBRL",
+        "base_asset": "MATIC",
+        "quote_asset": "BRL",
+        "updated_at": 1696052548966,
+        "count": 7304
+    },
+    {
+        "symbol": "SOLEUR",
+        "base_asset": "SOL",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548966,
+        "count": 11900
+    },
+    {
+        "symbol": "SHIBBRL",
+        "base_asset": "SHIB",
+        "quote_asset": "BRL",
+        "updated_at": 1696052548966,
+        "count": 7270
+    },
+    {
+        "symbol": "AGIXBTC",
+        "base_asset": "AGIX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 11618
+    },
+    {
+        "symbol": "ICPEUR",
+        "base_asset": "ICP",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548966,
+        "count": 495
+    },
+    {
+        "symbol": "MATICGBP",
+        "base_asset": "MATIC",
+        "quote_asset": "GBP",
+        "updated_at": 1696052548966,
+        "count": 589
+    },
+    {
+        "symbol": "SHIBTRY",
+        "base_asset": "SHIB",
+        "quote_asset": "TRY",
+        "updated_at": 1696052548966,
+        "count": 90515
+    },
+    {
+        "symbol": "MATICRUB",
+        "base_asset": "MATIC",
+        "quote_asset": "RUB",
+        "updated_at": 1696052548966,
+        "count": 520
+    },
+    {
+        "symbol": "XVGUSDT",
+        "base_asset": "XVG",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 65052
+    },
+    {
+        "symbol": "ATABTC",
+        "base_asset": "ATA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 3413
+    },
+    {
+        "symbol": "ATAUSDT",
+        "base_asset": "ATA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 58326
+    },
+    {
+        "symbol": "GTCBTC",
+        "base_asset": "GTC",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 10897
+    },
+    {
+        "symbol": "GTCUSDT",
+        "base_asset": "GTC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 48915
+    },
+    {
+        "symbol": "MATICTRY",
+        "base_asset": "MATIC",
+        "quote_asset": "TRY",
+        "updated_at": 1696052548966,
+        "count": 16394
+    },
+    {
+        "symbol": "SOLGBP",
+        "base_asset": "SOL",
+        "quote_asset": "GBP",
+        "updated_at": 1696052548966,
+        "count": 471
+    },
+    {
+        "symbol": "BAKEBTC",
+        "base_asset": "BAKE",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 6475
+    },
+    {
+        "symbol": "SOLTRY",
+        "base_asset": "SOL",
+        "quote_asset": "TRY",
+        "updated_at": 1696052548966,
+        "count": 19953
+    },
+    {
+        "symbol": "SOLBRL",
+        "base_asset": "SOL",
+        "quote_asset": "BRL",
+        "updated_at": 1696052548966,
+        "count": 3295
+    },
+    {
+        "symbol": "ERNUSDT",
+        "base_asset": "ERN",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 23992
+    },
+    {
+        "symbol": "KLAYBTC",
+        "base_asset": "KLAY",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 4051
+    },
+    {
+        "symbol": "KLAYUSDT",
+        "base_asset": "KLAY",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 63944
+    },
+    {
+        "symbol": "RUNEEUR",
+        "base_asset": "RUNE",
+        "quote_asset": "EUR",
+        "updated_at": 1696052548966,
+        "count": 782
+    },
+    {
+        "symbol": "DOTRUB",
+        "base_asset": "DOT",
+        "quote_asset": "RUB",
+        "updated_at": 1696052548966,
+        "count": 362
+    },
+    {
+        "symbol": "PHAUSDT",
+        "base_asset": "PHA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 147921
+    },
+    {
+        "symbol": "SOLRUB",
+        "base_asset": "SOL",
+        "quote_asset": "RUB",
+        "updated_at": 1696052548966,
+        "count": 697
+    },
+    {
+        "symbol": "BONDBTC",
+        "base_asset": "BOND",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 10692
+    },
+    {
+        "symbol": "BONDUSDT",
+        "base_asset": "BOND",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 62446
+    },
+    {
+        "symbol": "MLNBTC",
+        "base_asset": "MLN",
+        "quote_asset": "BTC",
+        "updated_at": 1696052548966,
+        "count": 28570
+    },
+    {
+        "symbol": "MLNUSDT",
+        "base_asset": "MLN",
+        "quote_asset": "USDT",
+        "updated_at": 1696052548966,
+        "count": 352894
+    },
+    {
+        "symbol": "GRTTRY",
+        "base_asset": "GRT",
+        "quote_asset": "TRY",
+        "updated_at": 1696052548966,
+        "count": 9157
+    },
+    {
+        "symbol": "DEXEUSDT",
+        "base_asset": "DEXE",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 19442
+    },
+    {
+        "symbol": "QUICKBTC",
+        "base_asset": "QUICK",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 6306
+    },
+    {
+        "symbol": "C98USDT",
+        "base_asset": "C98",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 91892
+    },
+    {
+        "symbol": "C98BTC",
+        "base_asset": "C98",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 5409
+    },
+    {
+        "symbol": "CLVBTC",
+        "base_asset": "CLV",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 6444
+    },
+    {
+        "symbol": "CLVUSDT",
+        "base_asset": "CLV",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 66526
+    },
+    {
+        "symbol": "QNTBTC",
+        "base_asset": "QNT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 10228
+    },
+    {
+        "symbol": "QNTUSDT",
+        "base_asset": "QNT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 69275
+    },
+    {
+        "symbol": "FLOWBTC",
+        "base_asset": "FLOW",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 21828
+    },
+    {
+        "symbol": "FLOWBNB",
+        "base_asset": "FLOW",
+        "quote_asset": "BNB",
+        "updated_at": 1696052549759,
+        "count": 4535
+    },
+    {
+        "symbol": "FLOWUSDT",
+        "base_asset": "FLOW",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 63998
+    },
+    {
+        "symbol": "TVKUSDT",
+        "base_asset": "TVK",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 99719
+    },
+    {
+        "symbol": "MINABTC",
+        "base_asset": "MINA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 9670
+    },
+    {
+        "symbol": "MINAUSDT",
+        "base_asset": "MINA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 54589
+    },
+    {
+        "symbol": "RAYBNB",
+        "base_asset": "RAY",
+        "quote_asset": "BNB",
+        "updated_at": 1696052549759,
+        "count": 415
+    },
+    {
+        "symbol": "RAYUSDT",
+        "base_asset": "RAY",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 33199
+    },
+    {
+        "symbol": "FARMBTC",
+        "base_asset": "FARM",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 12490
+    },
+    {
+        "symbol": "FARMUSDT",
+        "base_asset": "FARM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 46236
+    },
+    {
+        "symbol": "ALPACABTC",
+        "base_asset": "ALPACA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 1395
+    },
+    {
+        "symbol": "ALPACAUSDT",
+        "base_asset": "ALPACA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 14175
+    },
+    {
+        "symbol": "TLMTRY",
+        "base_asset": "TLM",
+        "quote_asset": "TRY",
+        "updated_at": 1696052549759,
+        "count": 11096
+    },
+    {
+        "symbol": "QUICKUSDT",
+        "base_asset": "QUICK",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 91034
+    },
+    {
+        "symbol": "MBOXBTC",
+        "base_asset": "MBOX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 6680
+    },
+    {
+        "symbol": "MBOXBNB",
+        "base_asset": "MBOX",
+        "quote_asset": "BNB",
+        "updated_at": 1696052549759,
+        "count": 582
+    },
+    {
+        "symbol": "MBOXUSDT",
+        "base_asset": "MBOX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 47085
+    },
+    {
+        "symbol": "FORUSDT",
+        "base_asset": "FOR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 26191
+    },
+    {
+        "symbol": "REQUSDT",
+        "base_asset": "REQ",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 11853
+    },
+    {
+        "symbol": "GHSTUSDT",
+        "base_asset": "GHST",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 7779
+    },
+    {
+        "symbol": "WAXPUSDT",
+        "base_asset": "WAXP",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 54514
+    },
+    {
+        "symbol": "WAXPBTC",
+        "base_asset": "WAXP",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 10744
+    },
+    {
+        "symbol": "GNOUSDT",
+        "base_asset": "GNO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 5196
+    },
+    {
+        "symbol": "ARPATRY",
+        "base_asset": "ARPA",
+        "quote_asset": "TRY",
+        "updated_at": 1696052549759,
+        "count": 23802
+    },
+    {
+        "symbol": "PROMBTC",
+        "base_asset": "PROM",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 6064
+    },
+    {
+        "symbol": "XECUSDT",
+        "base_asset": "XEC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 74861
+    },
+    {
+        "symbol": "ELFUSDT",
+        "base_asset": "ELF",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 65893
+    },
+    {
+        "symbol": "DYDXUSDT",
+        "base_asset": "DYDX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 84827
+    },
+    {
+        "symbol": "DYDXBNB",
+        "base_asset": "DYDX",
+        "quote_asset": "BNB",
+        "updated_at": 1696052549759,
+        "count": 364
+    },
+    {
+        "symbol": "DYDXBTC",
+        "base_asset": "DYDX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 5854
+    },
+    {
+        "symbol": "IDEXUSDT",
+        "base_asset": "IDEX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 57345
+    },
+    {
+        "symbol": "VIDTUSDT",
+        "base_asset": "VIDT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 29332
+    },
+    {
+        "symbol": "GALAUSDT",
+        "base_asset": "GALA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 192596
+    },
+    {
+        "symbol": "GALABNB",
+        "base_asset": "GALA",
+        "quote_asset": "BNB",
+        "updated_at": 1696052549759,
+        "count": 3344
+    },
+    {
+        "symbol": "GALABTC",
+        "base_asset": "GALA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 4110
+    },
+    {
+        "symbol": "ILVUSDT",
+        "base_asset": "ILV",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 28686
+    },
+    {
+        "symbol": "ILVBTC",
+        "base_asset": "ILV",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 1146
+    },
+    {
+        "symbol": "YGGUSDT",
+        "base_asset": "YGG",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 113503
+    },
+    {
+        "symbol": "YGGBTC",
+        "base_asset": "YGG",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 17442
+    },
+    {
+        "symbol": "SYSUSDT",
+        "base_asset": "SYS",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 22663
+    },
+    {
+        "symbol": "DFUSDT",
+        "base_asset": "DF",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 27374
+    },
+    {
+        "symbol": "ARPARUB",
+        "base_asset": "ARPA",
+        "quote_asset": "RUB",
+        "updated_at": 1696052549759,
+        "count": 300
+    },
+    {
+        "symbol": "LTCUAH",
+        "base_asset": "LTC",
+        "quote_asset": "UAH",
+        "updated_at": 1696052549759,
+        "count": 991
+    },
+    {
+        "symbol": "FIDAUSDT",
+        "base_asset": "FIDA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 131960
+    },
+    {
+        "symbol": "FIDABTC",
+        "base_asset": "FIDA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 23465
+    },
+    {
+        "symbol": "FRONTUSDT",
+        "base_asset": "FRONT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 2158944
+    },
+    {
+        "symbol": "CVPUSDT",
+        "base_asset": "CVP",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 52507
+    },
+    {
+        "symbol": "AGLDBTC",
+        "base_asset": "AGLD",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 13342
+    },
+    {
+        "symbol": "AGLDUSDT",
+        "base_asset": "AGLD",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 212151
+    },
+    {
+        "symbol": "RADBTC",
+        "base_asset": "RAD",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 2525
+    },
+    {
+        "symbol": "RADUSDT",
+        "base_asset": "RAD",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 45460
+    },
+    {
+        "symbol": "BETABTC",
+        "base_asset": "BETA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 3598
+    },
+    {
+        "symbol": "BETAUSDT",
+        "base_asset": "BETA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 36025
+    },
+    {
+        "symbol": "RAREBTC",
+        "base_asset": "RARE",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 4692
+    },
+    {
+        "symbol": "RAREUSDT",
+        "base_asset": "RARE",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 12199
+    },
+    {
+        "symbol": "AVAXBRL",
+        "base_asset": "AVAX",
+        "quote_asset": "BRL",
+        "updated_at": 1696052549759,
+        "count": 578
+    },
+    {
+        "symbol": "AXSETH",
+        "base_asset": "AXS",
+        "quote_asset": "ETH",
+        "updated_at": 1696052549759,
+        "count": 4609
+    },
+    {
+        "symbol": "FTMETH",
+        "base_asset": "FTM",
+        "quote_asset": "ETH",
+        "updated_at": 1696052549759,
+        "count": 1720
+    },
+    {
+        "symbol": "SOLETH",
+        "base_asset": "SOL",
+        "quote_asset": "ETH",
+        "updated_at": 1696052549759,
+        "count": 8760
+    },
+    {
+        "symbol": "SSVBTC",
+        "base_asset": "SSV",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 4003
+    },
+    {
+        "symbol": "SSVETH",
+        "base_asset": "SSV",
+        "quote_asset": "ETH",
+        "updated_at": 1696052549759,
+        "count": 1257
+    },
+    {
+        "symbol": "LAZIOTRY",
+        "base_asset": "LAZIO",
+        "quote_asset": "TRY",
+        "updated_at": 1696052549759,
+        "count": 10954
+    },
+    {
+        "symbol": "LAZIOEUR",
+        "base_asset": "LAZIO",
+        "quote_asset": "EUR",
+        "updated_at": 1696052549759,
+        "count": 68
+    },
+    {
+        "symbol": "LAZIOBTC",
+        "base_asset": "LAZIO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 10929
+    },
+    {
+        "symbol": "LAZIOUSDT",
+        "base_asset": "LAZIO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 19140
+    },
+    {
+        "symbol": "CHESSBTC",
+        "base_asset": "CHESS",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 22046
+    },
+    {
+        "symbol": "CHESSUSDT",
+        "base_asset": "CHESS",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 49144
+    },
+    {
+        "symbol": "ADXUSDT",
+        "base_asset": "ADX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 15756
+    },
+    {
+        "symbol": "AUCTIONUSDT",
+        "base_asset": "AUCTION",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 199026
+    },
+    {
+        "symbol": "REEFTRY",
+        "base_asset": "REEF",
+        "quote_asset": "TRY",
+        "updated_at": 1696052549759,
+        "count": 14138
+    },
+    {
+        "symbol": "SHIBDOGE",
+        "base_asset": "SHIB",
+        "quote_asset": "DOGE",
+        "updated_at": 1696052549759,
+        "count": 12236
+    },
+    {
+        "symbol": "DARUSDT",
+        "base_asset": "DAR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 80585
+    },
+    {
+        "symbol": "DARBNB",
+        "base_asset": "DAR",
+        "quote_asset": "BNB",
+        "updated_at": 1696052549759,
+        "count": 847
+    },
+    {
+        "symbol": "DARBTC",
+        "base_asset": "DAR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 6928
+    },
+    {
+        "symbol": "BNXBTC",
+        "base_asset": "BNX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 1115
+    },
+    {
+        "symbol": "BNXBNB",
+        "base_asset": "BNX",
+        "quote_asset": "BNB",
+        "updated_at": 1696052549759,
+        "count": 221
+    },
+    {
+        "symbol": "BNXUSDT",
+        "base_asset": "BNX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 32164
+    },
+    {
+        "symbol": "MANATRY",
+        "base_asset": "MANA",
+        "quote_asset": "TRY",
+        "updated_at": 1696052549759,
+        "count": 14814
+    },
+    {
+        "symbol": "ALGORUB",
+        "base_asset": "ALGO",
+        "quote_asset": "RUB",
+        "updated_at": 1696052549759,
+        "count": 264
+    },
+    {
+        "symbol": "MOVRBTC",
+        "base_asset": "MOVR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 25323
+    },
+    {
+        "symbol": "MOVRUSDT",
+        "base_asset": "MOVR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 122240
+    },
+    {
+        "symbol": "CITYBTC",
+        "base_asset": "CITY",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 4789
+    },
+    {
+        "symbol": "CITYUSDT",
+        "base_asset": "CITY",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 17266
+    },
+    {
+        "symbol": "ENSBTC",
+        "base_asset": "ENS",
+        "quote_asset": "BTC",
+        "updated_at": 1696052549759,
+        "count": 2127
+    },
+    {
+        "symbol": "ENSBNB",
+        "base_asset": "ENS",
+        "quote_asset": "BNB",
+        "updated_at": 1696052549759,
+        "count": 1275
+    },
+    {
+        "symbol": "ENSUSDT",
+        "base_asset": "ENS",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 44100
+    },
+    {
+        "symbol": "SANDETH",
+        "base_asset": "SAND",
+        "quote_asset": "ETH",
+        "updated_at": 1696052549759,
+        "count": 776
+    },
+    {
+        "symbol": "DOTETH",
+        "base_asset": "DOT",
+        "quote_asset": "ETH",
+        "updated_at": 1696052549759,
+        "count": 1850
+    },
+    {
+        "symbol": "MATICETH",
+        "base_asset": "MATIC",
+        "quote_asset": "ETH",
+        "updated_at": 1696052549759,
+        "count": 11011
+    },
+    {
+        "symbol": "SANDTRY",
+        "base_asset": "SAND",
+        "quote_asset": "TRY",
+        "updated_at": 1696052549759,
+        "count": 10344
+    },
+    {
+        "symbol": "KP3RUSDT",
+        "base_asset": "KP3R",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 117804
+    },
+    {
+        "symbol": "QIUSDT",
+        "base_asset": "QI",
+        "quote_asset": "USDT",
+        "updated_at": 1696052549759,
+        "count": 17621
+    },
+    {
+        "symbol": "QIBTC",
+        "base_asset": "QI",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 893
+    },
+    {
+        "symbol": "PORTOBTC",
+        "base_asset": "PORTO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 5308
+    },
+    {
+        "symbol": "PORTOUSDT",
+        "base_asset": "PORTO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 16093
+    },
+    {
+        "symbol": "PORTOTRY",
+        "base_asset": "PORTO",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 12474
+    },
+    {
+        "symbol": "PORTOEUR",
+        "base_asset": "PORTO",
+        "quote_asset": "EUR",
+        "updated_at": 1696052550610,
+        "count": 68
+    },
+    {
+        "symbol": "POWRUSDT",
+        "base_asset": "POWR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 33320
+    },
+    {
+        "symbol": "AVAXETH",
+        "base_asset": "AVAX",
+        "quote_asset": "ETH",
+        "updated_at": 1696052550610,
+        "count": 2944
+    },
+    {
+        "symbol": "SLPTRY",
+        "base_asset": "SLP",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 18686
+    },
+    {
+        "symbol": "LRCTRY",
+        "base_asset": "LRC",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 5045
+    },
+    {
+        "symbol": "CHRETH",
+        "base_asset": "CHR",
+        "quote_asset": "ETH",
+        "updated_at": 1696052550610,
+        "count": 1818
+    },
+    {
+        "symbol": "VGXUSDT",
+        "base_asset": "VGX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 41290
+    },
+    {
+        "symbol": "GALAETH",
+        "base_asset": "GALA",
+        "quote_asset": "ETH",
+        "updated_at": 1696052550610,
+        "count": 2992
+    },
+    {
+        "symbol": "JASMYUSDT",
+        "base_asset": "JASMY",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 103897
+    },
+    {
+        "symbol": "AMPUSDT",
+        "base_asset": "AMP",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 43435
+    },
+    {
+        "symbol": "PLABTC",
+        "base_asset": "PLA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 5914
+    },
+    {
+        "symbol": "PLAUSDT",
+        "base_asset": "PLA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 30643
+    },
+    {
+        "symbol": "PYRBTC",
+        "base_asset": "PYR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 6045
+    },
+    {
+        "symbol": "PYRUSDT",
+        "base_asset": "PYR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 73084
+    },
+    {
+        "symbol": "RNDRBTC",
+        "base_asset": "RNDR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 19905
+    },
+    {
+        "symbol": "RNDRUSDT",
+        "base_asset": "RNDR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 116770
+    },
+    {
+        "symbol": "ALCXBTC",
+        "base_asset": "ALCX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 31018
+    },
+    {
+        "symbol": "ALCXUSDT",
+        "base_asset": "ALCX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 260687
+    },
+    {
+        "symbol": "SANTOSBTC",
+        "base_asset": "SANTOS",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 10527
+    },
+    {
+        "symbol": "SANTOSUSDT",
+        "base_asset": "SANTOS",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 22270
+    },
+    {
+        "symbol": "SANTOSTRY",
+        "base_asset": "SANTOS",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 21159
+    },
+    {
+        "symbol": "MCBTC",
+        "base_asset": "MC",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 26506
+    },
+    {
+        "symbol": "MCUSDT",
+        "base_asset": "MC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 298410
+    },
+    {
+        "symbol": "BELTRY",
+        "base_asset": "BEL",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 63065
+    },
+    {
+        "symbol": "DENTTRY",
+        "base_asset": "DENT",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 3153
+    },
+    {
+        "symbol": "ENJTRY",
+        "base_asset": "ENJ",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 22173
+    },
+    {
+        "symbol": "BICOBTC",
+        "base_asset": "BICO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 16333
+    },
+    {
+        "symbol": "BICOUSDT",
+        "base_asset": "BICO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 425989
+    },
+    {
+        "symbol": "FLUXBTC",
+        "base_asset": "FLUX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 3701
+    },
+    {
+        "symbol": "FLUXUSDT",
+        "base_asset": "FLUX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 35388
+    },
+    {
+        "symbol": "ALICETRY",
+        "base_asset": "ALICE",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 4821
+    },
+    {
+        "symbol": "FXSUSDT",
+        "base_asset": "FXS",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 119302
+    },
+    {
+        "symbol": "GALABRL",
+        "base_asset": "GALA",
+        "quote_asset": "BRL",
+        "updated_at": 1696052550610,
+        "count": 6780
+    },
+    {
+        "symbol": "GALATRY",
+        "base_asset": "GALA",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 47218
+    },
+    {
+        "symbol": "LUNATRY",
+        "base_asset": "LUNA",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 222916
+    },
+    {
+        "symbol": "VOXELBTC",
+        "base_asset": "VOXEL",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 5889
+    },
+    {
+        "symbol": "VOXELUSDT",
+        "base_asset": "VOXEL",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 37237
+    },
+    {
+        "symbol": "FTMTRY",
+        "base_asset": "FTM",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 10245
+    },
+    {
+        "symbol": "MINATRY",
+        "base_asset": "MINA",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 17172
+    },
+    {
+        "symbol": "XTZTRY",
+        "base_asset": "XTZ",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 1438
+    },
+    {
+        "symbol": "HIGHBTC",
+        "base_asset": "HIGH",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 1656
+    },
+    {
+        "symbol": "HIGHUSDT",
+        "base_asset": "HIGH",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 54303
+    },
+    {
+        "symbol": "CVXBTC",
+        "base_asset": "CVX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 1818
+    },
+    {
+        "symbol": "CVXUSDT",
+        "base_asset": "CVX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 57888
+    },
+    {
+        "symbol": "PEOPLEBTC",
+        "base_asset": "PEOPLE",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 3142
+    },
+    {
+        "symbol": "PEOPLEUSDT",
+        "base_asset": "PEOPLE",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 45790
+    },
+    {
+        "symbol": "OOKIUSDT",
+        "base_asset": "OOKI",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 211732
+    },
+    {
+        "symbol": "LINKBNB",
+        "base_asset": "LINK",
+        "quote_asset": "BNB",
+        "updated_at": 1696052550610,
+        "count": 5521
+    },
+    {
+        "symbol": "SPELLUSDT",
+        "base_asset": "SPELL",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 111899
+    },
+    {
+        "symbol": "JOEBTC",
+        "base_asset": "JOE",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 6320
+    },
+    {
+        "symbol": "JOEUSDT",
+        "base_asset": "JOE",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 67234
+    },
+    {
+        "symbol": "ATOMETH",
+        "base_asset": "ATOM",
+        "quote_asset": "ETH",
+        "updated_at": 1696052550610,
+        "count": 3894
+    },
+    {
+        "symbol": "EGLDETH",
+        "base_asset": "EGLD",
+        "quote_asset": "ETH",
+        "updated_at": 1696052550610,
+        "count": 709
+    },
+    {
+        "symbol": "ICPETH",
+        "base_asset": "ICP",
+        "quote_asset": "ETH",
+        "updated_at": 1696052550610,
+        "count": 646
+    },
+    {
+        "symbol": "NEARETH",
+        "base_asset": "NEAR",
+        "quote_asset": "ETH",
+        "updated_at": 1696052550610,
+        "count": 794
+    },
+    {
+        "symbol": "ATOMTRY",
+        "base_asset": "ATOM",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 4701
+    },
+    {
+        "symbol": "ACHBTC",
+        "base_asset": "ACH",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 4347
+    },
+    {
+        "symbol": "ACHUSDT",
+        "base_asset": "ACH",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 96400
+    },
+    {
+        "symbol": "IMXBTC",
+        "base_asset": "IMX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 15035
+    },
+    {
+        "symbol": "IMXUSDT",
+        "base_asset": "IMX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 217704
+    },
+    {
+        "symbol": "GLMRBTC",
+        "base_asset": "GLMR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 41863
+    },
+    {
+        "symbol": "GLMRUSDT",
+        "base_asset": "GLMR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 1162879
+    },
+    {
+        "symbol": "ICPTRY",
+        "base_asset": "ICP",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 4648
+    },
+    {
+        "symbol": "ROSEETH",
+        "base_asset": "ROSE",
+        "quote_asset": "ETH",
+        "updated_at": 1696052550610,
+        "count": 655
+    },
+    {
+        "symbol": "UNIETH",
+        "base_asset": "UNI",
+        "quote_asset": "ETH",
+        "updated_at": 1696052550610,
+        "count": 2569
+    },
+    {
+        "symbol": "LOKABTC",
+        "base_asset": "LOKA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 4820
+    },
+    {
+        "symbol": "LOKABNB",
+        "base_asset": "LOKA",
+        "quote_asset": "BNB",
+        "updated_at": 1696052550610,
+        "count": 919
+    },
+    {
+        "symbol": "LOKAUSDT",
+        "base_asset": "LOKA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 36322
+    },
+    {
+        "symbol": "CRVETH",
+        "base_asset": "CRV",
+        "quote_asset": "ETH",
+        "updated_at": 1696052550610,
+        "count": 7099
+    },
+    {
+        "symbol": "HIGHBNB",
+        "base_asset": "HIGH",
+        "quote_asset": "BNB",
+        "updated_at": 1696052550610,
+        "count": 239
+    },
+    {
+        "symbol": "NEARRUB",
+        "base_asset": "NEAR",
+        "quote_asset": "RUB",
+        "updated_at": 1696052550610,
+        "count": 226
+    },
+    {
+        "symbol": "ROSETRY",
+        "base_asset": "ROSE",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 12128
+    },
+    {
+        "symbol": "SCRTUSDT",
+        "base_asset": "SCRT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 36548
+    },
+    {
+        "symbol": "API3BTC",
+        "base_asset": "API3",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 7502
+    },
+    {
+        "symbol": "API3USDT",
+        "base_asset": "API3",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 79478
+    },
+    {
+        "symbol": "BTTCUSDT",
+        "base_asset": "BTTC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 11287
+    },
+    {
+        "symbol": "BTTCTRY",
+        "base_asset": "BTTC",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 6991
+    },
+    {
+        "symbol": "ACABTC",
+        "base_asset": "ACA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 15152
+    },
+    {
+        "symbol": "ACAUSDT",
+        "base_asset": "ACA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 68625
+    },
+    {
+        "symbol": "BDOTDOT",
+        "base_asset": "BDOT",
+        "quote_asset": "DOT",
+        "updated_at": 1696052550610,
+        "count": 1571
+    },
+    {
+        "symbol": "XNOBTC",
+        "base_asset": "XNO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 8531
+    },
+    {
+        "symbol": "XNOUSDT",
+        "base_asset": "XNO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 20134
+    },
+    {
+        "symbol": "COSTRY",
+        "base_asset": "COS",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 10477
+    },
+    {
+        "symbol": "KAVAETH",
+        "base_asset": "KAVA",
+        "quote_asset": "ETH",
+        "updated_at": 1696052550610,
+        "count": 648
+    },
+    {
+        "symbol": "ONETRY",
+        "base_asset": "ONE",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 3223
+    },
+    {
+        "symbol": "WOOBTC",
+        "base_asset": "WOO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052550610,
+        "count": 2657
+    },
+    {
+        "symbol": "WOOBNB",
+        "base_asset": "WOO",
+        "quote_asset": "BNB",
+        "updated_at": 1696052550610,
+        "count": 1979
+    },
+    {
+        "symbol": "WOOUSDT",
+        "base_asset": "WOO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 63361
+    },
+    {
+        "symbol": "SPELLTRY",
+        "base_asset": "SPELL",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 36794
+    },
+    {
+        "symbol": "AXSTRY",
+        "base_asset": "AXS",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 17051
+    },
+    {
+        "symbol": "DARTRY",
+        "base_asset": "DAR",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 14927
+    },
+    {
+        "symbol": "NEARTRY",
+        "base_asset": "NEAR",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 2900
+    },
+    {
+        "symbol": "IDEXBNB",
+        "base_asset": "IDEX",
+        "quote_asset": "BNB",
+        "updated_at": 1696052550610,
+        "count": 297
+    },
+    {
+        "symbol": "ALPINEEUR",
+        "base_asset": "ALPINE",
+        "quote_asset": "EUR",
+        "updated_at": 1696052550610,
+        "count": 199
+    },
+    {
+        "symbol": "ALPINETRY",
+        "base_asset": "ALPINE",
+        "quote_asset": "TRY",
+        "updated_at": 1696052550610,
+        "count": 17183
+    },
+    {
+        "symbol": "ALPINEUSDT",
+        "base_asset": "ALPINE",
+        "quote_asset": "USDT",
+        "updated_at": 1696052550610,
+        "count": 23604
+    },
+    {
+        "symbol": "ALPINEBTC",
+        "base_asset": "ALPINE",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 1537
+    },
+    {
+        "symbol": "TUSDT",
+        "base_asset": "T",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 56963
+    },
+    {
+        "symbol": "BETAETH",
+        "base_asset": "BETA",
+        "quote_asset": "ETH",
+        "updated_at": 1696052551384,
+        "count": 576
+    },
+    {
+        "symbol": "INJTRY",
+        "base_asset": "INJ",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 11546
+    },
+    {
+        "symbol": "ASTRUSDT",
+        "base_asset": "ASTR",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 67343
+    },
+    {
+        "symbol": "API3TRY",
+        "base_asset": "API3",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 19011
+    },
+    {
+        "symbol": "MBOXTRY",
+        "base_asset": "MBOX",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 25464
+    },
+    {
+        "symbol": "GMTBTC",
+        "base_asset": "GMT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 13145
+    },
+    {
+        "symbol": "GMTBNB",
+        "base_asset": "GMT",
+        "quote_asset": "BNB",
+        "updated_at": 1696052551384,
+        "count": 1955
+    },
+    {
+        "symbol": "GMTUSDT",
+        "base_asset": "GMT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 114232
+    },
+    {
+        "symbol": "ATOMEUR",
+        "base_asset": "ATOM",
+        "quote_asset": "EUR",
+        "updated_at": 1696052551384,
+        "count": 1398
+    },
+    {
+        "symbol": "GALAEUR",
+        "base_asset": "GALA",
+        "quote_asset": "EUR",
+        "updated_at": 1696052551384,
+        "count": 1038
+    },
+    {
+        "symbol": "UMATRY",
+        "base_asset": "UMA",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 5765
+    },
+    {
+        "symbol": "KDABTC",
+        "base_asset": "KDA",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 2683
+    },
+    {
+        "symbol": "KDAUSDT",
+        "base_asset": "KDA",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 35237
+    },
+    {
+        "symbol": "APEUSDT",
+        "base_asset": "APE",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 196050
+    },
+    {
+        "symbol": "APEBTC",
+        "base_asset": "APE",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 16462
+    },
+    {
+        "symbol": "NEAREUR",
+        "base_asset": "NEAR",
+        "quote_asset": "EUR",
+        "updated_at": 1696052551384,
+        "count": 953
+    },
+    {
+        "symbol": "TWTTRY",
+        "base_asset": "TWT",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 5122
+    },
+    {
+        "symbol": "WAVESEUR",
+        "base_asset": "WAVES",
+        "quote_asset": "EUR",
+        "updated_at": 1696052551384,
+        "count": 147
+    },
+    {
+        "symbol": "APEEUR",
+        "base_asset": "APE",
+        "quote_asset": "EUR",
+        "updated_at": 1696052551384,
+        "count": 977
+    },
+    {
+        "symbol": "APETRY",
+        "base_asset": "APE",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 26876
+    },
+    {
+        "symbol": "BSWUSDT",
+        "base_asset": "BSW",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 82414
+    },
+    {
+        "symbol": "BSWBNB",
+        "base_asset": "BSW",
+        "quote_asset": "BNB",
+        "updated_at": 1696052551384,
+        "count": 3130
+    },
+    {
+        "symbol": "APEBNB",
+        "base_asset": "APE",
+        "quote_asset": "BNB",
+        "updated_at": 1696052551384,
+        "count": 1677
+    },
+    {
+        "symbol": "GMTETH",
+        "base_asset": "GMT",
+        "quote_asset": "ETH",
+        "updated_at": 1696052551384,
+        "count": 1557
+    },
+    {
+        "symbol": "JASMYTRY",
+        "base_asset": "JASMY",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 18210
+    },
+    {
+        "symbol": "BIFIUSDT",
+        "base_asset": "BIFI",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 9447
+    },
+    {
+        "symbol": "GMTEUR",
+        "base_asset": "GMT",
+        "quote_asset": "EUR",
+        "updated_at": 1696052551384,
+        "count": 1727
+    },
+    {
+        "symbol": "RUNEETH",
+        "base_asset": "RUNE",
+        "quote_asset": "ETH",
+        "updated_at": 1696052551384,
+        "count": 2397
+    },
+    {
+        "symbol": "MULTIBTC",
+        "base_asset": "MULTI",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 23028
+    },
+    {
+        "symbol": "MULTIUSDT",
+        "base_asset": "MULTI",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 391005
+    },
+    {
+        "symbol": "APEETH",
+        "base_asset": "APE",
+        "quote_asset": "ETH",
+        "updated_at": 1696052551384,
+        "count": 3060
+    },
+    {
+        "symbol": "FILTRY",
+        "base_asset": "FIL",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 3562
+    },
+    {
+        "symbol": "FTMEUR",
+        "base_asset": "FTM",
+        "quote_asset": "EUR",
+        "updated_at": 1696052551384,
+        "count": 1459
+    },
+    {
+        "symbol": "ZILTRY",
+        "base_asset": "ZIL",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 9225
+    },
+    {
+        "symbol": "GMTTRY",
+        "base_asset": "GMT",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 8734
+    },
+    {
+        "symbol": "WAVESTRY",
+        "base_asset": "WAVES",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 5555
+    },
+    {
+        "symbol": "ASTRBTC",
+        "base_asset": "ASTR",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 3274
+    },
+    {
+        "symbol": "BSWTRY",
+        "base_asset": "BSW",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 31785
+    },
+    {
+        "symbol": "FUNBNB",
+        "base_asset": "FUN",
+        "quote_asset": "BNB",
+        "updated_at": 1696052551384,
+        "count": 731
+    },
+    {
+        "symbol": "STEEMUSDT",
+        "base_asset": "STEEM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 15887
+    },
+    {
+        "symbol": "AUDIOTRY",
+        "base_asset": "AUDIO",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 6875
+    },
+    {
+        "symbol": "MOBUSDT",
+        "base_asset": "MOB",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 22900
+    },
+    {
+        "symbol": "MOBBTC",
+        "base_asset": "MOB",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 11664
+    },
+    {
+        "symbol": "NEXOUSDT",
+        "base_asset": "NEXO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 48878
+    },
+    {
+        "symbol": "NEXOBTC",
+        "base_asset": "NEXO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 13412
+    },
+    {
+        "symbol": "REIUSDT",
+        "base_asset": "REI",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 67201
+    },
+    {
+        "symbol": "GALUSDT",
+        "base_asset": "GAL",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 83659
+    },
+    {
+        "symbol": "GALBTC",
+        "base_asset": "GAL",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 7058
+    },
+    {
+        "symbol": "GALTRY",
+        "base_asset": "GAL",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 10899
+    },
+    {
+        "symbol": "LDOUSDT",
+        "base_asset": "LDO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 110624
+    },
+    {
+        "symbol": "LDOBTC",
+        "base_asset": "LDO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 7908
+    },
+    {
+        "symbol": "ENSTRY",
+        "base_asset": "ENS",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 2549
+    },
+    {
+        "symbol": "DAREUR",
+        "base_asset": "DAR",
+        "quote_asset": "EUR",
+        "updated_at": 1696052551384,
+        "count": 1762
+    },
+    {
+        "symbol": "ALGOETH",
+        "base_asset": "ALGO",
+        "quote_asset": "ETH",
+        "updated_at": 1696052551384,
+        "count": 2469
+    },
+    {
+        "symbol": "ALGOTRY",
+        "base_asset": "ALGO",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 8029
+    },
+    {
+        "symbol": "EPXUSDT",
+        "base_asset": "EPX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 27541
+    },
+    {
+        "symbol": "OPBTC",
+        "base_asset": "OP",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 15153
+    },
+    {
+        "symbol": "OPUSDT",
+        "base_asset": "OP",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 169554
+    },
+    {
+        "symbol": "OPBNB",
+        "base_asset": "OP",
+        "quote_asset": "BNB",
+        "updated_at": 1696052551384,
+        "count": 3144
+    },
+    {
+        "symbol": "OPEUR",
+        "base_asset": "OP",
+        "quote_asset": "EUR",
+        "updated_at": 1696052551384,
+        "count": 900
+    },
+    {
+        "symbol": "SNXETH",
+        "base_asset": "SNX",
+        "quote_asset": "ETH",
+        "updated_at": 1696052551384,
+        "count": 1740
+    },
+    {
+        "symbol": "LEVERUSDT",
+        "base_asset": "LEVER",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 470264
+    },
+    {
+        "symbol": "STORJTRY",
+        "base_asset": "STORJ",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 75047
+    },
+    {
+        "symbol": "OPETH",
+        "base_asset": "OP",
+        "quote_asset": "ETH",
+        "updated_at": 1696052551384,
+        "count": 3497
+    },
+    {
+        "symbol": "ETCTRY",
+        "base_asset": "ETC",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 1279
+    },
+    {
+        "symbol": "FILETH",
+        "base_asset": "FIL",
+        "quote_asset": "ETH",
+        "updated_at": 1696052551384,
+        "count": 2758
+    },
+    {
+        "symbol": "STGBTC",
+        "base_asset": "STG",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 14459
+    },
+    {
+        "symbol": "STGUSDT",
+        "base_asset": "STG",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 66209
+    },
+    {
+        "symbol": "ANKRTRY",
+        "base_asset": "ANKR",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 16982
+    },
+    {
+        "symbol": "LUNCUSDT",
+        "base_asset": "LUNC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 317106
+    },
+    {
+        "symbol": "GMXBTC",
+        "base_asset": "GMX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 3810
+    },
+    {
+        "symbol": "GMXUSDT",
+        "base_asset": "GMX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 65584
+    },
+    {
+        "symbol": "POLYXBTC",
+        "base_asset": "POLYX",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 4293
+    },
+    {
+        "symbol": "POLYXUSDT",
+        "base_asset": "POLYX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 31001
+    },
+    {
+        "symbol": "APTBTC",
+        "base_asset": "APT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 32607
+    },
+    {
+        "symbol": "APTUSDT",
+        "base_asset": "APT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 661533
+    },
+    {
+        "symbol": "BTCPLN",
+        "base_asset": "BTC",
+        "quote_asset": "PLN",
+        "updated_at": 1696052551384,
+        "count": 4951
+    },
+    {
+        "symbol": "ETHPLN",
+        "base_asset": "ETH",
+        "quote_asset": "PLN",
+        "updated_at": 1696052551384,
+        "count": 3806
+    },
+    {
+        "symbol": "APTEUR",
+        "base_asset": "APT",
+        "quote_asset": "EUR",
+        "updated_at": 1696052551384,
+        "count": 1775
+    },
+    {
+        "symbol": "APTTRY",
+        "base_asset": "APT",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 48528
+    },
+    {
+        "symbol": "OSMOBTC",
+        "base_asset": "OSMO",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 1117
+    },
+    {
+        "symbol": "OSMOUSDT",
+        "base_asset": "OSMO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 25581
+    },
+    {
+        "symbol": "HFTBTC",
+        "base_asset": "HFT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 2257
+    },
+    {
+        "symbol": "HFTUSDT",
+        "base_asset": "HFT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 43040
+    },
+    {
+        "symbol": "ARPAETH",
+        "base_asset": "ARPA",
+        "quote_asset": "ETH",
+        "updated_at": 1696052551384,
+        "count": 436
+    },
+    {
+        "symbol": "PHBUSDT",
+        "base_asset": "PHB",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 160376
+    },
+    {
+        "symbol": "HOOKBTC",
+        "base_asset": "HOOK",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 10748
+    },
+    {
+        "symbol": "HOOKUSDT",
+        "base_asset": "HOOK",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 103629
+    },
+    {
+        "symbol": "HOOKBNB",
+        "base_asset": "HOOK",
+        "quote_asset": "BNB",
+        "updated_at": 1696052551384,
+        "count": 712
+    },
+    {
+        "symbol": "MAGICBTC",
+        "base_asset": "MAGIC",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 13518
+    },
+    {
+        "symbol": "MAGICUSDT",
+        "base_asset": "MAGIC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 195494
+    },
+    {
+        "symbol": "HIFIETH",
+        "base_asset": "HIFI",
+        "quote_asset": "ETH",
+        "updated_at": 1696052551384,
+        "count": 6856
+    },
+    {
+        "symbol": "HIFIUSDT",
+        "base_asset": "HIFI",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 495335
+    },
+    {
+        "symbol": "RPLBTC",
+        "base_asset": "RPL",
+        "quote_asset": "BTC",
+        "updated_at": 1696052551384,
+        "count": 2938
+    },
+    {
+        "symbol": "RPLUSDT",
+        "base_asset": "RPL",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 34086
+    },
+    {
+        "symbol": "PROSUSDT",
+        "base_asset": "PROS",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 53626
+    },
+    {
+        "symbol": "FETTRY",
+        "base_asset": "FET",
+        "quote_asset": "TRY",
+        "updated_at": 1696052551384,
+        "count": 15382
+    },
+    {
+        "symbol": "AGIXUSDT",
+        "base_asset": "AGIX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052551384,
+        "count": 98867
+    },
+    {
+        "symbol": "APTETH",
+        "base_asset": "APT",
+        "quote_asset": "ETH",
+        "updated_at": 1696052552268,
+        "count": 4348
+    },
+    {
+        "symbol": "BTCRON",
+        "base_asset": "BTC",
+        "quote_asset": "RON",
+        "updated_at": 1696052552268,
+        "count": 1053
+    },
+    {
+        "symbol": "GNSUSDT",
+        "base_asset": "GNS",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 27169
+    },
+    {
+        "symbol": "GNSBTC",
+        "base_asset": "GNS",
+        "quote_asset": "BTC",
+        "updated_at": 1696052552268,
+        "count": 1830
+    },
+    {
+        "symbol": "SYNBTC",
+        "base_asset": "SYN",
+        "quote_asset": "BTC",
+        "updated_at": 1696052552268,
+        "count": 5397
+    },
+    {
+        "symbol": "SYNUSDT",
+        "base_asset": "SYN",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 85079
+    },
+    {
+        "symbol": "VIBUSDT",
+        "base_asset": "VIB",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 60390
+    },
+    {
+        "symbol": "SSVUSDT",
+        "base_asset": "SSV",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 45528
+    },
+    {
+        "symbol": "LQTYUSDT",
+        "base_asset": "LQTY",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 80312
+    },
+    {
+        "symbol": "LQTYBTC",
+        "base_asset": "LQTY",
+        "quote_asset": "BTC",
+        "updated_at": 1696052552268,
+        "count": 3446
+    },
+    {
+        "symbol": "AMBUSDT",
+        "base_asset": "AMB",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 353851
+    },
+    {
+        "symbol": "BETHUSDT",
+        "base_asset": "BETH",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 36346
+    },
+    {
+        "symbol": "CFXTRY",
+        "base_asset": "CFX",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 12185
+    },
+    {
+        "symbol": "STXTRY",
+        "base_asset": "STX",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 8212
+    },
+    {
+        "symbol": "GASUSDT",
+        "base_asset": "GAS",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 16204
+    },
+    {
+        "symbol": "GLMUSDT",
+        "base_asset": "GLM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 24206
+    },
+    {
+        "symbol": "PROMUSDT",
+        "base_asset": "PROM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 16783
+    },
+    {
+        "symbol": "QKCUSDT",
+        "base_asset": "QKC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 35243
+    },
+    {
+        "symbol": "UFTUSDT",
+        "base_asset": "UFT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 16132
+    },
+    {
+        "symbol": "IDBTC",
+        "base_asset": "ID",
+        "quote_asset": "BTC",
+        "updated_at": 1696052552268,
+        "count": 1192
+    },
+    {
+        "symbol": "IDBNB",
+        "base_asset": "ID",
+        "quote_asset": "BNB",
+        "updated_at": 1696052552268,
+        "count": 249
+    },
+    {
+        "symbol": "IDUSDT",
+        "base_asset": "ID",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 67655
+    },
+    {
+        "symbol": "ARBBTC",
+        "base_asset": "ARB",
+        "quote_asset": "BTC",
+        "updated_at": 1696052552268,
+        "count": 27332
+    },
+    {
+        "symbol": "ARBUSDT",
+        "base_asset": "ARB",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 447834
+    },
+    {
+        "symbol": "AGIXTRY",
+        "base_asset": "AGIX",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 7487
+    },
+    {
+        "symbol": "LOOMUSDT",
+        "base_asset": "LOOM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 1675414
+    },
+    {
+        "symbol": "OAXUSDT",
+        "base_asset": "OAX",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 125042
+    },
+    {
+        "symbol": "ARBTRY",
+        "base_asset": "ARB",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 18369
+    },
+    {
+        "symbol": "ARBEUR",
+        "base_asset": "ARB",
+        "quote_asset": "EUR",
+        "updated_at": 1696052552268,
+        "count": 2046
+    },
+    {
+        "symbol": "IDTRY",
+        "base_asset": "ID",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 8456
+    },
+    {
+        "symbol": "IDEUR",
+        "base_asset": "ID",
+        "quote_asset": "EUR",
+        "updated_at": 1696052552268,
+        "count": 71
+    },
+    {
+        "symbol": "RDNTBTC",
+        "base_asset": "RDNT",
+        "quote_asset": "BTC",
+        "updated_at": 1696052552268,
+        "count": 5557
+    },
+    {
+        "symbol": "RDNTUSDT",
+        "base_asset": "RDNT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 94669
+    },
+    {
+        "symbol": "ARBRUB",
+        "base_asset": "ARB",
+        "quote_asset": "RUB",
+        "updated_at": 1696052552268,
+        "count": 249
+    },
+    {
+        "symbol": "JOETRY",
+        "base_asset": "JOE",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 15181
+    },
+    {
+        "symbol": "MAGICTRY",
+        "base_asset": "MAGIC",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 33190
+    },
+    {
+        "symbol": "ACHTRY",
+        "base_asset": "ACH",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 20507
+    },
+    {
+        "symbol": "XVSTRY",
+        "base_asset": "XVS",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 29742
+    },
+    {
+        "symbol": "EGLDRON",
+        "base_asset": "EGLD",
+        "quote_asset": "RON",
+        "updated_at": 1696052552268,
+        "count": 802
+    },
+    {
+        "symbol": "WBTCUSDT",
+        "base_asset": "WBTC",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 5357
+    },
+    {
+        "symbol": "EDUUSDT",
+        "base_asset": "EDU",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 215490
+    },
+    {
+        "symbol": "EDUBNB",
+        "base_asset": "EDU",
+        "quote_asset": "BNB",
+        "updated_at": 1696052552268,
+        "count": 1624
+    },
+    {
+        "symbol": "EDUBTC",
+        "base_asset": "EDU",
+        "quote_asset": "BTC",
+        "updated_at": 1696052552268,
+        "count": 20139
+    },
+    {
+        "symbol": "EDUEUR",
+        "base_asset": "EDU",
+        "quote_asset": "EUR",
+        "updated_at": 1696052552268,
+        "count": 389
+    },
+    {
+        "symbol": "EDUTRY",
+        "base_asset": "EDU",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 25711
+    },
+    {
+        "symbol": "SUIUSDT",
+        "base_asset": "SUI",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 290048
+    },
+    {
+        "symbol": "SUIBTC",
+        "base_asset": "SUI",
+        "quote_asset": "BTC",
+        "updated_at": 1696052552268,
+        "count": 16000
+    },
+    {
+        "symbol": "SUIBNB",
+        "base_asset": "SUI",
+        "quote_asset": "BNB",
+        "updated_at": 1696052552268,
+        "count": 4151
+    },
+    {
+        "symbol": "SUIEUR",
+        "base_asset": "SUI",
+        "quote_asset": "EUR",
+        "updated_at": 1696052552268,
+        "count": 679
+    },
+    {
+        "symbol": "SUITRY",
+        "base_asset": "SUI",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 28904
+    },
+    {
+        "symbol": "AERGOUSDT",
+        "base_asset": "AERGO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 9302
+    },
+    {
+        "symbol": "RNDRTRY",
+        "base_asset": "RNDR",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 8733
+    },
+    {
+        "symbol": "PEPEUSDT",
+        "base_asset": "PEPE",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 140952
+    },
+    {
+        "symbol": "FLOKIUSDT",
+        "base_asset": "FLOKI",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 65022
+    },
+    {
+        "symbol": "OGTRY",
+        "base_asset": "OG",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 32301
+    },
+    {
+        "symbol": "PEPETRY",
+        "base_asset": "PEPE",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 262969
+    },
+    {
+        "symbol": "WBETHETH",
+        "base_asset": "WBETH",
+        "quote_asset": "ETH",
+        "updated_at": 1696052552268,
+        "count": 4162
+    },
+    {
+        "symbol": "ASTUSDT",
+        "base_asset": "AST",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 11432
+    },
+    {
+        "symbol": "SNTUSDT",
+        "base_asset": "SNT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 17535
+    },
+    {
+        "symbol": "FLOKITRY",
+        "base_asset": "FLOKI",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 23634
+    },
+    {
+        "symbol": "CITYTRY",
+        "base_asset": "CITY",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 6496
+    },
+    {
+        "symbol": "COMBOUSDT",
+        "base_asset": "COMBO",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 71537
+    },
+    {
+        "symbol": "COMBOBNB",
+        "base_asset": "COMBO",
+        "quote_asset": "BNB",
+        "updated_at": 1696052552268,
+        "count": 1447
+    },
+    {
+        "symbol": "COMBOTRY",
+        "base_asset": "COMBO",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 43158
+    },
+    {
+        "symbol": "LTCTRY",
+        "base_asset": "LTC",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 15798
+    },
+    {
+        "symbol": "RADTRY",
+        "base_asset": "RAD",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 2204
+    },
+    {
+        "symbol": "BTCARS",
+        "base_asset": "BTC",
+        "quote_asset": "ARS",
+        "updated_at": 1696052552268,
+        "count": 4128
+    },
+    {
+        "symbol": "OPTRY",
+        "base_asset": "OP",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 12756
+    },
+    {
+        "symbol": "PAXGTRY",
+        "base_asset": "PAXG",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 1427
+    },
+    {
+        "symbol": "MAVBTC",
+        "base_asset": "MAV",
+        "quote_asset": "BTC",
+        "updated_at": 1696052552268,
+        "count": 22021
+    },
+    {
+        "symbol": "MAVUSDT",
+        "base_asset": "MAV",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 181772
+    },
+    {
+        "symbol": "PENDLEBTC",
+        "base_asset": "PENDLE",
+        "quote_asset": "BTC",
+        "updated_at": 1696052552268,
+        "count": 14654
+    },
+    {
+        "symbol": "PENDLEUSDT",
+        "base_asset": "PENDLE",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 112189
+    },
+    {
+        "symbol": "MAVTRY",
+        "base_asset": "MAV",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 47582
+    },
+    {
+        "symbol": "OCEANTRY",
+        "base_asset": "OCEAN",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 2233
+    },
+    {
+        "symbol": "ARBETH",
+        "base_asset": "ARB",
+        "quote_asset": "ETH",
+        "updated_at": 1696052552268,
+        "count": 4445
+    },
+    {
+        "symbol": "BCHTRY",
+        "base_asset": "BCH",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 6558
+    },
+    {
+        "symbol": "XVGTRY",
+        "base_asset": "XVG",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 21332
+    },
+    {
+        "symbol": "ARKMUSDT",
+        "base_asset": "ARKM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 113444
+    },
+    {
+        "symbol": "ARKMTRY",
+        "base_asset": "ARKM",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 27330
+    },
+    {
+        "symbol": "ARKMBNB",
+        "base_asset": "ARKM",
+        "quote_asset": "BNB",
+        "updated_at": 1696052552268,
+        "count": 2894
+    },
+    {
+        "symbol": "ARKMBTC",
+        "base_asset": "ARKM",
+        "quote_asset": "BTC",
+        "updated_at": 1696052552268,
+        "count": 6196
+    },
+    {
+        "symbol": "WBETHUSDT",
+        "base_asset": "WBETH",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 5477
+    },
+    {
+        "symbol": "ACATRY",
+        "base_asset": "ACA",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 29683
+    },
+    {
+        "symbol": "COMPTRY",
+        "base_asset": "COMP",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 47486
+    },
+    {
+        "symbol": "XECTRY",
+        "base_asset": "XEC",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 11986
+    },
+    {
+        "symbol": "WLDUSDT",
+        "base_asset": "WLD",
+        "quote_asset": "USDT",
+        "updated_at": 1696052552268,
+        "count": 810368
+    },
+    {
+        "symbol": "WLDBTC",
+        "base_asset": "WLD",
+        "quote_asset": "BTC",
+        "updated_at": 1696052552268,
+        "count": 60463
+    },
+    {
+        "symbol": "ARKMRUB",
+        "base_asset": "ARKM",
+        "quote_asset": "RUB",
+        "updated_at": 1696052552268,
+        "count": 142
+    },
+    {
+        "symbol": "WLDTRY",
+        "base_asset": "WLD",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 149254
+    },
+    {
+        "symbol": "WLDRUB",
+        "base_asset": "WLD",
+        "quote_asset": "RUB",
+        "updated_at": 1696052552268,
+        "count": 366
+    },
+    {
+        "symbol": "AMPTRY",
+        "base_asset": "AMP",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 13309
+    },
+    {
+        "symbol": "OGNTRY",
+        "base_asset": "OGN",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 41542
+    },
+    {
+        "symbol": "ASRTRY",
+        "base_asset": "ASR",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 2300
+    },
+    {
+        "symbol": "ATMTRY",
+        "base_asset": "ATM",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 1407
+    },
+    {
+        "symbol": "ACMTRY",
+        "base_asset": "ACM",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 2490
+    },
+    {
+        "symbol": "BARTRY",
+        "base_asset": "BAR",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 2914
+    },
+    {
+        "symbol": "JUVTRY",
+        "base_asset": "JUV",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 4383
+    },
+    {
+        "symbol": "PSGTRY",
+        "base_asset": "PSG",
+        "quote_asset": "TRY",
+        "updated_at": 1696052552268,
+        "count": 8294
+    },
+    {
+        "symbol": "SEIBNB",
+        "base_asset": "SEI",
+        "quote_asset": "BNB",
+        "updated_at": 1696052552268,
+        "count": 6218
+    },
+    {
+        "symbol": "SEIBTC",
+        "base_asset": "SEI",
+        "quote_asset": "BTC",
+        "updated_at": 1696052553231,
+        "count": 18013
+    },
+    {
+        "symbol": "SEITRY",
+        "base_asset": "SEI",
+        "quote_asset": "TRY",
+        "updated_at": 1696052553231,
+        "count": 115370
+    },
+    {
+        "symbol": "SEIUSDT",
+        "base_asset": "SEI",
+        "quote_asset": "USDT",
+        "updated_at": 1696052553231,
+        "count": 205443
+    },
+    {
+        "symbol": "CYBERBNB",
+        "base_asset": "CYBER",
+        "quote_asset": "BNB",
+        "updated_at": 1696052553231,
+        "count": 2046
+    },
+    {
+        "symbol": "CYBERBTC",
+        "base_asset": "CYBER",
+        "quote_asset": "BTC",
+        "updated_at": 1696052553231,
+        "count": 8020
+    },
+    {
+        "symbol": "CYBERTRY",
+        "base_asset": "CYBER",
+        "quote_asset": "TRY",
+        "updated_at": 1696052553231,
+        "count": 133559
+    },
+    {
+        "symbol": "CYBERUSDT",
+        "base_asset": "CYBER",
+        "quote_asset": "USDT",
+        "updated_at": 1696052553231,
+        "count": 291540
+    },
+    {
+        "symbol": "LPTTRY",
+        "base_asset": "LPT",
+        "quote_asset": "TRY",
+        "updated_at": 1696052553231,
+        "count": 6835
+    },
+    {
+        "symbol": "UNITRY",
+        "base_asset": "UNI",
+        "quote_asset": "TRY",
+        "updated_at": 1696052553231,
+        "count": 6486
+    },
+    {
+        "symbol": "TOMOTRY",
+        "base_asset": "TOMO",
+        "quote_asset": "TRY",
+        "updated_at": 1696052553231,
+        "count": 8158
+    },
+    {
+        "symbol": "UNFITRY",
+        "base_asset": "UNFI",
+        "quote_asset": "TRY",
+        "updated_at": 1696052553231,
+        "count": 46323
+    },
+    {
+        "symbol": "CYBERETH",
+        "base_asset": "CYBER",
+        "quote_asset": "ETH",
+        "updated_at": 1696052553231,
+        "count": 896
+    },
+    {
+        "symbol": "MTLTRY",
+        "base_asset": "MTL",
+        "quote_asset": "TRY",
+        "updated_at": 1696052553231,
+        "count": 24124
+    },
+    {
+        "symbol": "ARKUSDT",
+        "base_asset": "ARK",
+        "quote_asset": "USDT",
+        "updated_at": 1696052553231,
+        "count": 175284
+    },
+    {
+        "symbol": "CREAMUSDT",
+        "base_asset": "CREAM",
+        "quote_asset": "USDT",
+        "updated_at": 1696052553231,
+        "count": 713359
+    },
+    {
+        "symbol": "GFTUSDT",
+        "base_asset": "GFT",
+        "quote_asset": "USDT",
+        "updated_at": 1696052553231,
+        "count": 900724
+    },
+    {
+        "symbol": "IQUSDT",
+        "base_asset": "IQ",
+        "quote_asset": "USDT",
+        "updated_at": 1696052553231,
+        "count": 41510
+    }
+]

@@ -11,8 +11,7 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 # Copy the current directory contents into the container at /app
-COPY main.py .
-COPY bitget bitget
+COPY . .
 
 # Run your Python script when the container launches
 CMD ["python", "main.py"]

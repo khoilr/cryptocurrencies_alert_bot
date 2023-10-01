@@ -17,6 +17,9 @@ async def command(update: Update, context: CallbackContext) -> None:  # pylint: 
         None
     """
     # Send a welcome message and introduce the bot's features to the user.
+    effective_user = update.effective_user
+    print(effective_user)
+    print(update.message.from_user)
     await update.message.reply_text(
         """
 👋 Welcome to Cryptocurrencies Alert Bot!

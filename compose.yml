@@ -33,6 +33,9 @@ services:
         cpus: 0.1
         networks:
             - crypto-network
+        restart: always
+        mem_limit: 200m
+        memswap_limit: 200m
         environment:
             REDIS_HOST: redis
             REDIS_PORT: 6379

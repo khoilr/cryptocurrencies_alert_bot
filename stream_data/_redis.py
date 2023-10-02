@@ -1,4 +1,5 @@
 import asyncio
+import gc
 import json
 import os
 from typing import Union
@@ -102,7 +103,10 @@ async def subscribe_to_stream(symbols_batch, redis_client):
     while True:
         try:
             # pylint: disable=no-member
-            async with websockets.connect("wss://stream.binance.com:9443/ws/kline", ping_interval=None) as websocket:  # type: ignore
+            async with websockets.connect(  # type: ignore
+                "wss://stream.binance.com:9443/ws/kline",
+                ping_interval=None,
+            ) as websocket:
                 params = [f"{x['symbol'].lower()}@kline_1s" for x in symbols_batch]
                 await websocket.send(json.dumps({"method": "SUBSCRIBE", "params": params, "id": 1}))
                 logger.info(f"Subscribed to {len(symbols_batch)} symbols")
@@ -116,6 +120,12 @@ async def subscribe_to_stream(symbols_batch, redis_client):
         except websockets.ConnectionClosedError as e:  # type: ignore
             logger.error(f"WebSocket connection closed: {e}")
             await asyncio.sleep(1)  # Wait for 60 seconds before reconnecting
+
+
+async def cleanup():
+    while True:
+        await asyncio.sleep(3600)
+        gc.collect()
 
 
 async def main():
@@ -137,10 +147,18 @@ async def main():
             )
             redis_client = redis.Redis(connection_pool=redis_pool)
 
+            # Replace list of cryptos
+            pipe = redis_client.pipeline(transaction=True)
+            pipe.delete("cryptos")
+            pipe.lpush("cryptos", *[x["symbol"] for x in top])
+            pipe.execute()
+
             # Create a list of tasks to subscribe to the WebSocket streams concurrently
             symbols_batches = [top[i : i + 100] for i in range(0, len(top), 100)]
 
             tasks = [subscribe_to_stream(symbols_batch, redis_client) for symbols_batch in symbols_batches]
+            tasks.append(cleanup())
+
             await asyncio.gather(*tasks)
 
         except Exception as e:  # pylint: disable=broad-except

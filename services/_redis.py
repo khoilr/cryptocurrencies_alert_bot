@@ -107,9 +107,13 @@ async def subscribe_to_stream(symbols_batch, redis_client):
                 "wss://stream.binance.com:9443/ws/kline",
                 ping_interval=None,
             ) as websocket:
-                params = [f"{x['symbol'].lower()}@kline_1s" for x in symbols_batch]
-                await websocket.send(json.dumps({"method": "SUBSCRIBE", "params": params, "id": 1}))
-                logger.info(f"Subscribed to {len(symbols_batch)} symbols")
+                params = [
+                    f"{x['symbol'].lower()}@kline_1s" for x in symbols_batch["symbols"]
+                ]
+                await websocket.send(
+                    json.dumps({"method": "SUBSCRIBE", "params": params, "id": 1})
+                )
+                logger.info(f"Subscribed to {symbols_batch['id']} batch")
 
                 while True:
                     response = await websocket.recv()
@@ -135,6 +139,8 @@ async def main():
         - 300 connections per 5 minutes per IP
     """
 
+    logger.info("Starting Redis streaming service")
+
     while True:
         try:
             top = get_top_cryptos(500)
@@ -147,16 +153,25 @@ async def main():
             )
             redis_client = redis.Redis(connection_pool=redis_pool)
 
-            # Replace list of cryptos
+            # Replace set of crypto
             pipe = redis_client.pipeline(transaction=True)
             pipe.delete("cryptos")
-            pipe.lpush("cryptos", *[x["symbol"] for x in top])
+            pipe.zadd("cryptos", {x["symbol"]: x["count"] for x in top})
             pipe.execute()
 
             # Create a list of tasks to subscribe to the WebSocket streams concurrently
-            symbols_batches = [top[i : i + 100] for i in range(0, len(top), 100)]
+            symbols_batches = [
+                {
+                    "symbols": top[i : i + 100],
+                    "id": i,
+                }
+                for i in range(0, len(top), 100)
+            ]
 
-            tasks = [subscribe_to_stream(symbols_batch, redis_client) for symbols_batch in symbols_batches]
+            tasks = [
+                subscribe_to_stream(symbols_batch, redis_client)
+                for symbols_batch in symbols_batches
+            ]
             tasks.append(cleanup())
 
             await asyncio.gather(*tasks)

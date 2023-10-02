@@ -41,7 +41,12 @@ import os
 
 import redis
 from dotenv import load_dotenv
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, Update
+from telegram import (
+    InlineKeyboardButton,
+    InlineKeyboardMarkup,
+    ReplyKeyboardMarkup,
+    Update,
+)
 from telegram.constants import ParseMode
 from telegram.ext import (
     CallbackQueryHandler,
@@ -52,6 +57,7 @@ from telegram.ext import (
     filters,
 )
 from telegram.helpers import escape_markdown
+from uuid import uuid4
 
 load_dotenv()
 
@@ -68,24 +74,38 @@ redis_client = redis.StrictRedis(
 )
 
 # States
-CRYPTO, INDICATORS, CONDITION, VALUE = [str(x) for x in range(4)]
+CRYPTO, INDICATORS, CONDITION, VALUE = [str(uuid4()) for _ in range(4)]
 
 # Constants
-PRICE, VOLUME, EMA, SMA = [str(x) for x in range(5, 9)]  # Indicator IDs
-INCREASE_BY, INCREASE_TO, DECREASE_BY, DECREASE_TO = [str(x) for x in range(9, 13)]  # Condition IDs
+PRICE, EMA, SMA, DMA, BBANDS, MACD = [str(uuid4()) for _ in range(6)]  # Indicator IDs
+INCREASE_TO, DECREASE_TO, REACH_TO, ENTER_BOUND, EXIT_BOUND = [
+    str(uuid4()) for _ in range(5)
+]  # Condition IDs
+
 indicators = [
     {"id": PRICE, "name": "price", "display_name": "Price"},
-    {"id": VOLUME, "name": "price", "display_name": "Volume"},
-    {"id": EMA, "name": "ema", "display_name": "EMA (Exponential Moving Average)"},
-    {"id": SMA, "name": "sma", "display_name": "SMA (Simple Moving Average)"},
-]
-conditions = [
-    {"id": INCREASE_TO, "name": "increase_to", "display_name": "Increase to"},
-    {"id": INCREASE_BY, "name": "increase_by", "display_name": "Increase by"},
-    {"id": DECREASE_TO, "name": "decrease_to", "display_name": "Decrease to"},
-    {"id": DECREASE_BY, "name": "decrease_by", "display_name": "Decrease by"},
+    {"id": EMA, "name": "ema", "display_name": "Exponential Moving Average (EMA)"},
+    {"id": SMA, "name": "sma", "display_name": "Simple Moving Average (SMA)"},
+    {"id": DMA, "name": "dma", "display_name": "Dual Moving Average (DMA)"},
+    {"id": BBANDS, "name": "bbands", "display_name": "Bollinger Bands (BBANDS)"},
+    {
+        "id": MACD,
+        "name": "macd",
+        "display_name": "Moving Average Convergence Divergence (MACD)",
+    },
 ]
 
+conditions = [
+    {"id": INCREASE_TO, "name": "increase_to", "display_name": "Increase to"},
+    {"id": DECREASE_TO, "name": "decrease_to", "display_name": "Decrease to"},
+    {"id": REACH_TO, "name": "reach_to", "display_name": "Reach to"},
+    {"id": ENTER_BOUND, "name": "enter_bound", "display_name": "Enter bound"},
+    {"id": EXIT_BOUND, "name": "exit_bound", "display_name": "Exit bound"},
+]
+
+# query first 6 values in 'cryptos' set in redis
+top_cryptos = redis_client.zrange("cryptos", 0, 5, desc=True,)
+top_cyptos = [top_cryptos[:3], top_cryptos[3:]]
 
 # Variables
 reply_string = ""  # pylint: disable=invalid-name \
@@ -107,16 +127,8 @@ async def input_crypto(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Clear any existing user data to start fresh for this conversation.
     context.user_data.clear()
 
-    # TODO: Replace this list by querying API for the most popular cryptocurrencies.
-
-    # Define a list of cryptocurrency options for the user to choose from.
-    keyboards = [
-        ["BTCUSDT", "ETHUSDT", "BNBUSDT"],
-        ["ADAUSDT", "SOLUSDT", "XRPUSDT"],
-    ]
-
     # Create a reply keyboard markup with the cryptocurrency options
-    reply_markup = ReplyKeyboardMarkup(keyboards, one_time_keyboard=True)
+    reply_markup = ReplyKeyboardMarkup(top_cryptos, one_time_keyboard=True)
 
     # Send a welcome message and instructions to choose a cryptocurrency
     await update.message.reply_text(
@@ -179,7 +191,11 @@ async def input_indicator(update: Update, context: ContextTypes.DEFAULT_TYPE):
             ),
         ],
         *[
-            [InlineKeyboardButton(indicator["display_name"], callback_data=indicator["id"])]
+            [
+                InlineKeyboardButton(
+                    indicator["display_name"], callback_data=indicator["id"]
+                )
+            ]
             for indicator in indicators[2:]
         ],
     ]
@@ -232,7 +248,9 @@ async def input_condition(update: Update, context=ContextTypes.DEFAULT_TYPE):
     indicator_id = query.data
 
     # Find the selected indicator based on its ID.
-    indicator = next(indicator for indicator in indicators if indicator["id"] == indicator_id)
+    indicator = next(
+        indicator for indicator in indicators if indicator["id"] == indicator_id
+    )
 
     # Store the selected indicator in the user's data for later reference.
     context.user_data["indicator"] = indicator
@@ -240,7 +258,9 @@ async def input_condition(update: Update, context=ContextTypes.DEFAULT_TYPE):
     # Create a list of condition options as inline keyboard buttons.
     keyboards = [
         [
-            InlineKeyboardButton(condition["display_name"], callback_data=condition["id"])
+            InlineKeyboardButton(
+                condition["display_name"], callback_data=condition["id"]
+            )
             for condition in conditions[i : i + 2]
         ]
         for i in range(0, len(conditions), 2)
@@ -303,7 +323,9 @@ async def input_value(update: Update, context=ContextTypes.DEFAULT_TYPE):
     condition_id = query.data
 
     # Find the selected condition based on its ID.
-    condition = next(condition for condition in conditions if condition["id"] == condition_id)
+    condition = next(
+        condition for condition in conditions if condition["id"] == condition_id
+    )
 
     # Store the selected condition in the user's data for later reference.
     context.user_data["condition"] = condition

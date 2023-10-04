@@ -1,14 +1,14 @@
 version: '3'
 services:
     redis:
-        image: redis:alpine
+        image: redis:latest
         ports:
             - 30001:6379
         networks:
             - crypto-network
         volumes:
             - ./redis.conf:/usr/local/etc/redis/redis.conf
-            - ./redis_data:/data
+            - ./backup/redis_data:/data
         command: redis-server /usr/local/etc/redis/redis.conf
 
     postgres:
@@ -18,35 +18,57 @@ services:
         networks:
             - crypto-network
         volumes:
-            - ./postgres_data:/var/lib/postgresql/data
+            - ./backup/postgres_data:/var/lib/postgresql/data
         environment:
             POSTGRES_USER: postgres
             POSTGRES_PASSWORD: postgres
             POSTGRES_DB: postgres
+        healthcheck:
+            test: ['CMD', 'pg_isready', '-U', 'postgres']
+            interval: 5s
+            timeout: 5s
+            retries: 5
 
-    stream_data:
+    migration:
         build:
-            context: stream_data
+            context: stream/database
         depends_on:
-            - redis
-            - postgres
-        cpus: 0.1
+            postgres:
+                condition: service_healthy
         networks:
             - crypto-network
-        restart: always
-        mem_limit: 200m
-        memswap_limit: 200m
         environment:
-            REDIS_HOST: redis
-            REDIS_PORT: 6379
-            REDIS_DB: 0
             POSTGRES_HOST: postgres
             POSTGRES_PORT: 5432
             POSTGRES_DB: postgres
             POSTGRES_USER: postgres
             POSTGRES_PASSWORD: postgres
-        volumes:
-            - ./logs:/app/logs
+        command: ["alembic", "upgrade", "head"]
+
+
+    # stream:
+    #     build:
+    #         context: stream
+    #     depends_on:
+    #         - redis
+    #         - postgres
+    #     cpus: 0.1
+    #     networks:
+    #         - crypto-network
+    #     restart: always
+    #     mem_limit: 200m
+    #     memswap_limit: 200m
+    #     environment:
+    #         REDIS_HOST: redis
+    #         REDIS_PORT: 6379
+    #         REDIS_DB: 0
+    #         POSTGRES_HOST: postgres
+    #         POSTGRES_PORT: 5432
+    #         POSTGRES_DB: postgres
+    #         POSTGRES_USER: postgres
+    #         POSTGRES_PASSWORD: postgres
+    #     volumes:
+    #         - ./logs:/app/logs
 
 networks:
     crypto-network:

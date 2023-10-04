@@ -2,13 +2,21 @@
 
 ## Database
 
-Start **PostgresSQL**
+### PostgreSQL
 
 ```bash
 docker run -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
 ```
 
-Start **Redis**
+To migrate
+
+```bash
+cd stream/database
+alembic revision --autogenerate
+alembic upgrade head
+```
+
+### Redis
 
 ```bash
 docker run -p 6379:6379 -d redis

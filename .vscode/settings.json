@@ -16,10 +16,13 @@
     ],
     "cSpell.words": [
         "autoflush",
+        "ossp",
         "sessionmaker",
         "websockets",
         "xadd",
         "xdel",
-        "xrevrange"
+        "xrevrange",
+        "xtrim",
+        "zadd"
     ]
 }

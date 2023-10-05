@@ -69,6 +69,9 @@ def upsert_crypto(cryptos: list[dict]):
 
 
 def insert_to_db():
+    """
+    Insert cryptos into the database.
+    """
     try:
         exchange_info = spot_client.exchange_info()['symbols']
 
@@ -83,9 +86,10 @@ def insert_to_db():
             and symbol["status"] == "TRADING"  # Filters symbols where the status field is equal to "TRADING.""
         ]
 
+        # Retrieve symbol names from crypto_data
         symbols = [data["symbol"] for data in crypto_data]
 
-        # Retrieve one-week rolling trade count 
+        # Retrieve one-week rolling trade count
         rolling_trade_count = [
             trade_count
             for symbol_batch in [symbols[i : i + 100] for i in range(0, len(symbols), 100)] # Split symbols into batches of 100
@@ -117,7 +121,7 @@ def insert_to_db():
         ]
     except:  # pylint: disable=bare-except
         logger.error("Failed to retrieve data from Binance API. Using cached data.")
-        with open("cryptos.json", "r", encoding="utf-8") as f:
+        with open("cryptos.json", "r", encoding="utf-8") as f: # pylint: disable=invalid-name
             cryptos = json.load(f)
 
     # Insert the top 200 cryptos into the database
@@ -125,6 +129,10 @@ def insert_to_db():
 
 
 def main():
+    """
+    Main function.
+    """
+
     insert_to_db()
     asyncio.run(redis_main())
 

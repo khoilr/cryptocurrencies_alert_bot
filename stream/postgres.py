@@ -1,33 +1,21 @@
 import json
-import os
 
-import psycopg2
 from binance.spot import Spot
 from dotenv import load_dotenv
 from loguru import logger
 
 from stream.constants import stable_coins
+from stream.database import Session
+from stream.database.models.crypto import Crypto
 
 load_dotenv()
 
 logger.add("logs/postgres.log", rotation="500 mb")
 
-POSTGRES_HOST = os.environ.get("POSTGRES_HOST", "localhost")
-POSTGRES_PORT = int(os.environ.get("POSTGRES_PORT", 5432))
-POSTGRES_DB = os.environ.get("POSTGRES_DB", "db")
-POSTGRES_USER = os.environ.get("POSTGRES_USER", "postgres")
-POSTGRES_PASSWORD = os.environ.get("POSTGRES_PASSWORD", "khoikhoi")
+sessison = Session()
 
 stable_coins = [stable_coin.upper() for stable_coin in stable_coins]
 spot_client = Spot()
-postgres_client = psycopg2.connect(
-    dbname=POSTGRES_DB,
-    user=POSTGRES_USER,
-    password=POSTGRES_PASSWORD,
-    host=POSTGRES_HOST,
-    port=POSTGRES_PORT,
-)
-logger.info(f"PostgreSQL client created: {postgres_client}")
 
 
 def get_exchange_info():
@@ -54,7 +42,8 @@ def filter_trading_symbols(exchange_info):
     filtered_symbols = [
         symbol
         for symbol in exchange_info
-        if ("permissions" not in symbol or "SPOT" in symbol["permissions"]) and symbol["status"] == "TRADING"
+        if ("permissions" not in symbol or "SPOT" in symbol["permissions"])
+        and symbol["status"] == "TRADING"
     ]
     return filtered_symbols
 
@@ -71,73 +60,21 @@ def save_to_json(data, filename):
         json.dump(data, f, indent=4)
 
 
-def init_tables():
-    # Create a cursor to execute SQL commands
-    cursor = postgres_client.cursor()
-
-    # Execute the command to create the 'uuid-ossp' extension
-    cursor.execute('CREATE EXTENSION IF NOT EXISTS "uuid-ossp";')
-
-    # Execute the command to create the 'cryptos' table
-    cursor.execute(
-        """
-        CREATE TABLE IF NOT EXISTS cryptos (
-            id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-            symbol VARCHAR(20) UNIQUE NOT NULL,
-            base_asset VARCHAR(10) NOT NULL,
-            quote_asset VARCHAR(10) NOT NULL,
-            updated_at NUMERIC NOT NULL,
-            count NUMERIC NOT NULL
-        );
-        """
-    )
-
-    # Commit the changes to the database
-    postgres_client.commit()
-    logger.info("Tables created successfully")
-
-    # Close the cursor
-    cursor.close()
-
-
 def insert_cryptos(cryptos: list[dict]):
-    # Create a cursor to execute SQL commands
-    cursor = postgres_client.cursor()
-
-    # Iterate through the list of dictionaries and insert or skip based on symbol
     for crypto in cryptos:
-        # Define the SQL query using the INSERT ... ON CONFLICT DO NOTHING syntax
-        sql_query = """
-        INSERT INTO cryptos (symbol, base_asset, quote_asset, updated_at, count)
-        VALUES (%s, %s, %s, %s, %s)
-        ON CONFLICT (symbol) DO NOTHING;
-        """
-
-        # Execute the SQL query with the dictionary values
-        cursor.execute(
-            sql_query,
-            (
-                crypto["symbol"],
-                crypto["base_asset"],
-                crypto["quote_asset"],
-                crypto["updated_at"],
-                crypto["count"],
-            ),
+        crypto_instance = Crypto(
+            symbol=crypto["symbol"],
+            base_asset=crypto["base_asset"],
+            quote_asset=crypto["quote_asset"],
+            updated_at=crypto["updated_at"],
+            count=crypto["count"],
         )
 
-    logger.info(f"Inserted {len(cryptos)} cryptos into the database")
-
-    # Commit the changes to the database
-    postgres_client.commit()
-
-    # Close the cursor and the database connection
-    cursor.close()
+        sessison.merge(crypto_instance)
+        sessison.commit()
 
 
 def main():
-    # Initialize tables
-    init_tables()
-
     try:
         exchange_info = get_exchange_info()
         filtered_symbols = filter_trading_symbols(exchange_info)
@@ -157,7 +94,9 @@ def main():
         # Retrieve one-week rolling trade count in batches
         rolling_trade_count = [
             trade_count
-            for symbol_batch in [symbols[i : i + 100] for i in range(0, len(symbols), 100)]
+            for symbol_batch in [
+                symbols[i : i + 100] for i in range(0, len(symbols), 100)
+            ]
             for trade_count in spot_client.rolling_window_ticker(
                 symbols=symbol_batch,
                 windowSize="7d",
@@ -166,7 +105,9 @@ def main():
         save_to_json(rolling_trade_count, "rolling_window.json")
 
         # Remove entries with count = 0
-        rolling_trade_count = [symbol for symbol in rolling_trade_count if symbol["count"] != 0]
+        rolling_trade_count = [
+            symbol for symbol in rolling_trade_count if symbol["count"] != 0
+        ]
 
         # Combine data from exchange_info and rolling_trade_count
         cryptos = [
@@ -193,9 +134,6 @@ def main():
 
     # Insert the top 200 cryptos into the database
     insert_cryptos(top_cryptos)
-
-    # Close the database connection
-    postgres_client.close()
 
 
 if __name__ == "__main__":

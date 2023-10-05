@@ -11,7 +11,6 @@ docker run -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
 To migrate
 
 ```bash
-cd stream/database
 alembic revision --autogenerate
 alembic upgrade head
 ```

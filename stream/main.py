@@ -79,8 +79,7 @@ def insert_to_db():
             if symbol["baseAsset"].upper() not in stable_coins  # Remove crypto with stable coins as base asset
             and symbol["quoteAsset"].upper() not in stable_coins  # Remove crypto with stable coins as quote asset
             and symbol["baseAsset"].upper() != "USDT"  # Remove crypto with USDT as base asset
-            and "permissions" not in symbol  # Remove crypto without permissions
-            and "SPOT" in symbol["permissions"]  # Remove crypto without SPOT permission
+            and (symbol.get("permissions") is None or "SPOT" in symbol.get("permissions"))  # Remove crypto with no SPOT permission
             and symbol["status"] == "TRADING"  # Remove crypto with status other than TRADING
         ]
 

@@ -76,11 +76,11 @@ def insert_to_db():
         crypto_data = [
             symbol
             for symbol in exchange_info
-            if symbol["baseAsset"].upper() not in stable_coins  # Remove crypto with stable coins as base asset
-            and symbol["quoteAsset"].upper() not in stable_coins  # Remove crypto with stable coins as quote asset
-            and symbol["baseAsset"].upper() != "USDT"  # Remove crypto with USDT as base asset
-            and (symbol.get("permissions") is None or "SPOT" in symbol.get("permissions"))  # Remove crypto with no SPOT permission
-            and symbol["status"] == "TRADING"  # Remove crypto with status other than TRADING
+            if symbol["baseAsset"].upper() not in stable_coins  # Excludes symbols where the base asset is a stablecoin
+            and symbol["quoteAsset"].upper() not in stable_coins  # Excludes symbols where the quote asset is a stablecoin
+            and symbol["baseAsset"].upper() != "USDT"  # Ensures that the base asset is not "USDT"
+            and (symbol.get("permissions") is None or "SPOT" in symbol.get("permissions"))  # Allows symbols that either don't have a permissions field or have "SPOT" in their permissions.
+            and symbol["status"] == "TRADING"  # Filters symbols where the status field is equal to "TRADING.""
         ]
 
         symbols = [data["symbol"] for data in crypto_data]

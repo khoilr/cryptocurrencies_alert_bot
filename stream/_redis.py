@@ -51,53 +51,6 @@ def get_top_cryptos(n_cryptos: Union[None, int] = None) -> list[RealDictRow]:
     return cryptos
 
 
-def message_handler(message_dict, redis_client: redis.Redis):
-    if "e" not in message_dict:
-        return
-
-    if message_dict["e"] != "kline" or not message_dict["k"]["x"]:
-        return
-
-    event_time = message_dict["E"]
-    symbol = message_dict["s"]
-    data = message_dict["k"]
-
-    start_time = str(data["t"])
-    close_time = str(data["T"])
-    interval = data["i"]
-    _open = data["o"]
-    close = data["c"]
-    high = data["h"]
-    low = data["l"]
-    base_volume = data["v"]
-    quote_volume = data["q"]
-
-    fields = {
-        "event_time": event_time,
-        "start_time": start_time,
-        "close_time": close_time,
-        "open": _open,
-        "close": close,
-        "high": high,
-        "low": low,
-        "base_volume": base_volume,
-        "quote_volume": quote_volume,
-    }
-
-    stream_key = f"kline:{interval}:{symbol}"
-
-    try:
-        redis_client.xadd(
-            name=stream_key,
-            fields=fields,  # type: ignore
-            maxlen=1000,
-        )
-        logger.info(f"Added to stream {stream_key}")
-
-    except redis.exceptions.ConnectionError:  # type: ignore
-        pass
-
-
 async def subscribe_to_stream(batch: dict, redis_client):
     while True:
         try:
@@ -146,7 +99,7 @@ async def main():
 
     while True:
         try:
-            top = get_top_cryptos(500)
+            top = CryptoDTO.get_top(500)
             logger.info(f"Got top {len(top)} cryptos from database")
 
             redis_pool = redis.ConnectionPool(

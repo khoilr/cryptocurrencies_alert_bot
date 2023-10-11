@@ -6,3 +6,4 @@ binance-connector
 psycopg2
 loguru
 websockets
+sqlalchemy

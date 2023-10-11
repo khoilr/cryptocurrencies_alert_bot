@@ -18,8 +18,8 @@ DB_URL = f"postgresql+psycopg2://{POSTGRES_USER}:{POSTGRES_PASSWORD}@\
 
 Base = declarative_base()
 
-from stream.database.models.crypto import Crypto  # pylint: disable=unused-import
-from stream.database.models.user import User  # pylint: disable=unused-import
+from stream.database.models.dto.crypto import Crypto  # pylint: disable=unused-import
+from stream.database.models.dto.user import User  # pylint: disable=unused-import
 
 engine = create_engine(DB_URL)
 Session = sessionmaker(

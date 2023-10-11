@@ -12,10 +12,6 @@ from commands.start import command as start_command
 load_dotenv()
 
 
-# async def callback_minute(context: ContentTypeHeader.DEFAULT_TYPE):
-#     print("Khoicute")
-
-
 def main():
     # Init the application
     telegram_bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", None)

@@ -1,5 +1,6 @@
 from stream.database.models.dto.crypto import Crypto as CryptoDTO
 from stream.database import Session
+from datetime import datetime
 
 session = Session()
 
@@ -10,6 +11,7 @@ class Crypto:
         """
         Insert or update
         """
+        # convert timestamp to datetime timestamp
         crypto = CryptoDTO(**kwargs)
         session.merge(crypto)
         session.commit()
@@ -26,4 +28,3 @@ class Crypto:
             .limit(limit)
             .all()
         )
-    

@@ -16,6 +16,10 @@
     ],
     "cSpell.words": [
         "autoflush",
+        "BBANDS",
+        "Bollinger",
+        "KLINES",
+        "MACD",
         "ossp",
         "sessionmaker",
         "websockets",
@@ -23,6 +27,7 @@
         "xdel",
         "xrevrange",
         "xtrim",
-        "zadd"
+        "zadd",
+        "zrange"
     ]
 }

@@ -5,7 +5,9 @@ from telegram import Update
 from telegram.ext import CallbackContext
 
 
-async def command(update: Update, context: CallbackContext) -> None:  # pylint: disable=unused-argument
+async def command(
+    update: Update, context: CallbackContext
+) -> None:  # pylint: disable=unused-argument
     """
     Handles the /start command to provide users with a welcome message and bot information.
 

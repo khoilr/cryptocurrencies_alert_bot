@@ -3,6 +3,7 @@ import gc
 import json
 import os
 import traceback
+from datetime import datetime
 
 import redis
 import websockets
@@ -56,13 +57,17 @@ def get_exchange_info() -> list[dict]:
     crypto_data = [
         symbol
         for symbol in data
-        if symbol["baseAsset"].upper() not in stable_coins  # Excludes symbols where the base asset is a stablecoin
-        and symbol["quoteAsset"].upper() not in stable_coins  # Excludes symbols where the quote asset is a stablecoin
-        and symbol["baseAsset"].upper() != "USDT"  # Ensures that the base asset is not "USDT"
+        if symbol["baseAsset"].upper()
+        not in stable_coins  # Excludes symbols where the base asset is a stablecoin
+        and symbol["quoteAsset"].upper()
+        not in stable_coins  # Excludes symbols where the quote asset is a stablecoin
+        and symbol["baseAsset"].upper()
+        != "USDT"  # Ensures that the base asset is not "USDT"
         and (
             symbol.get("permissions") is None or "SPOT" in symbol.get("permissions")
         )  # Allows symbols that either don't have a permissions field or have "SPOT" in their permissions.
-        and symbol["status"] == "TRADING"  # Filters symbols where the status field is equal to "TRADING.""
+        and symbol["status"]
+        == "TRADING"  # Filters symbols where the status field is equal to "TRADING.""
     ]
 
     return crypto_data
@@ -131,7 +136,7 @@ def join_data(exchange_info_data, rolling_trade_data) -> list[dict]:
             "quote_asset": exchange_info["quoteAsset"],
         }
         | {
-            "updated_at": rollong_trade["closeTime"],
+            "updated_at": datetime.fromtimestamp(rollong_trade["closeTime"] / 1000),
             "count": rollong_trade["count"],
         }
         for exchange_info in exchange_info_data
@@ -177,7 +182,9 @@ def insert_to_db():
         logger.info("Using cached data.")
 
         # Load cached data
-        with open("cryptos.json", "r", encoding="utf-8") as f:  # pylint: disable=invalid-name
+        with open(
+            "stream/cryptos.json", "r", encoding="utf-8"
+        ) as f:  # pylint: disable=invalid-name
             cryptos = json.load(f)
 
     # Insert the top 200 cryptos into the database
@@ -292,7 +299,8 @@ async def subscribe_to_kline_stream(batch: dict, redis_client):
 
                     message_handler(message_dict, redis_client)
 
-        except websockets.ConnectionClosedError as e:  # pylint: disable=invalid-name
+        # pylint: disable=invalid-name
+        except websockets.ConnectionClosedError as e:  # type: ignore
             logger.error(f"WebSocket connection closed: {e}")
             await asyncio.sleep(1)  # Wait for 60 seconds before reconnecting
 
@@ -351,31 +359,52 @@ async def stream_data():
                 db=REDIS_DB,
             )
             redis_client = redis.Redis(connection_pool=redis_pool)
-            logger.info(f"Established Redis client")
+            logger.info("Established Redis client")
 
             # Replace set of crypto
             pipe = redis_client.pipeline(transaction=True)
             pipe.delete("cryptos")
-            pipe.zadd("cryptos", {x["symbol"]: int(x["count"]) for x in top})
+            pipe.zadd("cryptos", {x.symbol: x.count for x in top})  # type: ignore
             pipe.execute()
             logger.info("Updated cryptos set")
 
             # Create a list of tasks to subscribe to the WebSocket streams concurrently
-            symbols_batches = [top[i : i + 100] for i in range(0, len(top), 100)]
-            intervals = ["1m", "3m", "5m", "15m", "30m", "1h", "2h", "4h", "6h", "8h", "12h", "1d", "3d", "1w", "1M"]
+            cryptos_batches = [top[i : i + 100] for i in range(0, len(top), 100)]
+            intervals = [
+                "1m",
+                "3m",
+                "5m",
+                "15m",
+                "30m",
+                "1h",
+                "2h",
+                "4h",
+                "6h",
+                "8h",
+                "12h",
+                "1d",
+                "3d",
+                "1w",
+                "1M",
+            ]
 
             # Create params with each symbols batch and interval
             batches = [
                 {
-                    "params": [f"{symbol['symbol'].lower()}@kline_{interval}" for symbol in symbols_batch],
+                    "params": [
+                        f"{crypto.symbol.lower()}@kline_{interval}"
+                        for crypto in cryptos_batch
+                    ],
                     "interval": interval,
-                    "id": f"{symbols_batch[0]['symbol']}",
+                    "id": f"{cryptos_batch[0].symbol}",
                 }
-                for symbols_batch in symbols_batches
+                for cryptos_batch in cryptos_batches
                 for interval in intervals
             ]
 
-            tasks = [subscribe_to_kline_stream(batch, redis_client) for batch in batches]
+            tasks = [
+                subscribe_to_kline_stream(batch, redis_client) for batch in batches
+            ]
             tasks.append(cleanup())
 
             await asyncio.gather(*tasks)

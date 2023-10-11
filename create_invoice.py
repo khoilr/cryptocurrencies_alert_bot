@@ -15,8 +15,8 @@
 # 'url_success' : "https://t.me/cryptocurrencies_alert_bot",
 # 'subtract' : 100  ,# user pay 100% of fees
 # 'url_callback' : "my webhook"   ,
-# } 
-# 
+# }
+#
 
 # # CREATE QR CODE FOR INVOICE
 # url = "https://api.cryptomus.com/v1/payment/qr"

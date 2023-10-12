@@ -6,5 +6,7 @@ redis
 pandas
 sqlalchemy 
 alembic
-psycopg2
+psycopg2-binary
 talipp
+pylint
+loguru

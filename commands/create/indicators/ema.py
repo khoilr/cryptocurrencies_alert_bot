@@ -3,23 +3,23 @@ from uuid import uuid4
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import (
-    CallbackQueryHandler,
-    ContextTypes,
-    ConversationHandler,
-    MessageHandler,
-    filters,
+	CallbackQueryHandler,
+	ContextTypes,
+	ConversationHandler,
+	MessageHandler,
+	filters,
 )
 
 from commands.create.constants import (
-    CONDITION,
-    DECREASE_TO,
-    EMA,
-    ENTER_BOUND,
-    EXIT_BOUND,
-    INCREASE_TO,
-    INTERVAL,
-    REACH_TO,
-    CONDITION_VALUE,
+	CONDITION,
+	DECREASE_TO,
+	EMA,
+	ENTER_BOUND,
+	EXIT_BOUND,
+	INCREASE_TO,
+	INTERVAL,
+	REACH_TO,
+	CONDITION_VALUE,
 )
 from commands.create.indicators.condition import input_condition, input_value
 from commands.create.indicators.interval import input_interval

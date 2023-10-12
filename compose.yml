@@ -3,7 +3,7 @@ services:
     redis:
         image: redis:latest
         ports:
-            - 30001:6379
+            - "30001:6379"
         networks:
             - crypto-network
         volumes:
@@ -14,7 +14,7 @@ services:
     postgres:
         image: postgres:latest
         ports:
-            - 30002:5432
+            - "30002:5432"
         networks:
             - crypto-network
         volumes:
@@ -52,12 +52,9 @@ services:
             - redis
             - postgres
             - migration
-        cpus: 0.1
         networks:
             - crypto-network
         restart: always
-        mem_limit: 200m
-        memswap_limit: 200m
         environment:
             REDIS_HOST: redis
             REDIS_PORT: 6379
@@ -69,6 +66,9 @@ services:
             POSTGRES_PASSWORD: postgres
         volumes:
             - ./logs:/app/logs
+        cpus: 0.1
+        mem_limit: 200m
+        memswap_limit: 200m
 
 networks:
     crypto-network:

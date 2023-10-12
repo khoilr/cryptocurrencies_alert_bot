@@ -1,6 +1,5 @@
-from stream.database.models.dto.crypto import Crypto as CryptoDTO
 from stream.database import Session
-from datetime import datetime
+from stream.database.models.dto.crypto import Crypto as CryptoDTO
 
 session = Session()
 

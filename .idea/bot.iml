@@ -8,8 +8,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
-    <option name="format" value="PLAIN" />
-    <option name="myDocStringFormat" value="Plain" />
+    <option name="format" value="GOOGLE" />
+    <option name="myDocStringFormat" value="Google" />
   </component>
   <component name="SonarLintModuleSettings">
     <option name="uniqueId" value="c6b24bfc-21bb-4b21-98c6-7d807a2e9a0a" />

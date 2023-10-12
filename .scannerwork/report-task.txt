@@ -1,0 +1,6 @@
+projectKey=CryptoAlertBot
+serverUrl=http://localhost:9000
+serverVersion=10.2.1.78527
+dashboardUrl=http://localhost:9000/dashboard?id=CryptoAlertBot
+ceTaskId=AYskYtCXws9aSSOupMj1
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYskYtCXws9aSSOupMj1

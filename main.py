@@ -14,23 +14,23 @@ load_dotenv()
 
 
 def main():
-	# Retrieve the telegram bot token from the environment
-	telegram_bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", None)
-	assert telegram_bot_token is not None
+    # Retrieve the telegram bot token from the environment
+    telegram_bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", None)
+    assert telegram_bot_token is not None
 
-	# Create the application
-	app = ApplicationBuilder().token(telegram_bot_token).build()
+    # Create the application
+    app = ApplicationBuilder().token(telegram_bot_token).build()
 
-	# Add commands handlers
-	app.add_handler(CommandHandler("start", start_command))
-	app.add_handler(create_command())
+    # Add commands handlers
+    app.add_handler(CommandHandler("start", start_command))
+    app.add_handler(create_command())
 
-	# Log bot info
-	logger.info(f"Starting bot {app.bot}")
+    # Log bot info
+    logger.info(f"Starting bot {app.bot}")
 
-	# Long polling
-	app.run_polling()
+    # Long polling
+    app.run_polling()
 
 
 if __name__ == "__main__":
-	main()
+    main()

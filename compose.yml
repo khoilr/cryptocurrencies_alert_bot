@@ -1,7 +1,7 @@
 version: '3'
 services:
     redis:
-        image: redis:latest
+        image: redis
         ports:
             - "30001:6379"
         networks:
@@ -12,7 +12,7 @@ services:
         command: redis-server /usr/local/etc/redis/redis.conf
 
     postgres:
-        image: postgres:latest
+        image: postgres
         ports:
             - "30002:5432"
         networks:
@@ -24,14 +24,15 @@ services:
             POSTGRES_PASSWORD: postgres
             POSTGRES_DB: postgres
         healthcheck:
-            test: ['CMD', 'pg_isready', '-U', 'postgres']
+            test: [ 'CMD', 'pg_isready', '-U', 'postgres' ]
             interval: 5s
             timeout: 5s
             retries: 10
 
-    migration:
+    migrator:
         build:
-            context: stream/database
+            context: .
+            dockerfile: database/dockerfile
         depends_on:
             postgres:
                 condition: service_healthy
@@ -43,15 +44,16 @@ services:
             POSTGRES_DB: postgres
             POSTGRES_USER: postgres
             POSTGRES_PASSWORD: postgres
-        command: ['alembic', 'upgrade', 'head']
+        command: [ 'alembic', 'upgrade', 'head' ]
 
     stream:
         build:
-            context: stream
+            context: .
+            dockerfile: stream/dockerfile
         depends_on:
             - redis
             - postgres
-            - migration
+            - migrator
         networks:
             - crypto-network
         restart: always

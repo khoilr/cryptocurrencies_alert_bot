@@ -1,0 +1,14 @@
+python-telegram-bot
+python-dotenv
+python-telegram-bot[job-queue]
+requests
+redis
+pandas
+sqlalchemy 
+alembic
+psycopg2-binary
+talipp
+pylint
+loguru
+websockets
+binance-connector

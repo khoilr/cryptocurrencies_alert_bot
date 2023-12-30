@@ -1,0 +1,6 @@
+env
+.env
+dockerfile
+.dockerignore
+docker-compose.yml
+backup

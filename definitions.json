@@ -1,0 +1,36 @@
+{
+    "permissions": [
+        {
+            "configure": ".*",
+            "read": ".*",
+            "user": "khoilr",
+            "vhost": "crypto-alert",
+            "write": ".*"
+        }
+    ],
+    "bindings": [],
+    "queues": [],
+    "parameters": [],
+    "policies": [],
+    "rabbitmq_version": "3.13.0-rc.3",
+    "rabbit_version": "3.13.0-rc.3",
+    "exchanges": [],
+    "users": [
+        {
+            "hashing_algorithm": "rabbit_password_hashing_sha256",
+            "limits": {},
+            "name": "khoilr",
+            "password_hash": "/oUUvv86EcOON6UZn4URmpNVyaPDk78g/nmG7x31aXpGikf7",
+            "tags": ["administrator"]
+        }
+    ],
+    "topic_permissions": [],
+    "vhosts": [
+        {
+            "limits": [],
+            "metadata": { "description": "", "tags": [] },
+            "name": "crypto-alert"
+        }
+    ],
+    "global_parameters": []
+}

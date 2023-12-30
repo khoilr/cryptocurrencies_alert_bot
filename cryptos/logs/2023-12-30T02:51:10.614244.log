@@ -1,0 +1,9 @@
+2023-12-30 02:51:10.897 | INFO     | src.lib.init_data:insert_to_db:85 - Got 1011 symbols from Binance API exchange info
+2023-12-30 02:51:19.532 | INFO     | src.lib.init_data:insert_to_db:89 - Got 1011 symbols from Binance API rolling trade count
+2023-12-30 02:51:19.621 | INFO     | src.lib.init_data:insert_to_db:93 - Got 1011 symbols after joining data
+2023-12-30 02:51:19.625 | INFO     | src.lib.init_data:save_data_to_json:28 - Saved data to JSON file
+2023-12-30 02:51:20.107 | INFO     | src.lib.init_data:insert_to_db:110 - Inserted cryptos data into database
+2023-12-30 02:51:20.113 | INFO     | src.services.rabbitmq:connect:24 - Connected to RabbitMQ
+2023-12-30 02:51:20.113 | INFO     | src.services.rabbitmq:rpc_server:53 - Starting RPC server
+2023-12-30 02:51:20.114 | INFO     | src.services.rabbitmq:consume_queue:47 - Started consuming queue crypto.get_top
+2023-12-30 02:51:20.114 | INFO     | src.services.rabbitmq:consume_queue:47 - Started consuming queue crypto.get_price

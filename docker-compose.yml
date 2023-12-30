@@ -1,0 +1,22 @@
+version: '3'
+services:
+    rabbitmq:
+        image: rabbitmq:3.13-rc-management-alpine
+        ports:
+            - '5672:5672'
+            - '15672:15672'
+        networks:
+            - crypto
+        healthcheck:
+            test: ['CMD', 'rabbitmqctl', 'status']
+            interval: 10s
+            timeout: 5s
+            retries: 10
+        volumes:
+            - ./rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+            - ./definitions.json:/etc/rabbitmq/definitions.json
+
+networks:
+    crypto:
+        name: crypto
+        driver: bridge

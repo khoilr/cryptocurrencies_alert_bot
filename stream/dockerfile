@@ -1,11 +1,8 @@
-FROM python:3.11
+FROM python:3.11-alpine
 
 WORKDIR /app
 
-COPY stream/requirements.txt .
+COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-COPY stream stream
-COPY database database
-
-CMD ["python", "-m", "stream"]
+CMD ["python", "main.py"]

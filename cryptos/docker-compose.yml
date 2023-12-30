@@ -1,0 +1,67 @@
+version: '3.8'
+
+services:
+    db:
+        image: postgres
+        restart: always
+        environment:
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: postgres
+            POSTGRES_DB: postgres
+        ports:
+            - 40000:5432
+        volumes:
+            - ./backup:/var/lib/postgresql/data
+            - ./logs:/var/log
+        healthcheck:
+            test: ['CMD', 'pg_isready', '-U', 'postgres']
+            interval: 10s
+            timeout: 5s
+            retries: 10
+        networks:
+            - crypto
+
+    migrator:
+        build:
+            dockerfile: dockerfile.migrator
+        depends_on:
+            db:
+                condition: service_healthy
+        environment:
+            DB_HOST: db
+            DB_PORT: 5432
+            DB_USER: postgres
+            DB_PASS: postgres
+            DB_NAME: postgres
+        networks:
+            - crypto
+
+    crypto:
+        build:
+            dockerfile: dockerfile
+        depends_on:
+            db:
+                condition: service_healthy
+            migrator:
+                condition: service_completed_successfully
+        environment:
+            DB_HOST: db
+            DB_PORT: 5432
+            DB_USER: postgres
+            DB_PASS: postgres
+            DB_NAME: postgres
+            RABBITMQ_HOST: rabbitmq
+            RABBITMQ_PORT: 5672
+            RABBITMQ_USER: khoilr
+            RABBITMQ_PASS: khoilr
+            RABBITMQ_VHOST: crypto-alert
+        volumes:
+            - ./logs:/app/logs
+        networks:
+            - crypto
+
+networks:
+    crypto:
+        name: crypto
+        driver: bridge
+        external: true
